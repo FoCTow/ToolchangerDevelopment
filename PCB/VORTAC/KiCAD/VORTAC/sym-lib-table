@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ToolChanger)(type Legacy)(uri ${KIPRJMOD}/../../../Library/KiCAD/ToolChanger.lib)(options "")(descr ""))
+)

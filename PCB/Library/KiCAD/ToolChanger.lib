@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MillMax-004
+#
+DEF MillMax-004 J 0 40 Y Y 1 F N
+F0 "J" -540 -100 50 H V C CNN
+F1 "MillMax-004" 75 -275 50 H V C CNN
+F2 "" -540 -100 50 H I C CNN
+F3 "" -540 -100 50 H I C CNN
+DRAW
+A -310 0 80 901 -901 0 1 4 f -310 80 -310 -80
+A 290 0 80 -899 899 0 1 4 f 290 -80 290 80
+S 290 -80 -310 80 0 1 4 f
+X ~ 1 -150 0 100 D 50 50 1 1 B
+X ~ 2 -50 0 100 D 50 50 1 1 B
+X ~ 3 50 0 100 D 50 50 1 1 B
+X ~ 4 150 0 100 D 50 50 1 1 B
+X ~ 5 -250 0 100 D 50 50 1 1 B
+X ~ 6 250 0 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
