@@ -1,4 +1,4 @@
-19222235866169636
+19225498821806472
 Atmega
 QFN44G-0.5-7X7MM
 
@@ -81689,6 +81689,20 @@ MillMax-858-22-005-80-012101
 0
 7
 7
+ToolChanger
+USB-C-SMD_TYPE-C-USB-17
+
+
+0
+16
+13
+ToolChanger
+USB_C_Receptacle_XKB_U262-16XN-4BVC11
+USB Type C, right-angle, SMT, https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterprise-U262-161N-4BVC11_C319148.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
