@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x04 J11
 U 1 1 613E1D6A
-P 6700 3350
-F 0 "J11" H 6780 3342 50  0000 L CNN
-F 1 "STEPPER" H 6780 3251 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 6700 3350 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html" H 6700 3350 50  0001 C CNN
-F 4 "C144395" H 6700 3350 50  0001 C CNN "LCSC"
-	1    6700 3350
+P 6700 3150
+F 0 "J11" H 6780 3142 50  0000 L CNN
+F 1 "STEPPER" H 6780 3051 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 6700 3150 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html" H 6700 3150 50  0001 C CNN
+F 4 "C144395" H 6700 3150 50  0001 C CNN "LCSC"
+	1    6700 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -150,25 +150,25 @@ TOOL_ID
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 613E0E63
-P 4750 3900
-F 0 "J6" H 4830 3942 50  0000 L CNN
-F 1 "FAN_02" H 4830 3851 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 4750 3900 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html" H 4750 3900 50  0001 C CNN
-F 4 "C144394" H 4750 3900 50  0001 C CNN "LCSC"
-	1    4750 3900
+P 4750 3700
+F 0 "J6" H 4830 3742 50  0000 L CNN
+F 1 "FAN_02" H 4830 3651 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 4750 3700 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html" H 4750 3700 50  0001 C CNN
+F 4 "C144394" H 4750 3700 50  0001 C CNN "LCSC"
+	1    4750 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J5
 U 1 1 613DCECE
-P 4750 3400
-F 0 "J5" H 4830 3442 50  0000 L CNN
-F 1 "FAN_01" H 4830 3351 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 4750 3400 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html" H 4750 3400 50  0001 C CNN
-F 4 "C144394" H 4750 3400 50  0001 C CNN "LCSC"
-	1    4750 3400
+P 4750 3200
+F 0 "J5" H 4830 3242 50  0000 L CNN
+F 1 "FAN_01" H 4830 3151 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 4750 3200 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html" H 4750 3200 50  0001 C CNN
+F 4 "C144394" H 4750 3200 50  0001 C CNN "LCSC"
+	1    4750 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -193,42 +193,40 @@ Wire Wire Line
 	1400 3900 1850 3900
 Wire Wire Line
 	1850 4000 1400 4000
-Text GLabel 4200 3300 0    50   Input ~ 0
+Text GLabel 4200 3100 0    50   Input ~ 0
 FAN_1_DRAIN
-Text GLabel 4200 3400 0    50   Input ~ 0
+Text GLabel 4200 3200 0    50   Input ~ 0
 FAN_1_TACHO
-Text GLabel 4200 3500 0    50   Input ~ 0
+Text GLabel 4200 3300 0    50   Input ~ 0
 FAN_1_V_OUT
-Text GLabel 4200 3800 0    50   Input ~ 0
+Text GLabel 4200 3600 0    50   Input ~ 0
 FAN_2_DRAIN
-Text GLabel 4200 3900 0    50   Input ~ 0
+Text GLabel 4200 3700 0    50   Input ~ 0
 FAN_2_TACHO
-Text GLabel 4200 4000 0    50   Input ~ 0
+Text GLabel 4200 3800 0    50   Input ~ 0
 FAN_2_V_OUT
+Wire Wire Line
+	4200 3100 4550 3100
+Wire Wire Line
+	4200 3200 4550 3200
 Wire Wire Line
 	4200 3300 4550 3300
 Wire Wire Line
-	4200 3400 4550 3400
+	4200 3600 4550 3600
 Wire Wire Line
-	4200 3500 4550 3500
+	4200 3700 4550 3700
 Wire Wire Line
 	4200 3800 4550 3800
-Wire Wire Line
-	4200 3900 4550 3900
-Wire Wire Line
-	4200 4000 4550 4000
 Wire Notes Line
-	3500 4250 5250 4250
+	3500 4050 5250 4050
 Wire Notes Line
-	5250 2850 3500 2850
-Text Notes 3650 3050 0    71   ~ 0
+	5250 2650 3500 2650
+Text Notes 3650 2850 0    71   ~ 0
 Fan Headers
 Text GLabel 1300 2700 0    50   Input ~ 0
 HOST_D+
 Text GLabel 1300 2850 0    50   Input ~ 0
 HOST_D-
-Text GLabel 1300 3000 0    50   Input ~ 0
-HOST_VBUS
 Wire Wire Line
 	1300 1300 1800 1300
 Wire Wire Line
@@ -243,63 +241,50 @@ Wire Wire Line
 	1300 2700 1800 2700
 Wire Wire Line
 	1800 2850 1300 2850
-Wire Wire Line
-	1300 3000 1800 3000
-Text GLabel 6150 3250 0    50   Input ~ 0
+Text GLabel 6150 3050 0    50   Input ~ 0
 STEP_1_A1
-Text GLabel 6150 3350 0    50   Input ~ 0
+Text GLabel 6150 3150 0    50   Input ~ 0
 STEP_1_A2
-Text GLabel 6150 3450 0    50   Input ~ 0
+Text GLabel 6150 3250 0    50   Input ~ 0
 STEP_1_B1
-Text GLabel 6150 3550 0    50   Input ~ 0
+Text GLabel 6150 3350 0    50   Input ~ 0
 STEP_1_B2
+Wire Wire Line
+	6150 3050 6500 3050
+Wire Wire Line
+	6500 3150 6150 3150
 Wire Wire Line
 	6150 3250 6500 3250
 Wire Wire Line
 	6500 3350 6150 3350
-Wire Wire Line
-	6150 3450 6500 3450
-Wire Wire Line
-	6500 3550 6150 3550
 Wire Notes Line
-	5450 2850 7200 2850
+	5450 2650 7200 2650
 Wire Notes Line
-	7200 2850 7200 3800
+	7200 2650 7200 3600
 Wire Notes Line
-	7200 3800 5450 3800
+	7200 3600 5450 3600
 Wire Notes Line
-	5450 3800 5450 2850
-Text Notes 5600 3050 0    71   ~ 0
+	5450 3600 5450 2650
+Text Notes 5600 2850 0    71   ~ 0
 Stepper Header
 Wire Notes Line
-	5250 4250 5250 2850
+	5250 4050 5250 2650
 Wire Notes Line
-	3500 2850 3500 4250
+	3500 2650 3500 4050
 Wire Notes Line
-	5450 700  7200 700 
+	3450 -2250 5200 -2250
 Wire Notes Line
-	7200 700  7200 1600
+	5200 -2250 5200 -1350
 Wire Notes Line
-	7200 1600 5450 1600
+	5200 -1350 3450 -1350
 Wire Notes Line
-	5450 1600 5450 700 
+	3450 -1350 3450 -2250
 Text GLabel 1400 5050 0    50   Input ~ 0
-HOST_VBUS
+5V
 Text GLabel 1400 5150 0    50   Input ~ 0
-HOST_D+
+USBH_D+
 Text GLabel 1400 5250 0    50   Input ~ 0
-HOST_D-
-$Comp
-L power:GND #PWR03
-U 1 1 6147F00A
-P 1400 5350
-F 0 "#PWR03" H 1400 5100 50  0001 C CNN
-F 1 "GND" V 1405 5222 50  0000 R CNN
-F 2 "" H 1400 5350 50  0001 C CNN
-F 3 "" H 1400 5350 50  0001 C CNN
-	1    1400 5350
-	0    1    1    0   
-$EndComp
+USBH_D-
 Wire Wire Line
 	1400 5050 1850 5050
 Wire Wire Line
@@ -319,25 +304,25 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x02 J9
 U 1 1 61496B79
-P 6700 1250
-F 0 "J9" H 6780 1242 50  0000 L CNN
-F 1 "THERM" H 6780 1151 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6700 1250 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B2B-XH-A-LF-SN_C158012.html" H 6700 1250 50  0001 C CNN
-F 4 "C158012" H 6700 1250 50  0001 C CNN "LCSC"
-	1    6700 1250
+P 4700 -1700
+F 0 "J9" H 4780 -1708 50  0000 L CNN
+F 1 "THERM" H 4780 -1799 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4700 -1700 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B2B-XH-A-LF-SN_C158012.html" H 4700 -1700 50  0001 C CNN
+F 4 "C158012" H 4700 -1700 50  0001 C CNN "LCSC"
+	1    4700 -1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J10
 U 1 1 614987F9
-P 6700 2250
-F 0 "J10" H 6780 2242 50  0000 L CNN
-F 1 "HEATER" H 6780 2151 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6700 2250 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-430450412_C277721.html" H 6700 2250 50  0001 C CNN
-F 4 "C277721" H 6700 2250 50  0001 C CNN "LCSC"
-	1    6700 2250
+P 4700 -700
+F 0 "J10" H 4780 -708 50  0000 L CNN
+F 1 "HEATER" H 4780 -799 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4700 -700 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-430450412_C277721.html" H 4700 -700 50  0001 C CNN
+F 4 "C277721" H 4700 -700 50  0001 C CNN "LCSC"
+	1    4700 -700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -354,24 +339,24 @@ F 5 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 2050 5150 50  0001 C
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	7200 1750 7200 2650
+	5200 -1200 5200 -300
 Wire Notes Line
-	7200 2650 5450 2650
+	5200 -300 3450 -300
 Wire Notes Line
-	5450 2650 5450 1750
+	3450 -300 3450 -1200
 Wire Notes Line
-	5450 1750 7200 1750
-Text GLabel 6150 2250 0    50   Input ~ 0
+	3450 -1200 5200 -1200
+Text GLabel 4150 -700 0    50   Input ~ 0
 HEATER_DRAIN
-Text GLabel 6150 2350 0    50   Input ~ 0
+Text GLabel 4150 -600 0    50   Input ~ 0
 V_IN
-Text Notes 5600 1950 0    71   ~ 0
+Text Notes 3600 -1000 0    71   ~ 0
 Heater Header
 Wire Wire Line
-	6150 2250 6500 2250
+	4150 -700 4500 -700
 Wire Wire Line
-	6500 2350 6150 2350
-Text Notes 5600 2600 0    71   ~ 0
+	4500 -600 4150 -600
+Text Notes 3600 -350 0    71   ~ 0
 todo: needs footprint/part
 Wire Wire Line
 	9000 2950 9300 2950
@@ -469,9 +454,9 @@ $EndComp
 NoConn ~ 9900 2550
 NoConn ~ 9900 2450
 Text GLabel 10350 1950 2    50   Input ~ 0
-MCU_D-
+USBMCU_D-
 Text GLabel 10350 2150 2    50   Input ~ 0
-MCU_D+
+USBMCU_D+
 Text GLabel 10350 1350 2    50   Input ~ 0
 ???
 $Comp
@@ -486,109 +471,109 @@ F 4 "C167321" H 9300 1950 50  0001 C CNN "LCSC"
 	1    9300 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 5600 900  0    71   ~ 0
+Text Notes 3600 -2050 0    71   ~ 0
 Thermistor Header
-Text GLabel 6100 1250 0    50   Input ~ 0
+Text GLabel 4100 -1700 0    50   Input ~ 0
 THERM_1
 $Comp
 L power:GND #PWR09
 U 1 1 614EC081
-P 6100 1350
-F 0 "#PWR09" H 6100 1100 50  0001 C CNN
-F 1 "GND" V 6105 1222 50  0000 R CNN
-F 2 "" H 6100 1350 50  0001 C CNN
-F 3 "" H 6100 1350 50  0001 C CNN
-	1    6100 1350
+P 4100 -1600
+F 0 "#PWR09" H 4100 -1850 50  0001 C CNN
+F 1 "GND" V 4105 -1728 50  0000 R CNN
+F 2 "" H 4100 -1600 50  0001 C CNN
+F 3 "" H 4100 -1600 50  0001 C CNN
+	1    4100 -1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6100 1250 6500 1250
+	4100 -1700 4500 -1700
 Wire Wire Line
-	6500 1350 6100 1350
+	4500 -1600 4100 -1600
 Text Notes 900  4750 0    71   ~ 0
 USB Uplink Header
 $Comp
 L Connector_Generic:Conn_01x05 J12
 U 1 1 614F1B43
-P 6700 4600
-F 0 "J12" H 6800 4800 50  0000 L CNN
-F 1 "IO" H 6800 4700 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6700 4600 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B5B-XH-A-LF-SN_C157991.html" H 6700 4600 50  0001 C CNN
-F 4 "C157991" H 6700 4600 50  0001 C CNN "LCSC"
-	1    6700 4600
+P 6700 4400
+F 0 "J12" H 6800 4600 50  0000 L CNN
+F 1 "IO" H 6800 4500 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6700 4400 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B5B-XH-A-LF-SN_C157991.html" H 6700 4400 50  0001 C CNN
+F 4 "C157991" H 6700 4400 50  0001 C CNN "LCSC"
+	1    6700 4400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5250 4450 5250 5350
+	5250 4250 5250 5150
 Wire Notes Line
-	5250 5350 3500 5350
+	5250 5150 3500 5150
 Wire Notes Line
-	3500 5350 3500 4450
+	3500 5150 3500 4250
 Wire Notes Line
-	3500 4450 5250 4450
-Text GLabel 4200 4950 0    50   Input ~ 0
+	3500 4250 5250 4250
+Text GLabel 4200 4750 0    50   Input ~ 0
 LED_1_DRAIN
-Text GLabel 4200 5050 0    50   Input ~ 0
+Text GLabel 4200 4850 0    50   Input ~ 0
 LED_1_V_OUT
-Text Notes 3650 4650 0    71   ~ 0
+Text Notes 3650 4450 0    71   ~ 0
 LED Header
 Wire Wire Line
-	4200 4950 4550 4950
+	4200 4750 4550 4750
 Wire Wire Line
-	4550 5050 4200 5050
-Text GLabel 6100 4400 0    50   Input ~ 0
+	4550 4850 4200 4850
+Text GLabel 6100 4200 0    50   Input ~ 0
 5V
-Text GLabel 6100 4600 0    50   Input ~ 0
+Text GLabel 6100 4400 0    50   Input ~ 0
 IO_1_OUT
-Text GLabel 6100 4700 0    50   Input ~ 0
+Text GLabel 6100 4500 0    50   Input ~ 0
 IO_2_OUT
-Text GLabel 6100 4800 0    50   Input ~ 0
+Text GLabel 6100 4600 0    50   Input ~ 0
 IO_3_OUT
-Wire Wire Line
-	6100 4800 6500 4800
-Wire Wire Line
-	6500 4700 6100 4700
 Wire Wire Line
 	6100 4600 6500 4600
 Wire Wire Line
+	6500 4500 6100 4500
+Wire Wire Line
 	6100 4400 6500 4400
+Wire Wire Line
+	6100 4200 6500 4200
 $Comp
 L power:GND #PWR010
 U 1 1 614FEFE2
-P 6100 4500
-F 0 "#PWR010" H 6100 4250 50  0001 C CNN
-F 1 "GND" V 6105 4372 50  0000 R CNN
-F 2 "" H 6100 4500 50  0001 C CNN
-F 3 "" H 6100 4500 50  0001 C CNN
-	1    6100 4500
+P 6100 4300
+F 0 "#PWR010" H 6100 4050 50  0001 C CNN
+F 1 "GND" V 6105 4172 50  0000 R CNN
+F 2 "" H 6100 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0001 C CNN
+	1    6100 4300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6100 4500 6500 4500
+	6100 4300 6500 4300
 Wire Notes Line
-	5450 4000 7200 4000
+	5450 3800 7200 3800
 Wire Notes Line
-	7200 4000 7200 5350
+	7200 3800 7200 5150
 Wire Notes Line
-	7200 5350 5450 5350
+	7200 5150 5450 5150
 Wire Notes Line
-	5450 5350 5450 4000
-Text Notes 5650 4200 0    71   ~ 0
+	5450 5150 5450 3800
+Text Notes 5650 4000 0    71   ~ 0
 General Purpose IO
 $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 6150C07E
-P 4750 4950
-F 0 "J7" H 4830 4942 50  0000 L CNN
-F 1 "LED" H 4830 4851 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4750 4950 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B2B-XH-A-LF-SN_C158012.html" H 4750 4950 50  0001 C CNN
-F 4 "C158012" H 4750 4950 50  0001 C CNN "LCSC"
-	1    4750 4950
+P 4750 4750
+F 0 "J7" H 4830 4742 50  0000 L CNN
+F 1 "LED" H 4830 4651 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4750 4750 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B2B-XH-A-LF-SN_C158012.html" H 4750 4750 50  0001 C CNN
+F 4 "C158012" H 4750 4750 50  0001 C CNN "LCSC"
+	1    4750 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 5300 0    50   ~ 0
+Text Notes 6100 5100 0    50   ~ 0
 5V IO for:\n-endstops\n-sensors\n-servos\n-adressable led
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J8
@@ -642,13 +627,16 @@ Wire Wire Line
 Text Notes 3650 900  0    71   ~ 0
 Combined Hotend HEader
 Wire Notes Line
-	7250 650  7250 2700
+	5250 -2300 5250 -250
 Wire Notes Line
-	7250 2700 5400 2700
+	5250 -250 3400 -250
 Wire Notes Line
-	5400 2700 5400 650 
+	3400 -250 3400 -2300
 Wire Notes Line
-	5400 650  7250 650 
-Text Notes 7100 7050 0    50   ~ 0
+	3400 -2300 5250 -2300
+Text Notes 7050 7050 0    50   ~ 0
 todo:\n- consider connector selection\n- consider combining fan or io/led headers\n- remove duplicate heater/thermistor header\n- add probepoints\n- change usb-c symbol (sucks bro)
+NoConn ~ 1800 3000
+Text GLabel 1400 5350 0    50   Input ~ 0
+USBH_DRAIN
 $EndSCHEMATC

@@ -5,4 +5,16 @@ D MOTOR DRIVER, -40 TO 125DEG C; Motor Type:Stepper; No. of Outputs:1Outputs; Ou
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V104.pdf
 $ENDCMP
 #
+$CMP FDMC8032L
+D 7A Id, 40V Vds, Dual N-Channel MOSFET, 20mOhm Ron, Power33 Package
+K Dual N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDMC8032L-D.PDF
+$ENDCMP
+#
+$CMP WSD4066DN
+D Dual N-Channel MOSFET
+K Dual N-Channel MOSFET
+F https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html
+$ENDCMP
+#
 #End Doc Library

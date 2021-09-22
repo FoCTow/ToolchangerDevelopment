@@ -13,4 +13,108 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 1 1 614D9973
+P 1850 1300
+F 0 "Q?" H 2054 1346 50  0000 L CNN
+F 1 "WSD4066DN" H 2054 1255 50  0000 L CNN
+F 2 "" H 2050 1225 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1850 1300 50  0001 L CNN
+F 4 "C377861" H 1850 1300 50  0001 C CNN "LCSC"
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 2 1 614DA6CB
+P 1850 2050
+F 0 "Q?" H 2054 2096 50  0000 L CNN
+F 1 "WSD4066DN" H 2054 2005 50  0000 L CNN
+F 2 "" H 2050 1975 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1850 2050 50  0001 L CNN
+F 4 "C377861" H 1850 2050 50  0001 C CNN "LCSC"
+	2    1850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 1 1 614DD9A8
+P 1900 3450
+F 0 "Q?" H 2104 3496 50  0000 L CNN
+F 1 "WSD4066DN" H 2104 3405 50  0000 L CNN
+F 2 "" H 2100 3375 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 3450 50  0001 L CNN
+F 4 "C377861" H 1900 3450 50  0001 C CNN "LCSC"
+	1    1900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 2 1 614DEFB4
+P 1900 4100
+F 0 "Q?" H 2104 4146 50  0000 L CNN
+F 1 "WSD4066DN" H 2104 4055 50  0000 L CNN
+F 2 "" H 2100 4025 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 4100 50  0001 L CNN
+F 4 "C377861" H 1900 4100 50  0001 C CNN "LCSC"
+	2    1900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 1 1 614E761F
+P 1900 4950
+F 0 "Q?" H 2104 4996 50  0000 L CNN
+F 1 "WSD4066DN" H 2104 4905 50  0000 L CNN
+F 2 "" H 2100 4875 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 4950 50  0001 L CNN
+F 4 "C377861" H 1900 4950 50  0001 C CNN "LCSC"
+	1    1900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 2 1 614E7626
+P 1900 5600
+F 0 "Q?" H 2104 5646 50  0000 L CNN
+F 1 "WSD4066DN" H 2104 5555 50  0000 L CNN
+F 2 "" H 2100 5525 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 5600 50  0001 L CNN
+F 4 "C377861" H 1900 5600 50  0001 C CNN "LCSC"
+	2    1900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 1 1 614E8C67
+P 1900 6350
+F 0 "Q?" H 2104 6396 50  0000 L CNN
+F 1 "WSD4066DN" H 2104 6305 50  0000 L CNN
+F 2 "" H 2100 6275 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 6350 50  0001 L CNN
+F 4 "C377861" H 1900 6350 50  0001 C CNN "LCSC"
+	1    1900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q?
+U 2 1 614E8C6E
+P 1900 7000
+F 0 "Q?" H 2104 7046 50  0000 L CNN
+F 1 "WSD4066DN" H 2104 6955 50  0000 L CNN
+F 2 "" H 2100 6925 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 7000 50  0001 L CNN
+F 4 "C377861" H 1900 7000 50  0001 C CNN "LCSC"
+	2    1900 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 1000 0    50   Input ~ 0
+FAN_1_DRAIN
+Text GLabel 1600 1750 0    50   Input ~ 0
+FAN_2_DRAIN
+Text GLabel 1600 3200 0    50   Input ~ 0
+LED_1_DRAIN
+Text GLabel 1600 3850 0    50   Input ~ 0
+USBH_DRAIN
 $EndSCHEMATC
