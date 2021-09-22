@@ -31,4 +31,6 @@ U 613DC005
 F0 "MCU" 79
 F1 "MCU.sch" 79
 $EndSheet
+Text Notes 6850 1050 0    50   ~ 0
+notes:\n-depletion mosfet - potenmtial candidate for reverse voltage protection (if not use p type mosfet)
 $EndSCHEMATC
