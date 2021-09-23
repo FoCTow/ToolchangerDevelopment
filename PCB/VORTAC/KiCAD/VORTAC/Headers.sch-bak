@@ -271,14 +271,6 @@ Wire Notes Line
 	5250 4050 5250 2650
 Wire Notes Line
 	3500 2650 3500 4050
-Wire Notes Line
-	3450 -2250 5200 -2250
-Wire Notes Line
-	5200 -2250 5200 -1350
-Wire Notes Line
-	5200 -1350 3450 -1350
-Wire Notes Line
-	3450 -1350 3450 -2250
 Text GLabel 1400 5050 0    50   Input ~ 0
 5V
 Text GLabel 1400 5150 0    50   Input ~ 0
@@ -302,30 +294,6 @@ Wire Notes Line
 Wire Notes Line
 	700  5600 700  4550
 $Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 61496B79
-P 4700 -1700
-F 0 "J9" H 4780 -1708 50  0000 L CNN
-F 1 "THERM" H 4780 -1799 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4700 -1700 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B2B-XH-A-LF-SN_C158012.html" H 4700 -1700 50  0001 C CNN
-F 4 "C158012" H 4700 -1700 50  0001 C CNN "LCSC"
-	1    4700 -1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J10
-U 1 1 614987F9
-P 4700 -700
-F 0 "J10" H 4780 -708 50  0000 L CNN
-F 1 "HEATER" H 4780 -799 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4700 -700 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-430450412_C277721.html" H 4700 -700 50  0001 C CNN
-F 4 "C277721" H 4700 -700 50  0001 C CNN "LCSC"
-	1    4700 -700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 6149C749
 P 2050 5150
@@ -338,26 +306,6 @@ F 5 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 2050 5150 50  0001 C
 	1    2050 5150
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	5200 -1200 5200 -300
-Wire Notes Line
-	5200 -300 3450 -300
-Wire Notes Line
-	3450 -300 3450 -1200
-Wire Notes Line
-	3450 -1200 5200 -1200
-Text GLabel 4150 -700 0    50   Input ~ 0
-HEATER_DRAIN
-Text GLabel 4150 -600 0    50   Input ~ 0
-V_IN
-Text Notes 3600 -1000 0    71   ~ 0
-Heater Header
-Wire Wire Line
-	4150 -700 4500 -700
-Wire Wire Line
-	4500 -600 4150 -600
-Text Notes 3600 -350 0    71   ~ 0
-todo: needs footprint/part
 Wire Wire Line
 	9000 2950 9300 2950
 Wire Notes Line
@@ -396,7 +344,7 @@ U 1 1 614268C7
 P 10150 2400
 F 0 "R2" V 9943 2400 50  0000 C CNN
 F 1 "5.12K" V 10034 2400 50  0000 C CNN
-F 2 "" V 10080 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 2400 50  0001 C CNN
 F 3 "~" H 10150 2400 50  0001 C CNN
 	1    10150 2400
 	-1   0    0    1   
@@ -446,7 +394,7 @@ U 1 1 61405F07
 P 10050 2700
 F 0 "R1" V 9750 2700 50  0000 C CNN
 F 1 "5.12K" V 9850 2700 50  0000 C CNN
-F 2 "" V 9980 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 2700 50  0001 C CNN
 F 3 "~" H 10050 2700 50  0001 C CNN
 	1    10050 2700
 	-1   0    0    1   
@@ -471,25 +419,6 @@ F 4 "C167321" H 9300 1950 50  0001 C CNN "LCSC"
 	1    9300 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 3600 -2050 0    71   ~ 0
-Thermistor Header
-Text GLabel 4100 -1700 0    50   Input ~ 0
-THERM_1
-$Comp
-L power:GND #PWR09
-U 1 1 614EC081
-P 4100 -1600
-F 0 "#PWR09" H 4100 -1850 50  0001 C CNN
-F 1 "GND" V 4105 -1728 50  0000 R CNN
-F 2 "" H 4100 -1600 50  0001 C CNN
-F 3 "" H 4100 -1600 50  0001 C CNN
-	1    4100 -1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4100 -1700 4500 -1700
-Wire Wire Line
-	4500 -1600 4100 -1600
 Text Notes 900  4750 0    71   ~ 0
 USB Uplink Header
 $Comp
@@ -582,7 +511,7 @@ P 4800 1750
 F 0 "J8" V 4804 1830 50  0000 L CNN
 F 1 "HOTEND" V 4895 1830 50  0000 L CNN
 F 2 "ToolChanger:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4800 1750 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-430450412_C277721.html" H 4800 1750 50  0001 C CNN
+F 3 "~" H 4800 1750 50  0001 C CNN
 F 4 "C277721" V 4800 1750 50  0001 C CNN "LCSC"
 	1    4800 1750
 	0    1    1    0   
@@ -626,14 +555,6 @@ Wire Wire Line
 	4200 2200 4800 2200
 Text Notes 3650 900  0    71   ~ 0
 Combined Hotend HEader
-Wire Notes Line
-	5250 -2300 5250 -250
-Wire Notes Line
-	5250 -250 3400 -250
-Wire Notes Line
-	3400 -250 3400 -2300
-Wire Notes Line
-	3400 -2300 5250 -2300
 Text Notes 7050 7050 0    50   ~ 0
 todo:\n- consider connector selection\n- consider combining fan or io/led headers\n- remove duplicate heater/thermistor header\n- add probepoints\n- change usb-c symbol (sucks bro)
 NoConn ~ 1800 3000

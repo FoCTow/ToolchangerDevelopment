@@ -14,115 +14,419 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ToolChanger:WSD4066DN Q?
-U 1 1 614D9973
-P 1850 1400
-F 0 "Q?" H 2054 1446 50  0000 L CNN
-F 1 "WSD4066DN" H 2054 1355 50  0000 L CNN
-F 2 "" H 2050 1325 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1850 1400 50  0001 L CNN
-F 4 "C377861" H 1850 1400 50  0001 C CNN "LCSC"
-	1    1850 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
+L ToolChanger:WSD4066DN Q1
 U 2 1 614DA6CB
-P 1850 2050
-F 0 "Q?" H 2054 2096 50  0000 L CNN
-F 1 "WSD4066DN" H 2054 2005 50  0000 L CNN
-F 2 "" H 2050 1975 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1850 2050 50  0001 L CNN
-F 4 "C377861" H 1850 2050 50  0001 C CNN "LCSC"
-	2    1850 2050
+P 2050 3000
+F 0 "Q1" H 2254 3046 50  0000 L CNN
+F 1 "WSD4066DN" H 2254 2955 50  0000 L CNN
+F 2 "ToolChanger:WSD4066DN" H 2250 2925 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 2050 3000 50  0001 L CNN
+F 4 "C377861" H 2050 3000 50  0001 C CNN "LCSC"
+	2    2050 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
-U 1 1 614DD9A8
-P 1900 3450
-F 0 "Q?" H 2104 3496 50  0000 L CNN
-F 1 "WSD4066DN" H 2104 3405 50  0000 L CNN
-F 2 "" H 2100 3375 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 3450 50  0001 L CNN
-F 4 "C377861" H 1900 3450 50  0001 C CNN "LCSC"
-	1    1900 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
-U 2 1 614DEFB4
-P 1900 4100
-F 0 "Q?" H 2104 4146 50  0000 L CNN
-F 1 "WSD4066DN" H 2104 4055 50  0000 L CNN
-F 2 "" H 2100 4025 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 4100 50  0001 L CNN
-F 4 "C377861" H 1900 4100 50  0001 C CNN "LCSC"
-	2    1900 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
-U 1 1 614E761F
-P 1900 4950
-F 0 "Q?" H 2104 4996 50  0000 L CNN
-F 1 "WSD4066DN" H 2104 4905 50  0000 L CNN
-F 2 "" H 2100 4875 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 4950 50  0001 L CNN
-F 4 "C377861" H 1900 4950 50  0001 C CNN "LCSC"
-	1    1900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
-U 2 1 614E7626
-P 1900 5600
-F 0 "Q?" H 2104 5646 50  0000 L CNN
-F 1 "WSD4066DN" H 2104 5555 50  0000 L CNN
-F 2 "" H 2100 5525 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 5600 50  0001 L CNN
-F 4 "C377861" H 1900 5600 50  0001 C CNN "LCSC"
-	2    1900 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
-U 1 1 614E8C67
-P 1900 6350
-F 0 "Q?" H 2104 6396 50  0000 L CNN
-F 1 "WSD4066DN" H 2104 6305 50  0000 L CNN
-F 2 "" H 2100 6275 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 6350 50  0001 L CNN
-F 4 "C377861" H 1900 6350 50  0001 C CNN "LCSC"
-	1    1900 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:WSD4066DN Q?
-U 2 1 614E8C6E
-P 1900 7000
-F 0 "Q?" H 2104 7046 50  0000 L CNN
-F 1 "WSD4066DN" H 2104 6955 50  0000 L CNN
-F 2 "" H 2100 6925 50  0001 L CIN
-F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1900 7000 50  0001 L CNN
-F 4 "C377861" H 1900 7000 50  0001 C CNN "LCSC"
-	2    1900 7000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1600 1100 0    50   Input ~ 0
-FAN_1_DRAIN
-Text GLabel 1600 1750 0    50   Input ~ 0
+Text GLabel 1250 2800 0    50   Input ~ 0
 FAN_2_DRAIN
-Text GLabel 1600 3200 0    50   Input ~ 0
-LED_1_DRAIN
-Text GLabel 1600 3850 0    50   Input ~ 0
-USBH_DRAIN
-Text GLabel 1250 1400 0    50   Input ~ 0
-FAN_1_GATE
-Text GLabel 1250 2050 0    50   Input ~ 0
+Text GLabel 1250 3000 0    50   Input ~ 0
 FAN_2_GATE
-Text GLabel 1250 3450 0    50   Input ~ 0
-LED_1_GATE
-Text GLabel 1250 4100 0    50   Input ~ 0
+$Comp
+L power:GND #PWR0101
+U 1 1 614CEE8C
+P 2150 2550
+F 0 "#PWR0101" H 2150 2300 50  0001 C CNN
+F 1 "GND" H 2400 2500 50  0000 R CNN
+F 2 "" H 2150 2550 50  0001 C CNN
+F 3 "" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 614CC478
+P 1750 2550
+F 0 "R10" V 1850 2550 50  0000 C CNN
+F 1 "10K" V 1650 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 2550 50  0001 C CNN
+F 3 "~" H 1750 2550 50  0001 C CNN
+	1    1750 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2550 1850 2550
+$Comp
+L ToolChanger:WSD4066DN Q1
+U 1 1 614D9973
+P 2050 2350
+F 0 "Q1" H 2254 2396 50  0000 L CNN
+F 1 "WSD4066DN" H 2254 2305 50  0000 L CNN
+F 2 "ToolChanger:WSD4066DN" H 2250 2275 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 2050 2350 50  0001 L CNN
+F 4 "C377861" H 2050 2350 50  0001 C CNN "LCSC"
+	1    2050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2350 1300 2550
+Connection ~ 1300 2350
+Wire Wire Line
+	1250 2350 1300 2350
+Wire Wire Line
+	1250 2150 2150 2150
+$Comp
+L Device:R_Small R5
+U 1 1 614CB531
+P 1500 2350
+F 0 "R5" V 1600 2350 50  0000 C CNN
+F 1 "100R" V 1400 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 2350 50  0001 C CNN
+F 3 "~" H 1500 2350 50  0001 C CNN
+	1    1500 2350
+	0    1    1    0   
+$EndComp
+Text GLabel 1250 2350 0    50   Input ~ 0
+FAN_1_GATE
+Text GLabel 1250 2150 0    50   Input ~ 0
+FAN_1_DRAIN
+Wire Wire Line
+	1600 2350 1850 2350
+Wire Wire Line
+	1300 2550 1650 2550
+Wire Wire Line
+	1300 2350 1400 2350
+Wire Wire Line
+	1250 2800 2150 2800
+Wire Wire Line
+	1250 3000 1300 3000
+$Comp
+L Device:R_Small R6
+U 1 1 614E2707
+P 1500 3000
+F 0 "R6" V 1600 3000 50  0000 C CNN
+F 1 "100R" V 1400 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 3000 50  0001 C CNN
+F 3 "~" H 1500 3000 50  0001 C CNN
+	1    1500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 614E2F7C
+P 1750 3200
+F 0 "R11" V 1850 3200 50  0000 C CNN
+F 1 "10K" V 1650 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3200 50  0001 C CNN
+F 3 "~" H 1750 3200 50  0001 C CNN
+	1    1750 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 3000 1850 3000
+Wire Wire Line
+	1650 3200 1300 3200
+Connection ~ 1300 3000
+Wire Wire Line
+	1300 3000 1400 3000
+$Comp
+L power:GND #PWR0102
+U 1 1 614E421E
+P 2150 3200
+F 0 "#PWR0102" H 2150 2950 50  0001 C CNN
+F 1 "GND" H 2400 3150 50  0000 R CNN
+F 2 "" H 2150 3200 50  0001 C CNN
+F 3 "" H 2150 3200 50  0001 C CNN
+	1    2150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3200 2150 3200
+Text GLabel 1250 4250 0    50   Input ~ 0
+USBH_DRAIN
+Text GLabel 1250 4450 0    50   Input ~ 0
 USBH_GATE
+Text GLabel 1250 3800 0    50   Input ~ 0
+LED_1_GATE
+Text GLabel 1250 3600 0    50   Input ~ 0
+LED_1_DRAIN
+$Comp
+L ToolChanger:WSD4066DN Q2
+U 2 1 6150730D
+P 2050 1350
+F 0 "Q2" H 2254 1396 50  0000 L CNN
+F 1 "WSD4066DN" H 2254 1305 50  0000 L CNN
+F 2 "ToolChanger:WSD4066DN" H 2250 1275 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 2050 1350 50  0001 L CNN
+F 4 "C377861" H 2050 1350 50  0001 C CNN "LCSC"
+	2    2050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61507315
+P 2150 1750
+F 0 "#PWR0103" H 2150 1500 50  0001 C CNN
+F 1 "GND" H 2400 1700 50  0000 R CNN
+F 2 "" H 2150 1750 50  0001 C CNN
+F 3 "" H 2150 1750 50  0001 C CNN
+	1    2150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:WSD4066DN Q2
+U 1 1 61507324
+P 1850 950
+F 0 "Q2" H 2250 1000 50  0000 L CNN
+F 1 "WSD4066DN" H 2250 900 50  0000 L CNN
+F 2 "ToolChanger:WSD4066DN" H 2050 875 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 1850 950 50  0001 L CNN
+F 4 "C377861" H 1850 950 50  0001 C CNN "LCSC"
+	1    1850 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 950 
+Wire Wire Line
+	1250 950  1300 950 
+Wire Wire Line
+	1250 750  1950 750 
+$Comp
+L Device:R_Small R3
+U 1 1 6150732E
+P 1500 950
+F 0 "R3" V 1600 950 50  0000 C CNN
+F 1 "100R" V 1400 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 950 50  0001 C CNN
+F 3 "~" H 1500 950 50  0001 C CNN
+	1    1500 950 
+	0    1    1    0   
+$EndComp
+Text GLabel 1250 950  0    50   Input ~ 0
+HEATER_GATE
+Text GLabel 1250 750  0    50   Input ~ 0
+HEATER_DRAIN
+Wire Wire Line
+	1600 950  1650 950 
+Wire Wire Line
+	1300 950  1400 950 
+Wire Wire Line
+	1300 3200 1300 3000
+$Comp
+L ToolChanger:WSD4066DN Q3
+U 2 1 6151C61B
+P 2050 4450
+F 0 "Q3" H 2254 4496 50  0000 L CNN
+F 1 "WSD4066DN" H 2254 4405 50  0000 L CNN
+F 2 "ToolChanger:WSD4066DN" H 2250 4375 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 2050 4450 50  0001 L CNN
+F 4 "C377861" H 2050 4450 50  0001 C CNN "LCSC"
+	2    2050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6151C621
+P 2150 4000
+F 0 "#PWR0104" H 2150 3750 50  0001 C CNN
+F 1 "GND" H 2400 3950 50  0000 R CNN
+F 2 "" H 2150 4000 50  0001 C CNN
+F 3 "" H 2150 4000 50  0001 C CNN
+	1    2150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 6151C627
+P 1750 4000
+F 0 "R12" V 1850 4000 50  0000 C CNN
+F 1 "10K" V 1650 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 4000 50  0001 C CNN
+F 3 "~" H 1750 4000 50  0001 C CNN
+	1    1750 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 4000 1850 4000
+$Comp
+L ToolChanger:WSD4066DN Q3
+U 1 1 6151C62F
+P 2050 3800
+F 0 "Q3" H 2254 3846 50  0000 L CNN
+F 1 "WSD4066DN" H 2254 3755 50  0000 L CNN
+F 2 "ToolChanger:WSD4066DN" H 2250 3725 50  0001 L CIN
+F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 2050 3800 50  0001 L CNN
+F 4 "C377861" H 2050 3800 50  0001 C CNN "LCSC"
+	1    2050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3800 1300 4000
+Connection ~ 1300 3800
+Wire Wire Line
+	1250 3800 1300 3800
+Wire Wire Line
+	1250 3600 2150 3600
+$Comp
+L Device:R_Small R7
+U 1 1 6151C639
+P 1500 3800
+F 0 "R7" V 1600 3800 50  0000 C CNN
+F 1 "100R" V 1400 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 3800 50  0001 C CNN
+F 3 "~" H 1500 3800 50  0001 C CNN
+	1    1500 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 3800 1850 3800
+Wire Wire Line
+	1300 4000 1650 4000
+Wire Wire Line
+	1300 3800 1400 3800
+Wire Wire Line
+	1250 4250 2150 4250
+Wire Wire Line
+	1250 4450 1300 4450
+$Comp
+L Device:R_Small R8
+U 1 1 6151C644
+P 1500 4450
+F 0 "R8" V 1600 4450 50  0000 C CNN
+F 1 "100R" V 1400 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 4450 50  0001 C CNN
+F 3 "~" H 1500 4450 50  0001 C CNN
+	1    1500 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 6151C64A
+P 1750 4650
+F 0 "R13" V 1850 4650 50  0000 C CNN
+F 1 "10K" V 1650 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 4650 50  0001 C CNN
+F 3 "~" H 1750 4650 50  0001 C CNN
+	1    1750 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 4450 1850 4450
+Wire Wire Line
+	1650 4650 1300 4650
+Connection ~ 1300 4450
+Wire Wire Line
+	1300 4450 1400 4450
+$Comp
+L power:GND #PWR0105
+U 1 1 6151C654
+P 2150 4650
+F 0 "#PWR0105" H 2150 4400 50  0001 C CNN
+F 1 "GND" H 2400 4600 50  0000 R CNN
+F 2 "" H 2150 4650 50  0001 C CNN
+F 3 "" H 2150 4650 50  0001 C CNN
+	1    2150 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4650 2150 4650
+Connection ~ 2150 4000
+Wire Wire Line
+	1300 4650 1300 4450
+Connection ~ 2150 4650
+Connection ~ 2150 2550
+Connection ~ 2150 3200
+Wire Wire Line
+	2150 1550 1950 1550
+Connection ~ 1950 750 
+Wire Wire Line
+	1950 750  2150 750 
+Connection ~ 2150 1550
+Connection ~ 1300 1350
+Wire Wire Line
+	1300 1550 1300 1350
+Wire Wire Line
+	1600 1350 1850 1350
+Wire Wire Line
+	1300 1350 1400 1350
+$Comp
+L Device:R_Small R4
+U 1 1 615346DD
+P 1500 1350
+F 0 "R4" V 1600 1350 50  0000 C CNN
+F 1 "100R" V 1400 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 1350 50  0001 C CNN
+F 3 "~" H 1500 1350 50  0001 C CNN
+	1    1500 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 6153E594
+P 1750 1550
+F 0 "R9" V 1850 1550 50  0000 C CNN
+F 1 "10K" V 1650 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 1550 50  0001 C CNN
+F 3 "~" H 1750 1550 50  0001 C CNN
+	1    1750 1550
+	0    1    1    0   
+$EndComp
+Connection ~ 1950 1550
+Wire Wire Line
+	1850 1550 1950 1550
+Wire Wire Line
+	1300 1550 1650 1550
+Text GLabel 1250 1750 0    50   Input ~ 0
+V_IN
+Wire Wire Line
+	2150 1750 2150 1550
+Wire Wire Line
+	1950 1150 1950 1550
+Wire Wire Line
+	2150 1150 2150 1250
+Wire Wire Line
+	1300 950  1300 1350
+Wire Wire Line
+	2150 750  2150 1150
+Connection ~ 2150 1150
+$Comp
+L Device:C_Small C1
+U 1 1 6154AE55
+P 1500 1750
+F 0 "C1" V 1400 1750 50  0000 C CNN
+F 1 "C_Small" V 1600 1750 50  0000 C CNN
+F 2 "" H 1500 1750 50  0001 C CNN
+F 3 "~" H 1500 1750 50  0001 C CNN
+	1    1500 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 1750 1400 1750
+Wire Wire Line
+	1600 1750 2150 1750
+Connection ~ 2150 1750
+$Comp
+L ToolChanger:TMC2209-LA-T IC1
+U 1 1 6155DD48
+P 8800 1750
+F 0 "IC1" H 10144 1446 50  0000 L CNN
+F 1 "TMC2209-LA-T" H 10144 1355 50  0000 L CNN
+F 2 "ToolChanger:tmc_2209_package" H 9950 2250 50  0001 L CNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V104.pdf" H 9950 2150 50  0001 L CNN
+F 4 "MOTOR DRIVER, -40 TO 125DEG C; Motor Type:Stepper; No. of Outputs:1Outputs; Output Current:-; Output Voltage:-; Driver Case Style:QFN; No. of Pins:28Pins; Supply Voltage Min:4.75V; Supply Voltage Max:29V; Product Range:- RoHS Compliant: Yes" H 9950 2050 50  0001 L CNN "Description"
+F 5 "0.9" H 9950 1950 50  0001 L CNN "Height"
+F 6 "TRINAMIC" H 9950 1850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TMC2209-LA-T" H 9950 1750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "700-TMC2209-LA-T" H 9950 1650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Trinamic/TMC2209-LA-T?qs=TiOZkKH1s2Qz5AVGoa6OOQ%3D%3D" H 9950 1550 50  0001 L CNN "Mouser Price/Stock"
+	1    8800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Motion:ADXL343 U?
+U 1 1 6157ACF9
+P 6050 3200
+F 0 "U?" H 6594 3246 50  0000 L CNN
+F 1 "ADXL343" H 6594 3155 50  0000 L CNN
+F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 6050 3200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
