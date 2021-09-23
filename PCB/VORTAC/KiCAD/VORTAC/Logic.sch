@@ -402,31 +402,530 @@ Wire Wire Line
 	1600 1750 2150 1750
 Connection ~ 2150 1750
 $Comp
-L ToolChanger:TMC2209-LA-T IC1
-U 1 1 6155DD48
-P 8800 1750
-F 0 "IC1" H 10144 1446 50  0000 L CNN
-F 1 "TMC2209-LA-T" H 10144 1355 50  0000 L CNN
-F 2 "ToolChanger:tmc_2209_package" H 9950 2250 50  0001 L CNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V104.pdf" H 9950 2150 50  0001 L CNN
-F 4 "MOTOR DRIVER, -40 TO 125DEG C; Motor Type:Stepper; No. of Outputs:1Outputs; Output Current:-; Output Voltage:-; Driver Case Style:QFN; No. of Pins:28Pins; Supply Voltage Min:4.75V; Supply Voltage Max:29V; Product Range:- RoHS Compliant: Yes" H 9950 2050 50  0001 L CNN "Description"
-F 5 "0.9" H 9950 1950 50  0001 L CNN "Height"
-F 6 "TRINAMIC" H 9950 1850 50  0001 L CNN "Manufacturer_Name"
-F 7 "TMC2209-LA-T" H 9950 1750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "700-TMC2209-LA-T" H 9950 1650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Trinamic/TMC2209-LA-T?qs=TiOZkKH1s2Qz5AVGoa6OOQ%3D%3D" H 9950 1550 50  0001 L CNN "Mouser Price/Stock"
-	1    8800 1750
+L Sensor_Motion:ADXL343 U?
+U 1 1 6157ACF9
+P 9060 4150
+F 0 "U?" H 9604 4196 50  0000 L CNN
+F 1 "ADXL343" H 9604 4105 50  0000 L CNN
+F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 9060 4150 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf" H 9060 4150 50  0001 C CNN
+	1    9060 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 3560 2    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR?
+U 1 1 614DF03A
+P 9730 3830
+F 0 "#PWR?" H 9730 3580 50  0001 C CNN
+F 1 "GND" H 9735 3657 50  0000 C CNN
+F 2 "" H 9730 3830 50  0001 C CNN
+F 3 "" H 9730 3830 50  0001 C CNN
+	1    9730 3830
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Motion:ADXL343 U?
-U 1 1 6157ACF9
-P 6050 3200
-F 0 "U?" H 6594 3246 50  0000 L CNN
-F 1 "ADXL343" H 6594 3155 50  0000 L CNN
-F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 6050 3200 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf" H 6050 3200 50  0001 C CNN
-	1    6050 3200
+L Device:C_Small C?
+U 1 1 614E163D
+P 9730 3730
+F 0 "C?" H 9822 3776 50  0000 L CNN
+F 1 "C_Small" H 9822 3685 50  0000 L CNN
+F 2 "" H 9730 3730 50  0001 C CNN
+F 3 "~" H 9730 3730 50  0001 C CNN
+	1    9730 3730
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9260 3650 9260 3560
+Wire Wire Line
+	9260 3560 9730 3560
+Wire Wire Line
+	9730 3630 9730 3560
+Connection ~ 9730 3560
+Wire Wire Line
+	9730 3560 9950 3560
+Text GLabel 10010 4150 2    50   Input ~ 0
+ADXL_INT1
+Wire Wire Line
+	9560 4150 10010 4150
+$Comp
+L power:GND #PWR?
+U 1 1 614F0BEC
+P 9060 4650
+F 0 "#PWR?" H 9060 4400 50  0001 C CNN
+F 1 "GND" H 9065 4477 50  0000 C CNN
+F 2 "" H 9060 4650 50  0001 C CNN
+F 3 "" H 9060 4650 50  0001 C CNN
+	1    9060 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8440 4350 0    50   Input ~ 0
+ADXL_CS
+Text GLabel 8440 4250 0    50   Input ~ 0
+ADXL_SCL
+Text GLabel 8440 4150 0    50   Input ~ 0
+ADXL_SDI
+Text GLabel 8440 4050 0    50   Input ~ 0
+ADXL_SDO
+Wire Wire Line
+	8440 4050 8560 4050
+Wire Wire Line
+	8560 4150 8440 4150
+Wire Wire Line
+	8440 4250 8560 4250
+Wire Wire Line
+	8560 4350 8440 4350
+Text GLabel 9060 3560 0    50   Input ~ 0
+ADXL_AREF
+Wire Wire Line
+	9060 3650 9060 3560
+NoConn ~ 9260 4650
+NoConn ~ 8860 3650
+NoConn ~ 9560 4250
+Text GLabel 10450 1900 2    50   Input ~ 0
+STEP_1_A1
+Text GLabel 10450 2100 2    50   Input ~ 0
+STEP_1_A2
+Text GLabel 10450 1700 2    50   Input ~ 0
+STEP_1_B1
+Text GLabel 10450 1500 2    50   Input ~ 0
+STEP_1_B2
+$Comp
+L ToolChanger:TMC2209-LA-T IC1
+U 1 1 6155DD48
+P 8650 1100
+F 0 "IC1" V 8700 1150 50  0000 L CNN
+F 1 "TMC2209-LA-T" V 8600 1150 50  0000 L CNN
+F 2 "ToolChanger:tmc_2209_package" H 9800 1600 50  0001 L CNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V104.pdf" H 9800 1500 50  0001 L CNN
+F 4 "MOTOR DRIVER, -40 TO 125DEG C; Motor Type:Stepper; No. of Outputs:1Outputs; Output Current:-; Output Voltage:-; Driver Case Style:QFN; No. of Pins:28Pins; Supply Voltage Min:4.75V; Supply Voltage Max:29V; Product Range:- RoHS Compliant: Yes" H 9800 1400 50  0001 L CNN "Description"
+F 5 "0.9" H 9800 1300 50  0001 L CNN "Height"
+F 6 "TRINAMIC" H 9800 1200 50  0001 L CNN "Manufacturer_Name"
+F 7 "TMC2209-LA-T" H 9800 1100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "700-TMC2209-LA-T" H 9800 1000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Trinamic/TMC2209-LA-T?qs=TiOZkKH1s2Qz5AVGoa6OOQ%3D%3D" H 9800 900 50  0001 L CNN "Mouser Price/Stock"
+	1    8650 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10250 1100 10250 1500
+Wire Wire Line
+	10250 2100 10250 2400
+Wire Wire Line
+	10250 2100 10450 2100
+Wire Wire Line
+	10250 1500 10450 1500
+Wire Wire Line
+	8650 1100 10250 1100
+Wire Wire Line
+	8650 2400 10250 2400
+Wire Wire Line
+	9350 1900 10450 1900
+Wire Wire Line
+	9350 1700 10450 1700
+Text GLabel 9500 1600 2    50   Input ~ 0
+TMC_BRB
+$Comp
+L power:GND #PWR?
+U 1 1 61581006
+P 9500 1400
+F 0 "#PWR?" H 9500 1150 50  0001 C CNN
+F 1 "GND" V 9520 1180 50  0000 C CNN
+F 2 "" H 9500 1400 50  0001 C CNN
+F 3 "" H 9500 1400 50  0001 C CNN
+	1    9500 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1400 9350 1400
+Wire Wire Line
+	9500 1500 9350 1500
+Wire Wire Line
+	9500 1600 9350 1600
+Text GLabel 9500 2000 2    50   Input ~ 0
+TMC_BRA
+Wire Wire Line
+	9500 2000 9350 2000
+Wire Wire Line
+	9500 2100 9350 2100
+NoConn ~ 7250 1800
+Text GLabel 7050 1700 0    50   Input ~ 0
+TMC_DIAG
+Wire Wire Line
+	7050 1700 7250 1700
+$Comp
+L Device:C_Small C?
+U 1 1 61593158
+P 8250 900
+F 0 "C?" H 8450 900 50  0000 R CNN
+F 1 "22n/50V" H 8650 800 50  0000 R CNN
+F 2 "" H 8250 900 50  0001 C CNN
+F 3 "~" H 8250 900 50  0001 C CNN
+	1    8250 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 1100 8250 1000
+Wire Wire Line
+	8250 800  8350 800 
+Wire Wire Line
+	8350 800  8350 1100
+$Comp
+L Device:C_Small C?
+U 1 1 615A1185
+P 7750 1000
+F 0 "C?" V 7650 1050 50  0000 R CNN
+F 1 "100n/16V" V 7650 950 50  0000 R CNN
+F 2 "" H 7750 1000 50  0001 C CNN
+F 3 "~" H 7750 1000 50  0001 C CNN
+	1    7750 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 1100 8150 1000
+Wire Wire Line
+	8150 1000 7850 1000
+$Comp
+L Device:C_Small C?
+U 1 1 615B52E5
+P 6750 1400
+F 0 "C?" V 6900 1450 50  0000 R CNN
+F 1 "2.2μ/6.3V" V 6600 1600 50  0000 R CNN
+F 2 "" H 6750 1400 50  0001 C CNN
+F 3 "~" H 6750 1400 50  0001 C CNN
+	1    6750 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615B9627
+P 6350 1400
+F 0 "#PWR?" H 6350 1150 50  0001 C CNN
+F 1 "GND" V 6355 1272 50  0000 R CNN
+F 2 "" H 6350 1400 50  0001 C CNN
+F 3 "" H 6350 1400 50  0001 C CNN
+	1    6350 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615BDA24
+P 9550 2800
+F 0 "C?" H 9750 2700 50  0000 R CNN
+F 1 "100nV" H 9900 2800 50  0000 R CNN
+F 2 "" H 9550 2800 50  0001 C CNN
+F 3 "~" H 9550 2800 50  0001 C CNN
+	1    9550 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 615DE345
+P 10400 2800
+F 0 "C?" H 10518 2846 50  0000 L CNN
+F 1 "100uF/35V" H 10518 2755 50  0000 L CNN
+F 2 "" H 10438 2650 50  0001 C CNN
+F 3 "~" H 10400 2800 50  0001 C CNN
+	1    10400 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 2600 0    50   Input ~ 0
+TMC_VS
+$Comp
+L Device:C_Small C?
+U 1 1 615F0477
+P 10050 2800
+F 0 "C?" H 10250 2700 50  0000 R CNN
+F 1 "100nV" H 10400 2800 50  0000 R CNN
+F 2 "" H 10050 2800 50  0001 C CNN
+F 3 "~" H 10050 2800 50  0001 C CNN
+	1    10050 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 2600 9550 2600
+Wire Wire Line
+	9550 2600 9550 2700
+Wire Wire Line
+	9550 2600 10050 2600
+Wire Wire Line
+	10050 2600 10050 2700
+Connection ~ 9550 2600
+Wire Wire Line
+	10050 2600 10400 2600
+Wire Wire Line
+	10400 2600 10400 2650
+Connection ~ 10050 2600
+$Comp
+L power:GND #PWR?
+U 1 1 61600320
+P 9050 2950
+F 0 "#PWR?" H 9050 2700 50  0001 C CNN
+F 1 "GND" V 9070 2730 50  0000 C CNN
+F 2 "" H 9050 2950 50  0001 C CNN
+F 3 "" H 9050 2950 50  0001 C CNN
+	1    9050 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10400 2950 10050 2950
+Wire Wire Line
+	9550 2900 9550 2950
+Connection ~ 9550 2950
+Wire Wire Line
+	9550 2950 9050 2950
+Wire Wire Line
+	10050 2900 10050 2950
+Connection ~ 10050 2950
+Wire Wire Line
+	10050 2950 9550 2950
+Text GLabel 9500 2100 2    50   Input ~ 0
+TMC_VS
+Text GLabel 9500 1500 2    50   Input ~ 0
+TMC_VS
+Text GLabel 8900 850  2    50   Input ~ 0
+TMC_ENN
+Text GLabel 8900 700  2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	8550 1100 8550 850 
+Wire Wire Line
+	8550 850  8900 850 
+$Comp
+L Device:R_Small R?
+U 1 1 616339EB
+P 8650 700
+F 0 "R?" V 8750 700 50  0000 C CNN
+F 1 "22k" V 8550 700 50  0000 C CNN
+F 2 "" H 8650 700 50  0001 C CNN
+F 3 "~" H 8650 700 50  0001 C CNN
+	1    8650 700 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 700  8900 700 
+Wire Wire Line
+	8550 850  8550 700 
+Connection ~ 8550 850 
+Wire Wire Line
+	6850 1400 7250 1400
+Text GLabel 7650 1000 0    50   Input ~ 0
+TMC_VS
+$Comp
+L power:GND #PWR?
+U 1 1 6164B417
+P 8450 950
+F 0 "#PWR?" H 8450 700 50  0001 C CNN
+F 1 "GND" V 8470 730 50  0000 C CNN
+F 2 "" H 8450 950 50  0001 C CNN
+F 3 "" H 8450 950 50  0001 C CNN
+	1    8450 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 950  8450 1100
+Wire Wire Line
+	8050 1100 6350 1100
+Wire Wire Line
+	6350 1100 6350 1400
+Wire Wire Line
+	6650 1400 6350 1400
+Connection ~ 6350 1400
+Wire Wire Line
+	7250 1500 6350 1500
+Wire Wire Line
+	6350 1500 6350 1400
+Wire Wire Line
+	7250 1600 6350 1600
+Wire Wire Line
+	6350 1600 6350 1500
+Connection ~ 6350 1500
+$Comp
+L Device:R_Small R?
+U 1 1 61661B7D
+P 7000 1900
+F 0 "R?" V 7100 1900 50  0000 C CNN
+F 1 "22k" V 6900 1900 50  0000 C CNN
+F 2 "" H 7000 1900 50  0001 C CNN
+F 3 "~" H 7000 1900 50  0001 C CNN
+	1    7000 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 1900 7250 1900
+Wire Wire Line
+	6900 1900 6350 1900
+Wire Wire Line
+	6350 1900 6350 1600
+Connection ~ 6350 1600
+Text GLabel 6850 2250 0    50   Input ~ 0
+TMC_UART_RX
+Text GLabel 6850 2400 0    50   Input ~ 0
+TMC_UART_TX
+$Comp
+L Device:R_Small R?
+U 1 1 6166BBAB
+P 7150 2750
+F 0 "R?" V 7250 2750 50  0000 C CNN
+F 1 "22K" V 7050 2750 50  0000 C CNN
+F 2 "" H 7150 2750 50  0001 C CNN
+F 3 "~" H 7150 2750 50  0001 C CNN
+	1    7150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61676616
+P 7050 2400
+F 0 "R?" V 7150 2400 50  0000 C CNN
+F 1 "1K" V 6950 2400 50  0000 C CNN
+F 2 "" H 7050 2400 50  0001 C CNN
+F 3 "~" H 7050 2400 50  0001 C CNN
+	1    7050 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 2400 6950 2400
+Wire Wire Line
+	6850 2250 7150 2250
+Wire Wire Line
+	7150 2250 7150 2400
+Wire Wire Line
+	7150 2400 7150 2650
+Connection ~ 7150 2400
+Wire Wire Line
+	7250 2000 7150 2000
+Wire Wire Line
+	7150 2000 7150 2250
+Connection ~ 7150 2250
+Text GLabel 7900 2850 0    50   Input ~ 0
+3.3V
+$Comp
+L Device:C_Small C?
+U 1 1 616A8A08
+P 7800 2550
+F 0 "C?" V 7950 2600 50  0000 R CNN
+F 1 "100n" V 7700 2600 50  0000 R CNN
+F 2 "" H 7800 2550 50  0001 C CNN
+F 3 "~" H 7800 2550 50  0001 C CNN
+	1    7800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616B3EED
+P 7700 2550
+F 0 "#PWR?" H 7700 2300 50  0001 C CNN
+F 1 "GND" V 7720 2330 50  0000 C CNN
+F 2 "" H 7700 2550 50  0001 C CNN
+F 3 "" H 7700 2550 50  0001 C CNN
+	1    7700 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2400 8050 2550
+Wire Wire Line
+	8050 2550 7900 2550
+Wire Wire Line
+	8050 2550 8050 2850
+Wire Wire Line
+	8050 2850 7900 2850
+Connection ~ 8050 2550
+Text GLabel 8150 3000 0    50   Input ~ 0
+TMC_STEP
+Wire Wire Line
+	8150 3000 8150 2400
+NoConn ~ 8250 2400
+$Comp
+L power:GND #PWR?
+U 1 1 616DBB88
+P 8350 2550
+F 0 "#PWR?" H 8350 2300 50  0001 C CNN
+F 1 "GND" V 8370 2330 50  0000 C CNN
+F 2 "" H 8350 2550 50  0001 C CNN
+F 3 "" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2550 8350 2400
+Text GLabel 8450 3150 0    50   Input ~ 0
+TMC_DIR
+Wire Wire Line
+	8450 3150 8450 2400
+$Comp
+L power:GND #PWR?
+U 1 1 616F9932
+P 8550 2550
+F 0 "#PWR?" H 8550 2300 50  0001 C CNN
+F 1 "GND" V 8570 2330 50  0000 C CNN
+F 2 "" H 8550 2550 50  0001 C CNN
+F 3 "" H 8550 2550 50  0001 C CNN
+	1    8550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2550 8550 2400
+$Comp
+L power:GND #PWR?
+U 1 1 61714379
+P 7150 2850
+F 0 "#PWR?" H 7150 2600 50  0001 C CNN
+F 1 "GND" V 7170 2630 50  0000 C CNN
+F 2 "" H 7150 2850 50  0001 C CNN
+F 3 "" H 7150 2850 50  0001 C CNN
+	1    7150 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 2800 0    50   Input ~ 0
+TMC_BRA
+Text GLabel 5950 3150 0    50   Input ~ 0
+TMC_BRB
+$Comp
+L power:GND #PWR?
+U 1 1 617284B0
+P 6650 3000
+F 0 "#PWR?" H 6650 2750 50  0001 C CNN
+F 1 "GND" V 6670 2780 50  0000 C CNN
+F 2 "" H 6650 3000 50  0001 C CNN
+F 3 "" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 2800 6650 2800
+Wire Wire Line
+	6650 2800 6650 3000
+Wire Wire Line
+	6300 3150 6650 3150
+Wire Wire Line
+	6650 3150 6650 3000
+Connection ~ 6650 3000
+$Comp
+L Device:R_Small R?
+U 1 1 6173E222
+P 6200 2800
+F 0 "R?" V 6300 2800 50  0000 C CNN
+F 1 "???" V 6100 2800 50  0000 C CNN
+F 2 "" H 6200 2800 50  0001 C CNN
+F 3 "~" H 6200 2800 50  0001 C CNN
+	1    6200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61742136
+P 6200 3150
+F 0 "R?" V 6300 3150 50  0000 C CNN
+F 1 "???" V 6100 3150 50  0000 C CNN
+F 2 "" H 6200 3150 50  0001 C CNN
+F 3 "~" H 6200 3150 50  0001 C CNN
+	1    6200 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3150 6100 3150
+Wire Wire Line
+	6100 2800 5950 2800
 $EndSCHEMATC

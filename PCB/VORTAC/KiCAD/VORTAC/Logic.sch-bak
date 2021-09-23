@@ -404,18 +404,100 @@ Connection ~ 2150 1750
 $Comp
 L ToolChanger:TMC2209-LA-T IC1
 U 1 1 6155DD48
-P 8800 1750
-F 0 "IC1" H 10144 1446 50  0000 L CNN
-F 1 "TMC2209-LA-T" H 10144 1355 50  0000 L CNN
-F 2 "ToolChanger:tmc_2209_package" H 9950 2250 50  0001 L CNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V104.pdf" H 9950 2150 50  0001 L CNN
-F 4 "MOTOR DRIVER, -40 TO 125DEG C; Motor Type:Stepper; No. of Outputs:1Outputs; Output Current:-; Output Voltage:-; Driver Case Style:QFN; No. of Pins:28Pins; Supply Voltage Min:4.75V; Supply Voltage Max:29V; Product Range:- RoHS Compliant: Yes" H 9950 2050 50  0001 L CNN "Description"
-F 5 "0.9" H 9950 1950 50  0001 L CNN "Height"
-F 6 "TRINAMIC" H 9950 1850 50  0001 L CNN "Manufacturer_Name"
-F 7 "TMC2209-LA-T" H 9950 1750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "700-TMC2209-LA-T" H 9950 1650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Trinamic/TMC2209-LA-T?qs=TiOZkKH1s2Qz5AVGoa6OOQ%3D%3D" H 9950 1550 50  0001 L CNN "Mouser Price/Stock"
-	1    8800 1750
+P 8760 1520
+F 0 "IC1" H 10104 1216 50  0000 L CNN
+F 1 "TMC2209-LA-T" H 10104 1125 50  0000 L CNN
+F 2 "ToolChanger:tmc_2209_package" H 9910 2020 50  0001 L CNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V104.pdf" H 9910 1920 50  0001 L CNN
+F 4 "MOTOR DRIVER, -40 TO 125DEG C; Motor Type:Stepper; No. of Outputs:1Outputs; Output Current:-; Output Voltage:-; Driver Case Style:QFN; No. of Pins:28Pins; Supply Voltage Min:4.75V; Supply Voltage Max:29V; Product Range:- RoHS Compliant: Yes" H 9910 1820 50  0001 L CNN "Description"
+F 5 "0.9" H 9910 1720 50  0001 L CNN "Height"
+F 6 "TRINAMIC" H 9910 1620 50  0001 L CNN "Manufacturer_Name"
+F 7 "TMC2209-LA-T" H 9910 1520 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "700-TMC2209-LA-T" H 9910 1420 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Trinamic/TMC2209-LA-T?qs=TiOZkKH1s2Qz5AVGoa6OOQ%3D%3D" H 9910 1320 50  0001 L CNN "Mouser Price/Stock"
+	1    8760 1520
 	1    0    0    -1  
 $EndComp
+$Comp
+L Sensor_Motion:ADXL343 U?
+U 1 1 6157ACF9
+P 9410 4200
+F 0 "U?" H 9954 4246 50  0000 L CNN
+F 1 "ADXL343" H 9954 4155 50  0000 L CNN
+F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 9410 4200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf" H 9410 4200 50  0001 C CNN
+	1    9410 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 10300 3610 2    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR?
+U 1 1 614DF03A
+P 10080 3880
+F 0 "#PWR?" H 10080 3630 50  0001 C CNN
+F 1 "GND" H 10085 3707 50  0000 C CNN
+F 2 "" H 10080 3880 50  0001 C CNN
+F 3 "" H 10080 3880 50  0001 C CNN
+	1    10080 3880
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 614E163D
+P 10080 3780
+F 0 "C?" H 10172 3826 50  0000 L CNN
+F 1 "C_Small" H 10172 3735 50  0000 L CNN
+F 2 "" H 10080 3780 50  0001 C CNN
+F 3 "~" H 10080 3780 50  0001 C CNN
+	1    10080 3780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9610 3700 9610 3610
+Wire Wire Line
+	9610 3610 10080 3610
+Wire Wire Line
+	10080 3680 10080 3610
+Connection ~ 10080 3610
+Wire Wire Line
+	10080 3610 10300 3610
+Text GLabel 10360 4200 2    50   Input ~ 0
+ADXL_INT1
+Wire Wire Line
+	9910 4200 10360 4200
+$Comp
+L power:GND #PWR?
+U 1 1 614F0BEC
+P 9410 4700
+F 0 "#PWR?" H 9410 4450 50  0001 C CNN
+F 1 "GND" H 9415 4527 50  0000 C CNN
+F 2 "" H 9410 4700 50  0001 C CNN
+F 3 "" H 9410 4700 50  0001 C CNN
+	1    9410 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8790 4400 0    50   Input ~ 0
+ADXL_CS
+Text GLabel 8790 4300 0    50   Input ~ 0
+ADXL_SCL
+Text GLabel 8790 4200 0    50   Input ~ 0
+ADXL_SDI
+Text GLabel 8790 4100 0    50   Input ~ 0
+ADXL_SDO
+Wire Wire Line
+	8790 4100 8910 4100
+Wire Wire Line
+	8910 4200 8790 4200
+Wire Wire Line
+	8790 4300 8910 4300
+Wire Wire Line
+	8910 4400 8790 4400
+Text GLabel 9410 3610 0    50   Input ~ 0
+ADXL_AREF
+Wire Wire Line
+	9410 3700 9410 3610
+NoConn ~ 9610 4700
+NoConn ~ 9210 3700
+NoConn ~ 9910 4300
 $EndSCHEMATC
