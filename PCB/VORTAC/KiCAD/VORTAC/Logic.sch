@@ -404,85 +404,85 @@ Connection ~ 2150 1750
 $Comp
 L Sensor_Motion:ADXL343 U?
 U 1 1 6157ACF9
-P 9060 4150
-F 0 "U?" H 9604 4196 50  0000 L CNN
-F 1 "ADXL343" H 9604 4105 50  0000 L CNN
-F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 9060 4150 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf" H 9060 4150 50  0001 C CNN
-	1    9060 4150
+P 9440 4300
+F 0 "U?" H 9984 4346 50  0000 L CNN
+F 1 "ADXL343" H 9984 4255 50  0000 L CNN
+F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 9440 4300 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf" H 9440 4300 50  0001 C CNN
+	1    9440 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 3560 2    50   Input ~ 0
+Text GLabel 10330 3710 2    50   Input ~ 0
 3.3V
 $Comp
 L power:GND #PWR?
 U 1 1 614DF03A
-P 9730 3830
-F 0 "#PWR?" H 9730 3580 50  0001 C CNN
-F 1 "GND" H 9735 3657 50  0000 C CNN
-F 2 "" H 9730 3830 50  0001 C CNN
-F 3 "" H 9730 3830 50  0001 C CNN
-	1    9730 3830
+P 10110 3980
+F 0 "#PWR?" H 10110 3730 50  0001 C CNN
+F 1 "GND" H 10115 3807 50  0000 C CNN
+F 2 "" H 10110 3980 50  0001 C CNN
+F 3 "" H 10110 3980 50  0001 C CNN
+	1    10110 3980
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 614E163D
-P 9730 3730
-F 0 "C?" H 9822 3776 50  0000 L CNN
-F 1 "C_Small" H 9822 3685 50  0000 L CNN
-F 2 "" H 9730 3730 50  0001 C CNN
-F 3 "~" H 9730 3730 50  0001 C CNN
-	1    9730 3730
+P 10110 3880
+F 0 "C?" H 10202 3926 50  0000 L CNN
+F 1 "C_Small" H 10202 3835 50  0000 L CNN
+F 2 "" H 10110 3880 50  0001 C CNN
+F 3 "~" H 10110 3880 50  0001 C CNN
+	1    10110 3880
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9260 3650 9260 3560
+	9640 3800 9640 3710
 Wire Wire Line
-	9260 3560 9730 3560
+	9640 3710 10110 3710
 Wire Wire Line
-	9730 3630 9730 3560
-Connection ~ 9730 3560
+	10110 3780 10110 3710
+Connection ~ 10110 3710
 Wire Wire Line
-	9730 3560 9950 3560
-Text GLabel 10010 4150 2    50   Input ~ 0
+	10110 3710 10330 3710
+Text GLabel 10390 4300 2    50   Input ~ 0
 ADXL_INT1
 Wire Wire Line
-	9560 4150 10010 4150
+	9940 4300 10390 4300
 $Comp
 L power:GND #PWR?
 U 1 1 614F0BEC
-P 9060 4650
-F 0 "#PWR?" H 9060 4400 50  0001 C CNN
-F 1 "GND" H 9065 4477 50  0000 C CNN
-F 2 "" H 9060 4650 50  0001 C CNN
-F 3 "" H 9060 4650 50  0001 C CNN
-	1    9060 4650
+P 9440 4800
+F 0 "#PWR?" H 9440 4550 50  0001 C CNN
+F 1 "GND" H 9445 4627 50  0000 C CNN
+F 2 "" H 9440 4800 50  0001 C CNN
+F 3 "" H 9440 4800 50  0001 C CNN
+	1    9440 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8440 4350 0    50   Input ~ 0
+Text GLabel 8820 4500 0    50   Input ~ 0
 ADXL_CS
-Text GLabel 8440 4250 0    50   Input ~ 0
+Text GLabel 8820 4400 0    50   Input ~ 0
 ADXL_SCL
-Text GLabel 8440 4150 0    50   Input ~ 0
+Text GLabel 8820 4300 0    50   Input ~ 0
 ADXL_SDI
-Text GLabel 8440 4050 0    50   Input ~ 0
+Text GLabel 8820 4200 0    50   Input ~ 0
 ADXL_SDO
 Wire Wire Line
-	8440 4050 8560 4050
+	8820 4200 8940 4200
 Wire Wire Line
-	8560 4150 8440 4150
+	8940 4300 8820 4300
 Wire Wire Line
-	8440 4250 8560 4250
+	8820 4400 8940 4400
 Wire Wire Line
-	8560 4350 8440 4350
-Text GLabel 9060 3560 0    50   Input ~ 0
+	8940 4500 8820 4500
+Text GLabel 9440 3710 0    50   Input ~ 0
 ADXL_AREF
 Wire Wire Line
-	9060 3650 9060 3560
-NoConn ~ 9260 4650
-NoConn ~ 8860 3650
-NoConn ~ 9560 4250
+	9440 3800 9440 3710
+NoConn ~ 9640 4800
+NoConn ~ 9240 3800
+NoConn ~ 9940 4400
 Text GLabel 10450 1900 2    50   Input ~ 0
 STEP_1_A1
 Text GLabel 10450 2100 2    50   Input ~ 0
@@ -928,4 +928,52 @@ Wire Wire Line
 	5950 3150 6100 3150
 Wire Wire Line
 	6100 2800 5950 2800
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 61599DC1
+P 2380 6340
+F 0 "Q?" H 2571 6386 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 2571 6295 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2580 6440 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Bipolar-Transistors-BJT_Changjiang-Electronics-Tech-CJ-SS8050_C2150.html" H 2380 6340 50  0001 C CNN
+F 4 "C2150" H 2380 6340 50  0001 C CNN "LCSC"
+	1    2380 6340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BEC Q?
+U 1 1 615A2596
+P 2400 7150
+F 0 "Q?" H 2590 7196 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 2590 7105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 7250 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Bipolar-Transistors-BJT_Changjiang-Electronics-Tech-CJ-SS8550-Y2_C8542.html" H 2400 7150 50  0001 C CNN
+F 4 "C8542" H 2400 7150 50  0001 C CNN "LCSC"
+	1    2400 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 615B049F
+P 3980 6340
+F 0 "Q?" H 4185 6386 50  0000 L CNN
+F 1 "Q_PMOS_GSD" H 4185 6295 50  0000 L CNN
+F 2 "ToolChanger:IRF9310PbF-1_SO-8" H 4180 6440 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811141221_Infineon-Technologies-IRF9310TRPBF_C92305.pdf" H 3980 6340 50  0001 C CNN
+F 4 "C92305" H 3980 6340 50  0001 C CNN "LCSC"
+	1    3980 6340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 615B6960
+P 3970 7080
+F 0 "Q?" H 4174 7126 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 4174 7035 50  0000 L CNN
+F 2 "ToolChanger:IRF9310PbF-1_SO-8" H 4170 7180 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809192221_Infineon-Technologies-IRF8736TRPBF_C51630.pdf" H 3970 7080 50  0001 C CNN
+F 4 "C51630" H 3970 7080 50  0001 C CNN "LCSC"
+	1    3970 7080
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
