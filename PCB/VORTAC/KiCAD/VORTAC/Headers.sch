@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Headers & Tool Interfacing"
+Date "2021-10-17"
+Rev "0.0"
+Comp "VORTAC DESIGN"
+Comment1 "!! wip untested revesion !!"
+Comment2 "Designed to be used with Klipper Firmware"
+Comment3 "Canbus Networked Smart Tool Board"
+Comment4 "-- VORTAC PCB --"
 $EndDescr
 $Comp
 L ToolChanger:MillMax_004 J4
@@ -191,7 +191,7 @@ Wire Notes Line
 	3400 2150 5150 2150
 Text Notes 3550 900  0    71   ~ 0
 Combined Hotend Header
-Text Notes 7050 7050 0    50   ~ 0
+Text Notes 9200 7050 0    50   ~ 0
 todo:\n- consider connector selection\n- consider combining fan or io/led headers\n- remove duplicate heater/thermistor header\n- add probepoints\n- change usb-c symbol (sucks bro)
 NoConn ~ 1400 1350
 Text GLabel 1600 4900 0    50   Input ~ 0
@@ -735,8 +735,9 @@ U 1 1 6173EEDA
 P 2200 5950
 F 0 "D5" H 2200 5733 50  0000 C CNN
 F 1 "D_Schottky" H 2200 5824 50  0000 C CNN
-F 2 "" H 2200 5950 50  0001 C CNN
-F 3 "~" H 2200 5950 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 5950 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-DSK14_C37049.html" H 2200 5950 50  0001 C CNN
+F 4 "C37049" H 2200 5950 50  0001 C CNN "LCSC"
 	1    2200 5950
 	-1   0    0    1   
 $EndComp

@@ -804,14 +804,92 @@ Wire Wire Line
 Wire Wire Line
 	3600 2650 3850 2650
 $Comp
-L ToolChanger:TJA1040T U?
+L ToolChanger:TJA1040T U6
 U 1 1 619288F5
-P 2900 6000
-F 0 "U?" H 2900 6581 50  0000 C CNN
-F 1 "TJA1040T" H 2900 6490 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 5500 50  0001 C CIN
-F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 2900 6000 50  0001 C CNN
-	1    2900 6000
+P 6900 5400
+F 0 "U6" H 6400 6000 50  0000 C CNN
+F 1 "TJA1040T" H 6500 5850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 4900 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 6900 5400 50  0001 C CNN
+	1    6900 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 5800 6750 5900
+Wire Wire Line
+	6750 5900 6900 5900
+Wire Wire Line
+	6900 5900 6900 5800
+Wire Wire Line
+	6900 5900 7050 5900
+Wire Wire Line
+	7050 5900 7050 5800
+Connection ~ 6900 5900
+Wire Wire Line
+	7050 5900 7050 6000
+Connection ~ 7050 5900
+$Comp
+L power:GND #PWR?
+U 1 1 6194692B
+P 7050 6000
+AR Path="/613DBE83/6194692B" Ref="#PWR?"  Part="1" 
+AR Path="/613DC005/6194692B" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 7050 5750 50  0001 C CNN
+F 1 "GND" H 7055 5827 50  0000 C CNN
+F 2 "" H 7050 6000 50  0001 C CNN
+F 3 "" H 7050 6000 50  0001 C CNN
+	1    7050 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 4900 2    50   Input ~ 0
+3.3V
+Text GLabel 7600 5350 2    50   Input ~ 0
+CAN_H
+Text GLabel 7600 5450 2    50   Input ~ 0
+CAN_L
+Wire Wire Line
+	7400 5350 7600 5350
+Wire Wire Line
+	7400 5450 7600 5450
+Wire Wire Line
+	6400 5350 6200 5350
+Text GLabel 6200 5350 0    50   Input ~ 0
+CAN_TX
+Text GLabel 6200 5450 0    50   Input ~ 0
+CAN_RX
+Wire Wire Line
+	6200 5450 6400 5450
+$Comp
+L power:GND #PWR?
+U 1 1 619A4E4A
+P 7500 5200
+AR Path="/613DBE83/619A4E4A" Ref="#PWR?"  Part="1" 
+AR Path="/613DC005/619A4E4A" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 7500 4950 50  0001 C CNN
+F 1 "GND" H 7650 5150 50  0000 C CNN
+F 2 "" H 7500 5200 50  0001 C CNN
+F 3 "" H 7500 5200 50  0001 C CNN
+	1    7500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 619A4E50
+P 7500 5100
+AR Path="/613DBE83/619A4E50" Ref="C?"  Part="1" 
+AR Path="/613DC005/619A4E50" Ref="C35"  Part="1" 
+F 0 "C35" H 7592 5146 50  0000 L CNN
+F 1 "C_Small" H 7592 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7500 5100 50  0001 C CNN
+F 3 "~" H 7500 5100 50  0001 C CNN
+	1    7500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4900 7500 4900
+Wire Wire Line
+	7500 4900 7500 5000
+Connection ~ 7500 4900
+Wire Wire Line
+	7500 4900 7600 4900
 $EndSCHEMATC

@@ -4,24 +4,24 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "MCU & ICS"
+Date "2021-10-17"
+Rev "0.0"
+Comp "VORTAC DESIGN"
+Comment1 "!! wip untested revesion !!"
+Comment2 "Designed to be used with Klipper Firmware"
+Comment3 "Canbus Networked Smart Tool Board"
+Comment4 "-- VORTAC PCB --"
 $EndDescr
 $Comp
 L MCU_ST_STM32F1:STM32F103C8Tx U2
 U 1 1 6140AA25
-P 2500 2800
-F 0 "U2" H 2450 1211 50  0000 C CNN
-F 1 "STM32F103C8Tx" H 2450 1120 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1900 1400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 2500 2800 50  0001 C CNN
-	1    2500 2800
+P 3000 2550
+F 0 "U2" H 2950 961 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 2950 870 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2400 1150 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3000 2550 50  0001 C CNN
+	1    3000 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -45,7 +45,7 @@ AR Path="/613DBE83/6326606B" Ref="C?"  Part="1"
 AR Path="/613DC005/6326606B" Ref="C32"  Part="1" 
 F 0 "C32" H 10292 5196 50  0000 L CNN
 F 1 "C_Small" H 10292 5105 50  0000 L CNN
-F 2 "" H 10200 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10200 5150 50  0001 C CNN
 F 3 "~" H 10200 5150 50  0001 C CNN
 	1    10200 5150
 	1    0    0    -1  
@@ -176,7 +176,7 @@ AR Path="/613DBE83/632660C6" Ref="R?"  Part="1"
 AR Path="/613DC005/632660C6" Ref="R31"  Part="1" 
 F 0 "R31" V 6550 2050 50  0000 L CNN
 F 1 "1K" V 6650 2050 50  0000 L CNN
-F 2 "" H 6750 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 2100 50  0001 C CNN
 F 3 "~" H 6750 2100 50  0001 C CNN
 	1    6750 2100
 	0    -1   -1   0   
@@ -736,71 +736,160 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 61C61B07
-P 3400 3700
+P 3900 3450
 AR Path="/613DB78D/61C61B07" Ref="R?"  Part="1" 
 AR Path="/613DC005/61C61B07" Ref="R35"  Part="1" 
-F 0 "R35" V 3400 3700 50  0000 C CNN
-F 1 "22R" V 3350 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 3700 50  0001 C CNN
-F 3 "~" H 3400 3700 50  0001 C CNN
-	1    3400 3700
+F 0 "R35" V 3900 3450 50  0000 C CNN
+F 1 "22R" V 3850 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 3450 50  0001 C CNN
+F 3 "~" H 3900 3450 50  0001 C CNN
+	1    3900 3450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 61C61B0D
-P 3550 3800
+P 4050 3550
 AR Path="/613DB78D/61C61B0D" Ref="R?"  Part="1" 
 AR Path="/613DC005/61C61B0D" Ref="R36"  Part="1" 
-F 0 "R36" V 3550 3800 50  0000 C CNN
-F 1 "22R" V 3500 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3480 3800 50  0001 C CNN
-F 3 "~" H 3550 3800 50  0001 C CNN
-	1    3550 3800
+F 0 "R36" V 4050 3550 50  0000 C CNN
+F 1 "22R" V 4000 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3980 3550 50  0001 C CNN
+F 3 "~" H 4050 3550 50  0001 C CNN
+	1    4050 3550
 	0    1    1    0   
 $EndComp
-Text GLabel 3850 3800 2    50   Input ~ 0
+Text GLabel 4350 3550 2    50   Input ~ 0
 USB_D+
-Text GLabel 3850 3700 2    50   Input ~ 0
+Text GLabel 4350 3450 2    50   Input ~ 0
 USB_D-
 Wire Wire Line
-	3650 3800 3850 3800
-Text GLabel 1600 3500 0    50   Input ~ 0
+	4150 3550 4350 3550
+Text GLabel 2100 3250 0    50   Input ~ 0
 CAN_TX
-Text GLabel 1600 3400 0    50   Input ~ 0
+Text GLabel 2100 3150 0    50   Input ~ 0
 CAN_RX
 Wire Wire Line
-	1600 3400 1800 3400
+	2100 3150 2300 3150
 Wire Wire Line
-	1600 3500 1800 3500
-Text GLabel 3850 3500 2    50   Input ~ 0
+	2100 3250 2300 3250
+Text GLabel 4350 3250 2    50   Input ~ 0
 USART_1_TX
-Text GLabel 3850 3600 2    50   Input ~ 0
+Text GLabel 4350 3350 2    50   Input ~ 0
 USART_1_RX
 Wire Wire Line
-	3100 3700 3300 3700
+	3600 3450 3800 3450
 Wire Wire Line
-	3500 3700 3850 3700
+	4000 3450 4350 3450
 Wire Wire Line
-	3100 3600 3850 3600
+	3600 3350 4350 3350
 Wire Wire Line
-	3100 3500 3850 3500
+	3600 3250 4350 3250
 Wire Wire Line
-	3100 3800 3450 3800
-Text GLabel 1600 3600 0    50   Input ~ 0
+	3600 3550 3950 3550
+Text GLabel 2100 3350 0    50   Input ~ 0
 USART_3_TX
-Text GLabel 1600 3700 0    50   Input ~ 0
+Text GLabel 2100 3450 0    50   Input ~ 0
 USART_3_RX
 Wire Wire Line
-	1600 3600 1800 3600
+	2100 3350 2300 3350
 Wire Wire Line
-	1600 3700 1800 3700
-Text GLabel 3350 2800 2    50   Input ~ 0
+	2100 3450 2300 3450
+Text GLabel 3850 2550 2    50   Input ~ 0
 USART_2_TX
-Text GLabel 3350 2900 2    50   Input ~ 0
+Text GLabel 3850 2650 2    50   Input ~ 0
 USART_2_RX
 Wire Wire Line
-	3100 2800 3350 2800
+	3600 2550 3850 2550
 Wire Wire Line
-	3100 2900 3350 2900
+	3600 2650 3850 2650
+$Comp
+L ToolChanger:TJA1040T U6
+U 1 1 619288F5
+P 6900 5400
+F 0 "U6" H 6400 6000 50  0000 C CNN
+F 1 "TJA1040T" H 6500 5850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 4900 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 6900 5400 50  0001 C CNN
+	1    6900 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5800 6750 5900
+Wire Wire Line
+	6750 5900 6900 5900
+Wire Wire Line
+	6900 5900 6900 5800
+Wire Wire Line
+	6900 5900 7050 5900
+Wire Wire Line
+	7050 5900 7050 5800
+Connection ~ 6900 5900
+Wire Wire Line
+	7050 5900 7050 6000
+Connection ~ 7050 5900
+$Comp
+L power:GND #PWR?
+U 1 1 6194692B
+P 7050 6000
+AR Path="/613DBE83/6194692B" Ref="#PWR?"  Part="1" 
+AR Path="/613DC005/6194692B" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 7050 5750 50  0001 C CNN
+F 1 "GND" H 7055 5827 50  0000 C CNN
+F 2 "" H 7050 6000 50  0001 C CNN
+F 3 "" H 7050 6000 50  0001 C CNN
+	1    7050 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 4900 2    50   Input ~ 0
+3.3V
+Text GLabel 7600 5350 2    50   Input ~ 0
+CAN_H
+Text GLabel 7600 5450 2    50   Input ~ 0
+CAN_L
+Wire Wire Line
+	7400 5350 7600 5350
+Wire Wire Line
+	7400 5450 7600 5450
+Wire Wire Line
+	6400 5350 6200 5350
+Text GLabel 6200 5350 0    50   Input ~ 0
+CAN_TX
+Text GLabel 6200 5450 0    50   Input ~ 0
+CAN_RX
+Wire Wire Line
+	6200 5450 6400 5450
+$Comp
+L power:GND #PWR?
+U 1 1 619A4E4A
+P 7500 5200
+AR Path="/613DBE83/619A4E4A" Ref="#PWR?"  Part="1" 
+AR Path="/613DC005/619A4E4A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 4950 50  0001 C CNN
+F 1 "GND" H 7650 5150 50  0000 C CNN
+F 2 "" H 7500 5200 50  0001 C CNN
+F 3 "" H 7500 5200 50  0001 C CNN
+	1    7500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 619A4E50
+P 7500 5100
+AR Path="/613DBE83/619A4E50" Ref="C?"  Part="1" 
+AR Path="/613DC005/619A4E50" Ref="C?"  Part="1" 
+F 0 "C?" H 7592 5146 50  0000 L CNN
+F 1 "C_Small" H 7592 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7500 5100 50  0001 C CNN
+F 3 "~" H 7500 5100 50  0001 C CNN
+	1    7500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4900 7500 4900
+Wire Wire Line
+	7500 4900 7500 5000
+Connection ~ 7500 4900
+Wire Wire Line
+	7500 4900 7600 4900
 $EndSCHEMATC

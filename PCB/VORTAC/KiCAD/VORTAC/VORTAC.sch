@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "ROOT"
+Date "2021-10-17"
+Rev "0.0"
+Comp "VORTAC DESIGN"
+Comment1 "!! wip untested revesion !!"
+Comment2 "Designed to be used with Klipper Firmware"
+Comment3 "Canbus Networked Smart Tool Board"
+Comment4 "-- VORTAC PCB --"
 $EndDescr
 $Sheet
 S 950  5650 5550 1750

@@ -498,7 +498,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_8x6.9 (layer F.Cu) (tedit 5BCA39D0) (tstamp 61696DAB)
-    (at 89.332 86.111 90)
+    (at 89.3 86.8 90)
     (descr "SMD capacitor, aluminum electrolytic, Panasonic E7, 8.0x6.9mm")
     (tags "capacitor electrolytic")
     (path /613DC005/6326614B)
