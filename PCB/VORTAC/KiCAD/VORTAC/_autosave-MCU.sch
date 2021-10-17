@@ -809,7 +809,7 @@ U 1 1 619288F5
 P 6900 5400
 F 0 "U6" H 6400 6000 50  0000 C CNN
 F 1 "TJA1040T" H 6500 5850 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 4900 50  0001 C CIN
+F 2 "ToolChanger:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 4900 50  0001 C CIN
 F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 6900 5400 50  0001 C CNN
 	1    6900 5400
 	1    0    0    -1  
@@ -892,4 +892,6 @@ Wire Wire Line
 Connection ~ 7500 4900
 Wire Wire Line
 	7500 4900 7600 4900
+Text Notes 4500 6250 0    50   ~ 0
+todo \n-consider AREF implementation\n-3.3v vs AREF for ADXL & CAN\n\n>> routing for can therm and can gets kinda awkward\n>> can and therm should be unified to AREF or 3.3
 $EndSCHEMATC
