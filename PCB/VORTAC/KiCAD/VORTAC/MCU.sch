@@ -212,7 +212,7 @@ AR Path="/613DBE83/63266110" Ref="IC?"  Part="1"
 AR Path="/613DC005/63266110" Ref="IC1"  Part="1" 
 F 0 "IC1" H 8250 3350 50  0000 C CNN
 F 1 "TMC2209-LA" H 8250 3250 50  0000 C CNN
-F 2 "ToolChanger:tmc_2209_package" V 8350 1550 50  0001 L CNN
+F 2 "ToolChanger:tmc_2209_VORTAC" V 8350 1550 50  0001 L CNN
 F 3 "https://www.lcsc.com/product-detail/Motor-Driver-ICs_TRINAMIC-Motion-Control-GmbH-TMC2209-LA_C465949.html" H 7200 2900 50  0001 L CNN
 F 4 "C465949" V 8250 2500 50  0001 C CNN "LCSC"
 	1    8250 2150
@@ -809,7 +809,7 @@ U 1 1 619288F5
 P 6900 5400
 F 0 "U6" H 6400 6000 50  0000 C CNN
 F 1 "TJA1040T" H 6500 5850 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 4900 50  0001 C CIN
+F 2 "ToolChanger:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 4900 50  0001 C CIN
 F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 6900 5400 50  0001 C CNN
 	1    6900 5400
 	1    0    0    -1  
@@ -864,8 +864,8 @@ L power:GND #PWR?
 U 1 1 619A4E4A
 P 7500 5200
 AR Path="/613DBE83/619A4E4A" Ref="#PWR?"  Part="1" 
-AR Path="/613DC005/619A4E4A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7500 4950 50  0001 C CNN
+AR Path="/613DC005/619A4E4A" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 7500 4950 50  0001 C CNN
 F 1 "GND" H 7650 5150 50  0000 C CNN
 F 2 "" H 7500 5200 50  0001 C CNN
 F 3 "" H 7500 5200 50  0001 C CNN
@@ -877,8 +877,8 @@ L Device:C_Small C?
 U 1 1 619A4E50
 P 7500 5100
 AR Path="/613DBE83/619A4E50" Ref="C?"  Part="1" 
-AR Path="/613DC005/619A4E50" Ref="C?"  Part="1" 
-F 0 "C?" H 7592 5146 50  0000 L CNN
+AR Path="/613DC005/619A4E50" Ref="C35"  Part="1" 
+F 0 "C35" H 7592 5146 50  0000 L CNN
 F 1 "C_Small" H 7592 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7500 5100 50  0001 C CNN
 F 3 "~" H 7500 5100 50  0001 C CNN
@@ -892,4 +892,6 @@ Wire Wire Line
 Connection ~ 7500 4900
 Wire Wire Line
 	7500 4900 7600 4900
+Text Notes 4500 6250 0    50   ~ 0
+todo \n-consider AREF implementation\n-3.3v vs AREF for ADXL & CAN\n\n>> routing for can therm and can gets kinda awkward\n>> can and therm should be unified to AREF or 3.3
 $EndSCHEMATC

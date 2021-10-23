@@ -86,7 +86,7 @@ F 3 "" H 1400 1650 50  0001 C CNN
 	1    1400 1650
 	0    1    1    0   
 $EndComp
-Text GLabel 2300 3800 2    50   Input ~ 0
+Text GLabel 1400 3800 0    50   Input ~ 0
 DOCK_V_IN
 $Comp
 L ToolChanger:MillMax_004 J3
@@ -114,11 +114,11 @@ Text Notes 850  850  0    71   ~ 0
 Tool Interface
 Text GLabel 1400 2750 0    50   Input ~ 0
 TOOL_DATA_H
-Text GLabel 1400 3700 0    50   Input ~ 0
+Text GLabel 2300 3600 2    50   Input ~ 0
 TOOL_DATA_L
-Text GLabel 1400 3600 0    50   Input ~ 0
+Text GLabel 2300 3700 2    50   Input ~ 0
 TOOL_DATA_H
-Text GLabel 1400 3800 0    50   Input ~ 0
+Text GLabel 2300 3800 2    50   Input ~ 0
 TOOL_ID
 $Comp
 L Connector_Generic:Conn_01x03 J7
@@ -196,7 +196,7 @@ todo:\n- consider connector selection\n- consider combining fan or io/led header
 NoConn ~ 1400 1350
 Text GLabel 1600 4900 0    50   Input ~ 0
 HOST_USB_DRAIN
-Text GLabel 2300 3700 2    50   Input ~ 0
+Text GLabel 1400 3700 0    50   Input ~ 0
 DOCK_GND
 $Comp
 L Connector_Generic:Conn_02x03_Top_Bottom J2
@@ -463,10 +463,6 @@ $EndComp
 Text GLabel 5900 1450 0    50   Input ~ 0
 AREF
 Wire Wire Line
-	4900 1500 4900 1600
-Wire Wire Line
-	4150 1500 4900 1500
-Wire Wire Line
 	4900 1800 4900 1700
 Wire Wire Line
 	4150 1800 4900 1800
@@ -474,11 +470,11 @@ Wire Wire Line
 	4150 1700 4400 1700
 Wire Wire Line
 	4150 1600 4400 1600
-Text GLabel 4150 1600 0    50   Input ~ 0
-V_IN
-Text GLabel 4150 1500 0    50   Input ~ 0
-HEATER_DRAIN
 Text GLabel 4150 1700 0    50   Input ~ 0
+V_IN
+Text GLabel 4150 1600 0    50   Input ~ 0
+HEATER_DRAIN
+Text GLabel 4150 1900 0    50   Input ~ 0
 THERM_1_OUT
 $Comp
 L power:GND #PWR06
@@ -495,7 +491,7 @@ $Comp
 L Connector_Generic:Conn_02x02_Top_Bottom J6
 U 1 1 6152EEF9
 P 4600 1600
-F 0 "J6" H 4600 1950 50  0000 L CNN
+F 0 "J6" H 4600 1950 50  0001 L CNN
 F 1 "HOTEND" H 4600 1850 50  0000 L CNN
 F 2 "ToolChanger:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4600 1600 50  0001 C CNN
 F 3 "~" H 4600 1600 50  0001 C CNN
@@ -852,13 +848,13 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0120
 U 1 1 61BCE37C
-P 2300 3600
-F 0 "#PWR0120" H 2300 3350 50  0001 C CNN
-F 1 "GND" V 2305 3472 50  0000 R CNN
-F 2 "" H 2300 3600 50  0001 C CNN
-F 3 "" H 2300 3600 50  0001 C CNN
-	1    2300 3600
-	0    -1   -1   0   
+P 1400 3600
+F 0 "#PWR0120" H 1400 3350 50  0001 C CNN
+F 1 "GND" V 1405 3472 50  0000 R CNN
+F 2 "" H 1400 3600 50  0001 C CNN
+F 3 "" H 1400 3600 50  0001 C CNN
+	1    1400 3600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1400 2900 1750 2900
@@ -866,4 +862,12 @@ Wire Wire Line
 	1850 6550 2500 6550
 Wire Wire Line
 	1850 6750 2500 6750
+Text Notes 3700 2050 0    50   ~ 0
+consider moving gnd to gnda
+Wire Wire Line
+	4900 1600 5000 1600
+Wire Wire Line
+	5000 1600 5000 1900
+Wire Wire Line
+	5000 1900 4150 1900
 $EndSCHEMATC

@@ -19,15 +19,15 @@ U 2 1 614DA6CB
 P 10200 3200
 F 0 "Q5" H 10404 3246 50  0000 L CNN
 F 1 "WSD4066DN" H 10404 3155 50  0000 L CNN
-F 2 "ToolChanger:WSD4066DN" H 10400 3125 50  0001 L CIN
+F 2 "ToolChanger:WSD4066DN_ThermalPad" H 10400 3125 50  0001 L CIN
 F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 10200 3200 50  0001 L CNN
 F 4 "C377861" H 10200 3200 50  0001 C CNN "LCSC"
 	2    10200 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9400 3000 0    50   Input ~ 0
+Text GLabel 9400 2350 0    50   Input ~ 0
 FAN_2_DRAIN
-Text GLabel 9400 3200 0    50   Input ~ 0
+Text GLabel 9400 2550 0    50   Input ~ 0
 FAN_2_GATE
 $Comp
 L power:GND #PWR014
@@ -59,7 +59,7 @@ U 1 1 614D9973
 P 10200 2550
 F 0 "Q5" H 10404 2596 50  0000 L CNN
 F 1 "WSD4066DN" H 10404 2505 50  0000 L CNN
-F 2 "ToolChanger:WSD4066DN" H 10400 2475 50  0001 L CIN
+F 2 "ToolChanger:WSD4066DN_ThermalPad" H 10400 2475 50  0001 L CIN
 F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 10200 2550 50  0001 L CNN
 F 4 "C377861" H 10200 2550 50  0001 C CNN "LCSC"
 	1    10200 2550
@@ -83,9 +83,9 @@ F 3 "~" H 9650 2550 50  0001 C CNN
 	1    9650 2550
 	0    1    1    0   
 $EndComp
-Text GLabel 9400 2550 0    50   Input ~ 0
+Text GLabel 9400 3200 0    50   Input ~ 0
 FAN_1_GATE
-Text GLabel 9400 2350 0    50   Input ~ 0
+Text GLabel 9400 3000 0    50   Input ~ 0
 FAN_1_DRAIN
 Wire Wire Line
 	9750 2550 10000 2550
@@ -139,13 +139,13 @@ F 3 "" H 10300 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 3400 10300 3400
-Text GLabel 9450 4700 0    50   Input ~ 0
+Text GLabel 9450 4050 0    50   Input ~ 0
 HOST_USB_DRAIN
-Text GLabel 9350 4900 0    50   Input ~ 0
-USBH_GATE
 Text GLabel 9350 4250 0    50   Input ~ 0
+USBH_GATE
+Text GLabel 9350 4900 0    50   Input ~ 0
 LED_1_GATE
-Text GLabel 9350 4050 0    50   Input ~ 0
+Text GLabel 9350 4700 0    50   Input ~ 0
 LED_1_DRAIN
 Wire Wire Line
 	9450 3400 9450 3200
@@ -155,7 +155,7 @@ U 2 1 6151C61B
 P 10150 4900
 F 0 "Q3" H 10354 4946 50  0000 L CNN
 F 1 "WSD4066DN" H 10354 4855 50  0000 L CNN
-F 2 "ToolChanger:WSD4066DN" H 10350 4825 50  0001 L CIN
+F 2 "ToolChanger:WSD4066DN_ThermalPad" H 10350 4825 50  0001 L CIN
 F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 10150 4900 50  0001 L CNN
 F 4 "C377861" H 10150 4900 50  0001 C CNN "LCSC"
 	2    10150 4900
@@ -191,7 +191,7 @@ U 1 1 6151C62F
 P 10150 4250
 F 0 "Q3" H 10354 4296 50  0000 L CNN
 F 1 "WSD4066DN" H 10354 4205 50  0000 L CNN
-F 2 "ToolChanger:WSD4066DN" H 10350 4175 50  0001 L CIN
+F 2 "ToolChanger:WSD4066DN_ThermalPad" H 10350 4175 50  0001 L CIN
 F 3 "https://www.lcsc.com/product-detail/MOSFETs_Winsok-Semicon-WSD4066DN_C377861.html" H 10150 4250 50  0001 L CNN
 F 4 "C377861" H 10150 4250 50  0001 C CNN "LCSC"
 	1    10150 4250
@@ -202,8 +202,6 @@ Wire Wire Line
 Connection ~ 9400 4250
 Wire Wire Line
 	9350 4250 9400 4250
-Wire Wire Line
-	9350 4050 10250 4050
 $Comp
 L Device:R_Small R7
 U 1 1 6151C639
@@ -674,7 +672,7 @@ AR Path="/613DBE83/6170C67D" Ref="C2"  Part="1"
 AR Path="/613DB78D/6170C67D" Ref="C?"  Part="1" 
 F 0 "C2" H 10050 6100 50  0000 L CNN
 F 1 "0.1uF" H 10050 6000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9950 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9950 6100 50  0001 C CNN
 F 3 "~" H 9950 6100 50  0001 C CNN
 	1    9950 6100
 	1    0    0    -1  
@@ -862,7 +860,7 @@ AR Path="/613DC005/63289025" Ref="U?"  Part="1"
 AR Path="/613DBE83/63289025" Ref="U3"  Part="1" 
 F 0 "U3" H 2600 2650 50  0000 C CNN
 F 1 "TPS54335ADRCR" H 2600 2800 50  0000 C CNN
-F 2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias" H 2600 3250 50  0001 C CNN
+F 2 "ToolChanger:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias" H 2600 3250 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-TPS54335ADRCR_C473400.html" H 2600 3250 50  0001 C CNN
 F 4 "C473400" H 2600 3250 50  0001 C CNN "LCSC"
 	1    2600 3250
@@ -1203,7 +1201,7 @@ AR Path="/613DC005/632890D3" Ref="U?"  Part="1"
 AR Path="/613DBE83/632890D3" Ref="U4"  Part="1" 
 F 0 "U4" H 2600 4650 50  0000 C CNN
 F 1 "TPS54335ADRCR" H 2600 4800 50  0000 C CNN
-F 2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias" H 2600 5250 50  0001 C CNN
+F 2 "ToolChanger:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias" H 2600 5250 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-TPS54335ADRCR_C473400.html" H 2600 5250 50  0001 C CNN
 F 4 "C473400" H 2600 5250 50  0001 C CNN "LCSC"
 	1    2600 5250
@@ -1572,8 +1570,6 @@ F 3 "" H 1950 7400 50  0001 C CNN
 	1    1950 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 4700 10250 4700
 Wire Notes Line
 	600  6400 2650 6400
 Wire Notes Line
@@ -1598,4 +1594,8 @@ Wire Notes Line
 	8600 6400 8600 5400
 Text Notes 8750 5600 0    71   ~ 0
 THERMISTOR PASSIVES
+Wire Wire Line
+	9350 4700 10250 4700
+Wire Wire Line
+	9450 4050 10250 4050
 $EndSCHEMATC
