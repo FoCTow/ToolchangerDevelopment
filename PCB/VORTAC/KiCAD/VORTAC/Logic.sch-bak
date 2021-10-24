@@ -25,9 +25,9 @@ F 4 "C377861" H 10200 3200 50  0001 C CNN "LCSC"
 	2    10200 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9400 3000 0    50   Input ~ 0
+Text GLabel 9400 2350 0    50   Input ~ 0
 FAN_2_DRAIN
-Text GLabel 9400 3200 0    50   Input ~ 0
+Text GLabel 9400 2550 0    50   Input ~ 0
 FAN_2_GATE
 $Comp
 L power:GND #PWR014
@@ -83,9 +83,9 @@ F 3 "~" H 9650 2550 50  0001 C CNN
 	1    9650 2550
 	0    1    1    0   
 $EndComp
-Text GLabel 9400 2550 0    50   Input ~ 0
+Text GLabel 9400 3200 0    50   Input ~ 0
 FAN_1_GATE
-Text GLabel 9400 2350 0    50   Input ~ 0
+Text GLabel 9400 3000 0    50   Input ~ 0
 FAN_1_DRAIN
 Wire Wire Line
 	9750 2550 10000 2550
@@ -139,13 +139,13 @@ F 3 "" H 10300 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 3400 10300 3400
-Text GLabel 9450 4700 0    50   Input ~ 0
+Text GLabel 9450 4050 0    50   Input ~ 0
 HOST_USB_DRAIN
-Text GLabel 9350 4900 0    50   Input ~ 0
-USBH_GATE
 Text GLabel 9350 4250 0    50   Input ~ 0
+USBH_GATE
+Text GLabel 9350 4900 0    50   Input ~ 0
 LED_1_GATE
-Text GLabel 9350 4050 0    50   Input ~ 0
+Text GLabel 9350 4700 0    50   Input ~ 0
 LED_1_DRAIN
 Wire Wire Line
 	9450 3400 9450 3200
@@ -202,8 +202,6 @@ Wire Wire Line
 Connection ~ 9400 4250
 Wire Wire Line
 	9350 4250 9400 4250
-Wire Wire Line
-	9350 4050 10250 4050
 $Comp
 L Device:R_Small R7
 U 1 1 6151C639
@@ -1572,8 +1570,6 @@ F 3 "" H 1950 7400 50  0001 C CNN
 	1    1950 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 4700 10250 4700
 Wire Notes Line
 	600  6400 2650 6400
 Wire Notes Line
@@ -1598,4 +1594,8 @@ Wire Notes Line
 	8600 6400 8600 5400
 Text Notes 8750 5600 0    71   ~ 0
 THERMISTOR PASSIVES
+Wire Wire Line
+	9350 4700 10250 4700
+Wire Wire Line
+	9450 4050 10250 4050
 $EndSCHEMATC

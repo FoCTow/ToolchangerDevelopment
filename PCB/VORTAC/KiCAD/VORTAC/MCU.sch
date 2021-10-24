@@ -20,7 +20,8 @@ P 3000 2550
 F 0 "U2" H 2950 961 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 2950 870 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2400 1150 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3000 2550 50  0001 C CNN
+F 3 "http://www.st.com/st-web-https://www.lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics-STM32F103C8T6_C8734.html" H 3000 2550 50  0001 C CNN
+F 4 "C8734" H 3000 2550 50  0001 C CNN "LCSC"
 	1    3000 2550
 	1    0    0    -1  
 $EndComp
@@ -212,7 +213,7 @@ AR Path="/613DBE83/63266110" Ref="IC?"  Part="1"
 AR Path="/613DC005/63266110" Ref="IC1"  Part="1" 
 F 0 "IC1" H 8250 3350 50  0000 C CNN
 F 1 "TMC2209-LA" H 8250 3250 50  0000 C CNN
-F 2 "ToolChanger:tmc_2209_VORTAC" V 8350 1550 50  0001 L CNN
+F 2 "ToolChanger:tmc_2209_package" V 8350 1550 50  0001 L CNN
 F 3 "https://www.lcsc.com/product-detail/Motor-Driver-ICs_TRINAMIC-Motion-Control-GmbH-TMC2209-LA_C465949.html" H 7200 2900 50  0001 L CNN
 F 4 "C465949" V 8250 2500 50  0001 C CNN "LCSC"
 	1    8250 2150
