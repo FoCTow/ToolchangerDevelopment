@@ -142,7 +142,7 @@ Wire Wire Line
 Text GLabel 9450 4050 0    50   Input ~ 0
 HOST_USB_DRAIN
 Text GLabel 9350 4250 0    50   Input ~ 0
-USBH_GATE
+HOST_USB_GATE
 Text GLabel 9350 4900 0    50   Input ~ 0
 LED_1_GATE
 Text GLabel 9350 4700 0    50   Input ~ 0
@@ -297,8 +297,6 @@ Text GLabel 9400 1250 0    50   Input ~ 0
 HEATER_GATE
 Text GLabel 9400 1050 0    50   Input ~ 0
 HEATER_DRAIN
-Text GLabel 9400 1650 0    50   Input ~ 0
-V_IN
 $Comp
 L Device:Q_NMOS_GSD Q4
 U 1 1 616E796C
@@ -365,8 +363,9 @@ U 1 1 6173BB41
 P 9650 1650
 F 0 "C1" V 9500 1650 50  0000 C CNN
 F 1 "10uF 50V" V 9750 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9650 1650 50  0001 C CNN
-F 3 "~" H 9650 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9650 1650 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B106KBHNNNE_C89632.html" H 9650 1650 50  0001 C CNN
+F 4 "C89632" H 9650 1650 50  0001 C CNN "LCSC"
 	1    9650 1650
 	0    -1   -1   0   
 $EndComp
@@ -379,7 +378,7 @@ Wire Wire Line
 Connection ~ 10300 1450
 Connection ~ 10300 1650
 Text GLabel 4050 1000 2    50   Input ~ 0
-DOCK_V_IN
+DOCK_VDC
 Text GLabel 4050 2100 2    50   Input ~ 0
 DOCK_GND
 $Comp
@@ -503,8 +502,6 @@ F 3 "" H 1050 2100 50  0001 C CNN
 	1    1050 2100
 	0    1    1    0   
 $EndComp
-Text GLabel 1050 1000 0    50   Input ~ 0
-V_IN
 $Comp
 L Device:D D1
 U 1 1 6173E8A1
@@ -671,9 +668,10 @@ P 9950 6100
 AR Path="/613DBE83/6170C67D" Ref="C2"  Part="1" 
 AR Path="/613DB78D/6170C67D" Ref="C?"  Part="1" 
 F 0 "C2" H 10050 6100 50  0000 L CNN
-F 1 "0.1uF" H 10050 6000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9950 6100 50  0001 C CNN
-F 3 "~" H 9950 6100 50  0001 C CNN
+F 1 "0.1uF 16V" H 10050 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9950 6100 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.html" H 9950 6100 50  0001 C CNN
+F 4 "C66501" H 9950 6100 50  0001 C CNN "LCSC"
 	1    9950 6100
 	1    0    0    -1  
 $EndComp
@@ -733,7 +731,7 @@ P 3050 2750
 AR Path="/613DBE83/63288FE5" Ref="C9"  Part="1" 
 AR Path="/613DC005/63288FE5" Ref="C?"  Part="1" 
 F 0 "C9" H 2850 2700 50  0000 C CNN
-F 1 "0.1uF" H 2850 2800 50  0000 C CNN
+F 1 "0.1uF 50V" H 2850 2800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 2750 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 3050 2750 50  0001 C CNN
 F 4 "C1591" H 3050 2750 50  0001 C CNN "LCSC"
@@ -873,8 +871,6 @@ Wire Wire Line
 	2150 3100 2150 2600
 Wire Wire Line
 	2150 3100 2200 3100
-Text GLabel 1150 2950 0    50   Input ~ 0
-V_IN
 $Comp
 L Device:C_Small C4
 U 1 1 63289031
@@ -882,7 +878,7 @@ P 1450 3150
 AR Path="/613DBE83/63289031" Ref="C4"  Part="1" 
 AR Path="/613DC005/63289031" Ref="C?"  Part="1" 
 F 0 "C4" H 1300 3100 50  0000 C CNN
-F 1 "10uF" H 1300 3200 50  0000 C CNN
+F 1 "10uF 50V" H 1300 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 3150 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B106KBHNNNE_C89632.html" H 1450 3150 50  0001 C CNN
 F 4 "C89632" H 1450 3150 50  0001 C CNN "LCSC"
@@ -896,7 +892,7 @@ P 1800 3150
 AR Path="/613DBE83/63289038" Ref="C6"  Part="1" 
 AR Path="/613DC005/63289038" Ref="C?"  Part="1" 
 F 0 "C6" H 1650 3100 50  0000 C CNN
-F 1 "0.1uF" H 1650 3200 50  0000 C CNN
+F 1 "0.1uF 50V" H 1650 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 3150 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 1800 3150 50  0001 C CNN
 F 4 "C1591" H 1800 3150 50  0001 C CNN "LCSC"
@@ -941,7 +937,7 @@ P 3050 4750
 AR Path="/613DBE83/63289050" Ref="C11"  Part="1" 
 AR Path="/613DC005/63289050" Ref="C?"  Part="1" 
 F 0 "C11" H 2850 4700 50  0000 C CNN
-F 1 "0.1uF" H 2850 4800 50  0000 C CNN
+F 1 "0.1uF 50V" H 2850 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 4750 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 3050 4750 50  0001 C CNN
 F 4 "C1591" H 3050 4750 50  0001 C CNN "LCSC"
@@ -966,9 +962,9 @@ L Device:L 10uH?
 U 1 1 6328905D
 P 3250 4600
 AR Path="/613DC005/6328905D" Ref="10uH?"  Part="1" 
-AR Path="/613DBE83/6328905D" Ref="10uH2"  Part="1" 
-F 0 "10uH2" V 3200 4600 50  0000 C CNN
-F 1 "L" V 3350 4600 50  0000 C CNN
+AR Path="/613DBE83/6328905D" Ref="L2"  Part="1" 
+F 0 "L2" V 3200 4600 50  0000 C CNN
+F 1 "10uH" V 3350 4600 50  0000 C CNN
 F 2 "ToolChanger:L_Sunlord_MWSA0518_5.4x5.2mm" H 3250 4600 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Power-Inductors_Sunlord-MWSA0503S-100MT_C408412.html" H 3250 4600 50  0001 C CNN
 F 4 "C408412" V 3250 4600 50  0001 C CNN "LCSC"
@@ -1188,8 +1184,6 @@ Connection ~ 3750 4950
 Connection ~ 3350 5900
 Wire Wire Line
 	3050 5900 3350 5900
-Text GLabel 4500 4600 2    50   Input ~ 0
-5V
 Wire Wire Line
 	4350 4600 4500 4600
 Connection ~ 4350 4600
@@ -1214,8 +1208,6 @@ Wire Wire Line
 	2150 5100 2150 4600
 Wire Wire Line
 	2150 5100 2200 5100
-Text GLabel 1150 4950 0    50   Input ~ 0
-V_IN
 $Comp
 L Device:C_Small C5
 U 1 1 632890DF
@@ -1223,7 +1215,7 @@ P 1450 5150
 AR Path="/613DBE83/632890DF" Ref="C5"  Part="1" 
 AR Path="/613DC005/632890DF" Ref="C?"  Part="1" 
 F 0 "C5" H 1300 5100 50  0000 C CNN
-F 1 "10uF" H 1300 5200 50  0000 C CNN
+F 1 "10uF 50V" H 1300 5200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1450 5150 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B106KBHNNNE_C89632.html" H 1450 5150 50  0001 C CNN
 F 4 "C89632" H 1450 5150 50  0001 C CNN "LCSC"
@@ -1237,7 +1229,7 @@ P 1800 5150
 AR Path="/613DBE83/632890E6" Ref="C7"  Part="1" 
 AR Path="/613DC005/632890E6" Ref="C?"  Part="1" 
 F 0 "C7" H 1650 5100 50  0000 C CNN
-F 1 "0.1uF" H 1650 5200 50  0000 C CNN
+F 1 "0.1uF 50V" H 1650 5200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 5150 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 1800 5150 50  0001 C CNN
 F 4 "C1591" H 1800 5150 50  0001 C CNN "LCSC"
@@ -1332,8 +1324,6 @@ Wire Wire Line
 Connection ~ 4350 2600
 Wire Wire Line
 	4350 2600 4500 2600
-Text GLabel 4500 2600 2    50   Input ~ 0
-12V
 Connection ~ 3750 2950
 Wire Wire Line
 	3450 2950 3750 2950
@@ -1401,9 +1391,9 @@ L Device:L 10uH?
 U 1 1 6328913B
 P 3250 2600
 AR Path="/613DC005/6328913B" Ref="10uH?"  Part="1" 
-AR Path="/613DBE83/6328913B" Ref="10uH1"  Part="1" 
-F 0 "10uH1" V 3200 2600 50  0000 C CNN
-F 1 "L" V 3350 2600 50  0000 C CNN
+AR Path="/613DBE83/6328913B" Ref="L1"  Part="1" 
+F 0 "L1" V 3200 2600 50  0000 C CNN
+F 1 "10uH" V 3350 2600 50  0000 C CNN
 F 2 "ToolChanger:L_Sunlord_MWSA0518_5.4x5.2mm" H 3250 2600 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Power-Inductors_Sunlord-MWSA0503S-100MT_C408412.html" H 3250 2600 50  0001 C CNN
 F 4 "C408412" V 3250 2600 50  0001 C CNN "LCSC"
@@ -1494,10 +1484,6 @@ F 4 "C134139" H 1550 7000 50  0001 C CNN "Field4"
 	1    1550 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1050 6900 0    50   Input ~ 0
-5V
-Text GLabel 2050 6900 2    50   Input ~ 0
-3.3V
 $Comp
 L Device:C_Small C8
 U 1 1 63289173
@@ -1507,8 +1493,8 @@ AR Path="/613DC005/63289173" Ref="C?"  Part="1"
 F 0 "C8" H 2100 7150 50  0000 C CNN
 F 1 "1uF" H 2100 7250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1950 7200 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603N332J500CT_C152910.html" H 1950 7200 50  0001 C CNN
-F 4 "C152910" H 1950 7200 50  0001 C CNN "LCSC"
+F 3 "" H 1950 7200 50  0001 C CNN
+F 4 "" H 1950 7200 50  0001 C CNN "LCSC"
 	1    1950 7200
 	1    0    0    -1  
 $EndComp
@@ -1521,8 +1507,8 @@ AR Path="/613DC005/6328917A" Ref="C?"  Part="1"
 F 0 "C3" H 1000 7150 50  0000 C CNN
 F 1 "1uF" H 1000 7250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1150 7200 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603N332J500CT_C152910.html" H 1150 7200 50  0001 C CNN
-F 4 "C152910" H 1150 7200 50  0001 C CNN "LCSC"
+F 3 "" H 1150 7200 50  0001 C CNN
+F 4 "" H 1150 7200 50  0001 C CNN "LCSC"
 	1    1150 7200
 	1    0    0    -1  
 $EndComp
@@ -1598,4 +1584,92 @@ Wire Wire Line
 	9350 4700 10250 4700
 Wire Wire Line
 	9450 4050 10250 4050
+$Comp
+L power:VDC #PWR0140
+U 1 1 61FDF6CF
+P 9400 1650
+F 0 "#PWR0140" H 9400 1550 50  0001 C CNN
+F 1 "VDC" V 9415 1777 50  0000 L CNN
+F 2 "" H 9400 1650 50  0001 C CNN
+F 3 "" H 9400 1650 50  0001 C CNN
+	1    9400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDC #PWR0141
+U 1 1 620077AC
+P 1050 1000
+F 0 "#PWR0141" H 1050 900 50  0001 C CNN
+F 1 "VDC" V 1065 1127 50  0000 L CNN
+F 2 "" H 1050 1000 50  0001 C CNN
+F 3 "" H 1050 1000 50  0001 C CNN
+	1    1050 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDC #PWR0142
+U 1 1 62013F8B
+P 1150 2950
+F 0 "#PWR0142" H 1150 2850 50  0001 C CNN
+F 1 "VDC" V 1165 3077 50  0000 L CNN
+F 2 "" H 1150 2950 50  0001 C CNN
+F 3 "" H 1150 2950 50  0001 C CNN
+	1    1150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDC #PWR0143
+U 1 1 62022D6D
+P 1150 4950
+F 0 "#PWR0143" H 1150 4850 50  0001 C CNN
+F 1 "VDC" V 1150 5100 50  0000 L CNN
+F 2 "" H 1150 4950 50  0001 C CNN
+F 3 "" H 1150 4950 50  0001 C CNN
+	1    1150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0144
+U 1 1 6203746B
+P 1050 6900
+F 0 "#PWR0144" H 1050 6750 50  0001 C CNN
+F 1 "+5V" V 1065 7028 50  0000 L CNN
+F 2 "" H 1050 6900 50  0001 C CNN
+F 3 "" H 1050 6900 50  0001 C CNN
+	1    1050 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0145
+U 1 1 62038159
+P 2050 6900
+F 0 "#PWR0145" H 2050 6750 50  0001 C CNN
+F 1 "+3.3V" V 2065 7028 50  0000 L CNN
+F 2 "" H 2050 6900 50  0001 C CNN
+F 3 "" H 2050 6900 50  0001 C CNN
+	1    2050 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0146
+U 1 1 6203A774
+P 4500 4600
+F 0 "#PWR0146" H 4500 4450 50  0001 C CNN
+F 1 "+5V" V 4515 4728 50  0000 L CNN
+F 2 "" H 4500 4600 50  0001 C CNN
+F 3 "" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0147
+U 1 1 62048089
+P 4500 2600
+F 0 "#PWR0147" H 4500 2450 50  0001 C CNN
+F 1 "+12V" V 4515 2728 50  0000 L CNN
+F 2 "" H 4500 2600 50  0001 C CNN
+F 3 "" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

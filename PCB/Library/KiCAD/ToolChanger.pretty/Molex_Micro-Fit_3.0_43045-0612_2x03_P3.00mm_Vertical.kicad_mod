@@ -1,4 +1,4 @@
-(module Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical (layer F.Cu) (tedit 6169A5E1)
+(module Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical (layer F.Cu) (tedit 618BEE17)
   (descr "Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Micro-Fit_3.0 side entry")
   (fp_text reference REF** (at 3 -3.67) (layer F.SilkS)

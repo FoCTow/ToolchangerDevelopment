@@ -71,8 +71,6 @@ F 3 "" H 1750 3100 50  0001 C CNN
 $EndComp
 Text GLabel 1400 2900 0    50   Input ~ 0
 TOOL_DATA_L
-Text GLabel 1400 1500 0    50   Input ~ 0
-V_IN
 Text GLabel 1400 1200 0    50   Input ~ 0
 TOOL_ID
 $Comp
@@ -87,7 +85,7 @@ F 3 "" H 1400 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 1400 3800 0    50   Input ~ 0
-DOCK_V_IN
+DOCK_VDC
 $Comp
 L ToolChanger:MillMax_004 J3
 U 1 1 6144A490
@@ -132,11 +130,11 @@ F 4 "C144394" H 4650 2850 50  0001 C CNN "LCSC"
 	1    4650 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4100 2750 0    50   Input ~ 0
-FAN_1_DRAIN
 Text GLabel 4100 2850 0    50   Input ~ 0
-FAN_1_TACHO
+FAN_1_DRAIN
 Text GLabel 4100 2950 0    50   Input ~ 0
+FAN_1_TACHO
+Text GLabel 4100 2750 0    50   Input ~ 0
 FAN_1_V_OUT
 Wire Wire Line
 	4100 2750 4450 2750
@@ -156,11 +154,9 @@ Wire Notes Line
 	5150 3700 5150 2300
 Wire Notes Line
 	3400 2300 3400 3700
-Text GLabel 1600 4600 0    50   Input ~ 0
-5V
-Text GLabel 1600 4700 0    50   Input ~ 0
-HOST_USB_D+
 Text GLabel 1600 4800 0    50   Input ~ 0
+HOST_USB_D+
+Text GLabel 1600 4900 0    50   Input ~ 0
 HOST_USB_D-
 Wire Wire Line
 	1600 4600 2050 4600
@@ -194,7 +190,7 @@ Combined Hotend Header
 Text Notes 9200 7050 0    50   ~ 0
 todo:\n- consider connector selection\n- consider combining fan or io/led headers\n- remove duplicate heater/thermistor header\n- add probepoints\n- change usb-c symbol (sucks bro)
 NoConn ~ 1400 1350
-Text GLabel 1600 4900 0    50   Input ~ 0
+Text GLabel 1600 4700 0    50   Input ~ 0
 HOST_USB_DRAIN
 Text GLabel 1400 3700 0    50   Input ~ 0
 DOCK_GND
@@ -223,9 +219,9 @@ Wire Wire Line
 	4100 3350 4450 3350
 Wire Wire Line
 	4100 3250 4450 3250
-Text GLabel 4100 3350 0    50   Input ~ 0
+Text GLabel 4100 3450 0    50   Input ~ 0
 FAN_2_TACHO
-Text GLabel 4100 3250 0    50   Input ~ 0
+Text GLabel 4100 3350 0    50   Input ~ 0
 FAN_2_DRAIN
 $Comp
 L Connector_Generic:Conn_01x03 J8
@@ -239,7 +235,7 @@ F 4 "C144394" H 4650 3350 50  0001 C CNN "LCSC"
 	1    4650 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4100 3450 0    50   Input ~ 0
+Text GLabel 4100 3250 0    50   Input ~ 0
 FAN_2_V_OUT
 Wire Wire Line
 	4100 3450 4450 3450
@@ -251,113 +247,87 @@ Wire Notes Line
 	3400 3850 5150 3850
 Wire Notes Line
 	5150 4750 3400 4750
-Text GLabel 6350 2850 2    50   Input ~ 0
+Text GLabel 5950 2900 0    50   Input ~ 0
 FAN_1_V_OUT
 Wire Wire Line
-	6250 2950 6250 2850
-Connection ~ 6250 2850
+	6050 2800 6050 2900
+Connection ~ 6050 2900
 Wire Wire Line
-	6250 2850 6250 2750
+	6050 2900 6050 3000
 Wire Wire Line
-	6250 2850 6350 2850
-Text GLabel 5650 2750 0    50   Input ~ 0
-V_IN
-Text GLabel 5650 2950 0    50   Input ~ 0
-5V
+	6050 2900 5950 2900
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J10
 U 1 1 61A16CC9
-P 5950 2850
-F 0 "J10" H 6450 3100 50  0000 C CNN
-F 1 "FAN_01_V" H 6550 3000 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 5950 2850 50  0001 C CNN
-F 3 "~" H 5950 2850 50  0001 C CNN
-	1    5950 2850
+P 6250 2900
+F 0 "J10" H 5800 3000 50  0000 C CNN
+F 1 "FAN_01_V" H 5800 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 6250 2900 50  0001 C CNN
+F 3 "~" H 6250 2900 50  0001 C CNN
+	1    6250 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 2750 5750 2750
+	6650 3000 6550 3000
 Wire Wire Line
-	5650 2850 5750 2850
+	6650 2900 6550 2900
 Wire Wire Line
-	5650 2950 5750 2950
+	6650 2800 6550 2800
 Wire Notes Line
 	5300 2300 7050 2300
 Wire Notes Line
 	7050 3700 5300 3700
 Text Notes 5400 2500 0    71   ~ 0
 Fan Power Selector
-Text GLabel 6350 3400 2    50   Input ~ 0
+Text GLabel 5950 3400 0    50   Input ~ 0
 FAN_2_V_OUT
-Wire Wire Line
-	6250 3500 6250 3400
-Connection ~ 6250 3400
-Wire Wire Line
-	6250 3400 6250 3300
-Wire Wire Line
-	6250 3400 6350 3400
-Text GLabel 5650 3300 0    50   Input ~ 0
-V_IN
-Text GLabel 5650 3500 0    50   Input ~ 0
-5V
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J11
 U 1 1 61A6D3B1
-P 5950 3400
-F 0 "J11" H 6450 3650 50  0000 C CNN
-F 1 "FAN_02_V" H 6550 3550 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 5950 3400 50  0001 C CNN
-F 3 "~" H 5950 3400 50  0001 C CNN
-	1    5950 3400
+P 6250 3400
+F 0 "J11" H 5800 3500 50  0000 C CNN
+F 1 "FAN_02_V" H 5800 3600 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 6250 3400 50  0001 C CNN
+F 3 "~" H 6250 3400 50  0001 C CNN
+	1    6250 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3300 5750 3300
+	6650 3500 6550 3500
 Wire Wire Line
-	5650 3400 5750 3400
+	6650 3400 6550 3400
 Wire Wire Line
-	5650 3500 5750 3500
+	6650 3300 6550 3300
 Wire Notes Line
 	5300 2300 5300 3700
 Wire Notes Line
 	7050 2300 7050 3700
-Text GLabel 6350 4450 2    50   Input ~ 0
+Text GLabel 5950 4450 0    50   Input ~ 0
 LED_1_V_OUT
-Wire Wire Line
-	6250 4550 6250 4450
-Connection ~ 6250 4450
-Wire Wire Line
-	6250 4450 6250 4350
-Wire Wire Line
-	6250 4450 6350 4450
-Text GLabel 5650 4350 0    50   Input ~ 0
-V_IN
-Text GLabel 5650 4550 0    50   Input ~ 0
-5V
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 61A78792
-P 5950 4450
-F 0 "J12" H 6450 4700 50  0000 C CNN
-F 1 "LED_V" H 6500 4600 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 5950 4450 50  0001 C CNN
-F 3 "~" H 5950 4450 50  0001 C CNN
-	1    5950 4450
+P 6250 4450
+F 0 "J12" H 5800 4550 50  0000 C CNN
+F 1 "LED_V" H 5800 4650 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 6250 4450 50  0001 C CNN
+F 3 "~" H 6250 4450 50  0001 C CNN
+	1    6250 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 4350 5750 4350
+	6650 4550 6550 4550
 Wire Wire Line
-	5650 4450 5750 4450
+	6650 4450 6550 4450
 Wire Wire Line
-	5650 4550 5750 4550
+	6650 4350 6550 4350
 Wire Notes Line
 	5150 3850 5150 4750
 Wire Notes Line
 	3400 4750 3400 3850
-Text GLabel 4100 4400 0    50   Input ~ 0
-LED_1_DRAIN
 Text GLabel 4100 4500 0    50   Input ~ 0
+LED_1_DRAIN
+Text GLabel 4100 4400 0    50   Input ~ 0
 LED_1_V_OUT
 Wire Wire Line
 	4100 4400 4450 4400
@@ -460,8 +430,6 @@ F 3 "~" H 6100 1600 50  0001 C CNN
 	1    6100 1600
 	0    1    1    0   
 $EndComp
-Text GLabel 5900 1450 0    50   Input ~ 0
-AREF
 Wire Wire Line
 	4900 1800 4900 1700
 Wire Wire Line
@@ -470,8 +438,6 @@ Wire Wire Line
 	4150 1700 4400 1700
 Wire Wire Line
 	4150 1600 4400 1600
-Text GLabel 4150 1700 0    50   Input ~ 0
-V_IN
 Text GLabel 4150 1600 0    50   Input ~ 0
 HEATER_DRAIN
 Text GLabel 4150 1900 0    50   Input ~ 0
@@ -502,110 +468,60 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 618086B2
-P 7950 4050
-F 0 "J1" H 8000 4400 50  0000 C CNN
-F 1 "DEBUG" H 8050 4300 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 7950 4050 50  0001 C CNN
-F 3 "~" H 7950 4050 50  0001 C CNN
-	1    7950 4050
+P 8150 3950
+F 0 "J1" H 7900 4350 50  0000 C CNN
+F 1 "DEBUG" H 7900 4250 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 8150 3950 50  0001 C CNN
+F 3 "~" H 8150 3950 50  0001 C CNN
+	1    8150 3950
 	1    0    0    -1  
 $EndComp
 Text GLabel 5900 1700 0    50   Input ~ 0
 THERM_1_UP
-Text Notes 7400 3450 0    71   ~ 0
+Text Notes 7650 3450 0    71   ~ 0
 Debug Header
-Text GLabel 5650 2850 0    50   Input ~ 0
-12V
-Text GLabel 5650 3400 0    50   Input ~ 0
-12V
-Text GLabel 5650 4450 0    50   Input ~ 0
-12V
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 61C934CA
-P 7600 5700
-F 0 "H1" H 7700 5749 50  0000 L CNN
-F 1 "M3" H 7700 5658 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 7600 5700 50  0001 C CNN
-F 3 "~" H 7600 5700 50  0001 C CNN
-	1    7600 5700
+P 6100 6150
+F 0 "H1" H 6200 6199 50  0000 L CNN
+F 1 "M3" H 6200 6108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 6100 6150 50  0001 C CNN
+F 3 "~" H 6100 6150 50  0001 C CNN
+	1    6100 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6168ED64
-P 7900 5700
-F 0 "H2" H 8000 5749 50  0000 L CNN
-F 1 "M3" H 8000 5658 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 7900 5700 50  0001 C CNN
-F 3 "~" H 7900 5700 50  0001 C CNN
-	1    7900 5700
+P 6400 6150
+F 0 "H2" H 6500 6199 50  0000 L CNN
+F 1 "M3" H 6500 6108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 6400 6150 50  0001 C CNN
+F 3 "~" H 6400 6150 50  0001 C CNN
+	1    6400 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 5800 7600 5850
+	6100 6250 6100 6300
 Wire Wire Line
-	7600 5850 7900 5850
+	6100 6300 6400 6300
 Wire Wire Line
-	7900 5850 7900 5800
+	6400 6300 6400 6250
 $Comp
 L power:GND #PWR07
 U 1 1 616A00DF
-P 7900 5900
-F 0 "#PWR07" H 7900 5650 50  0001 C CNN
-F 1 "GND" H 7800 5850 50  0000 R CNN
-F 2 "" H 7900 5900 50  0001 C CNN
-F 3 "" H 7900 5900 50  0001 C CNN
-	1    7900 5900
+P 6400 6350
+F 0 "#PWR07" H 6400 6100 50  0001 C CNN
+F 1 "GND" H 6300 6300 50  0000 R CNN
+F 2 "" H 6400 6350 50  0001 C CNN
+F 3 "" H 6400 6350 50  0001 C CNN
+	1    6400 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 5850 7900 5900
-Connection ~ 7900 5850
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 61783827
-P 4400 5950
-F 0 "JP1" H 4400 6155 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 4400 6064 50  0000 C CNN
-F 2 "ToolChanger:SolderJumper_Hex_Bridged_Pad" H 4400 5950 50  0001 C CNN
-F 3 "~" H 4400 5950 50  0001 C CNN
-	1    4400 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP2
-U 1 1 617870C9
-P 4400 6250
-F 0 "JP2" H 4400 6455 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 4400 6364 50  0000 C CNN
-F 2 "ToolChanger:SolderJumper_Hex_Bridged_Pad" H 4400 6250 50  0001 C CNN
-F 3 "~" H 4400 6250 50  0001 C CNN
-	1    4400 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 6178BF67
-P 5300 5950
-F 0 "JP3" H 5300 6155 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 5300 6064 50  0000 C CNN
-F 2 "ToolChanger:SolderJumper_Hex_Open_Pad" H 5300 5950 50  0001 C CNN
-F 3 "~" H 5300 5950 50  0001 C CNN
-	1    5300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 6178DA54
-P 5300 6250
-F 0 "JP4" H 5300 6455 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 5300 6364 50  0000 C CNN
-F 2 "ToolChanger:SolderJumper_Hex_Open_Pad" H 5300 6250 50  0001 C CNN
-F 3 "~" H 5300 6250 50  0001 C CNN
-	1    5300 6250
-	1    0    0    -1  
-$EndComp
+	6400 6300 6400 6350
+Connection ~ 6400 6300
 Text Notes 7850 3050 0    50   ~ 0
 5V IO for:\n-endstops\n-sensors\n-servos\n-adressable led
 Text Notes 7400 1950 0    71   ~ 0
@@ -645,8 +561,6 @@ Text GLabel 7850 2450 0    50   Input ~ 0
 IO_2_OUT
 Text GLabel 7850 2350 0    50   Input ~ 0
 IO_1_OUT
-Text GLabel 7850 2150 0    50   Input ~ 0
-5V
 $Comp
 L Connector_Generic:Conn_01x05 J16
 U 1 1 614F1B43
@@ -691,7 +605,7 @@ U 1 1 613E1D6A
 P 8450 1150
 F 0 "J15" H 8530 1142 50  0000 L CNN
 F 1 "STEPPER" H 8530 1051 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 8450 1150 50  0001 C CNN
+F 2 "ToolChanger:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 8450 1150 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html" H 8450 1150 50  0001 C CNN
 F 4 "C144395" H 8450 1150 50  0001 C CNN "LCSC"
 	1    8450 1150
@@ -725,18 +639,6 @@ Wire Wire Line
 	1850 6650 1850 6750
 Wire Wire Line
 	1850 6450 1850 6550
-$Comp
-L Device:D_Schottky D5
-U 1 1 6173EEDA
-P 2200 5950
-F 0 "D5" H 2200 5733 50  0000 C CNN
-F 1 "D_Schottky" H 2200 5824 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2200 5950 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-DSK14_C37049.html" H 2200 5950 50  0001 C CNN
-F 4 "C37049" H 2200 5950 50  0001 C CNN "LCSC"
-	1    2200 5950
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J14
 U 1 1 613E36DA
@@ -804,8 +706,6 @@ Wire Wire Line
 	2050 7450 2050 7050
 Wire Wire Line
 	2050 6850 2050 6150
-Text GLabel 2500 5950 2    50   Input ~ 0
-5V
 Text GLabel 2500 6550 2    50   Input ~ 0
 USB_D-
 Text GLabel 2500 6750 2    50   Input ~ 0
@@ -815,13 +715,13 @@ Wire Wire Line
 Wire Wire Line
 	2050 7450 2500 7450
 Connection ~ 2050 7450
-Text GLabel 4800 7200 2    50   Input ~ 0
+Text GLabel 5200 7150 2    50   Input ~ 0
 USB_D-
-Text GLabel 4800 7400 2    50   Input ~ 0
+Text GLabel 5200 6450 2    50   Input ~ 0
 USB_D+
-Text GLabel 4800 6800 2    50   Input ~ 0
+Text GLabel 5200 6750 2    50   Input ~ 0
 CAN_L
-Text GLabel 4800 6950 2    50   Input ~ 0
+Text GLabel 5200 6050 2    50   Input ~ 0
 CAN_H
 Text Notes 2400 5050 0    50   ~ 0
 Uplink USB Port \nfor nozzlecams
@@ -839,9 +739,9 @@ Wire Wire Line
 	1400 2600 1750 2600
 Wire Wire Line
 	1400 2750 1750 2750
-Text GLabel 4400 7000 0    50   Input ~ 0
+Text GLabel 4350 6250 0    50   Input ~ 0
 TOOL_DATA_H
-Text GLabel 4400 7100 0    50   Input ~ 0
+Text GLabel 4350 6950 0    50   Input ~ 0
 TOOL_DATA_L
 Wire Wire Line
 	2100 3600 2300 3600
@@ -870,4 +770,273 @@ Wire Wire Line
 	5000 1600 5000 1900
 Wire Wire Line
 	5000 1900 4150 1900
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 617CF491
+P 4800 6950
+F 0 "JP2" V 4700 6600 50  0000 L CNN
+F 1 "DATA_L JUMPER" V 4600 6300 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 4800 6950 50  0001 C CNN
+F 3 "~" H 4800 6950 50  0001 C CNN
+	1    4800 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 617D6A70
+P 4800 6250
+F 0 "JP1" V 4700 5950 50  0000 C CNN
+F 1 "DATA_H JUMPER" V 4600 5900 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 4800 6250 50  0001 C CNN
+F 3 "~" H 4800 6250 50  0001 C CNN
+	1    4800 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 6250 4650 6250
+Wire Wire Line
+	4350 6950 4650 6950
+Wire Wire Line
+	4800 6050 5200 6050
+Wire Wire Line
+	4800 6450 5200 6450
+Wire Wire Line
+	4800 6750 5200 6750
+Wire Wire Line
+	4800 7150 5200 7150
+Wire Wire Line
+	5950 3400 6050 3400
+Wire Wire Line
+	6050 3400 6050 3300
+Connection ~ 6050 3400
+Wire Wire Line
+	6050 3400 6050 3500
+Wire Wire Line
+	5950 4450 6050 4450
+Wire Wire Line
+	6050 4450 6050 4350
+Connection ~ 6050 4450
+Wire Wire Line
+	6050 4450 6050 4550
+$Comp
+L Device:D_Schottky D5
+U 1 1 6173EEDA
+P 2200 5950
+F 0 "D5" H 2200 5733 50  0000 C CNN
+F 1 "D_Schottky" H 2200 5824 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 5950 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-DSK14_C37049.html" H 2200 5950 50  0001 C CNN
+F 4 "C37049" H 2200 5950 50  0001 C CNN "LCSC"
+	1    2200 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDC #PWR0125
+U 1 1 6208143D
+P 6650 2800
+F 0 "#PWR0125" H 6650 2700 50  0001 C CNN
+F 1 "VDC" V 6665 2928 50  0000 L CNN
+F 2 "" H 6650 2800 50  0001 C CNN
+F 3 "" H 6650 2800 50  0001 C CNN
+	1    6650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0126
+U 1 1 62082190
+P 6650 2900
+F 0 "#PWR0126" H 6650 2750 50  0001 C CNN
+F 1 "+12V" V 6665 3028 50  0000 L CNN
+F 2 "" H 6650 2900 50  0001 C CNN
+F 3 "" H 6650 2900 50  0001 C CNN
+	1    6650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 62082F0F
+P 6650 3000
+F 0 "#PWR0127" H 6650 2850 50  0001 C CNN
+F 1 "+5V" V 6665 3128 50  0000 L CNN
+F 2 "" H 6650 3000 50  0001 C CNN
+F 3 "" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDC #PWR0128
+U 1 1 6209E596
+P 6650 3300
+F 0 "#PWR0128" H 6650 3200 50  0001 C CNN
+F 1 "VDC" V 6665 3428 50  0000 L CNN
+F 2 "" H 6650 3300 50  0001 C CNN
+F 3 "" H 6650 3300 50  0001 C CNN
+	1    6650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0129
+U 1 1 6209E59C
+P 6650 3400
+F 0 "#PWR0129" H 6650 3250 50  0001 C CNN
+F 1 "+12V" V 6665 3528 50  0000 L CNN
+F 2 "" H 6650 3400 50  0001 C CNN
+F 3 "" H 6650 3400 50  0001 C CNN
+	1    6650 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0130
+U 1 1 6209E5A2
+P 6650 3500
+F 0 "#PWR0130" H 6650 3350 50  0001 C CNN
+F 1 "+5V" V 6665 3628 50  0000 L CNN
+F 2 "" H 6650 3500 50  0001 C CNN
+F 3 "" H 6650 3500 50  0001 C CNN
+	1    6650 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDC #PWR0131
+U 1 1 620A2E25
+P 6650 4350
+F 0 "#PWR0131" H 6650 4250 50  0001 C CNN
+F 1 "VDC" V 6665 4478 50  0000 L CNN
+F 2 "" H 6650 4350 50  0001 C CNN
+F 3 "" H 6650 4350 50  0001 C CNN
+	1    6650 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0132
+U 1 1 620A2E2B
+P 6650 4450
+F 0 "#PWR0132" H 6650 4300 50  0001 C CNN
+F 1 "+12V" V 6665 4578 50  0000 L CNN
+F 2 "" H 6650 4450 50  0001 C CNN
+F 3 "" H 6650 4450 50  0001 C CNN
+	1    6650 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0133
+U 1 1 620A2E31
+P 6650 4550
+F 0 "#PWR0133" H 6650 4400 50  0001 C CNN
+F 1 "+5V" V 6665 4678 50  0000 L CNN
+F 2 "" H 6650 4550 50  0001 C CNN
+F 3 "" H 6650 4550 50  0001 C CNN
+	1    6650 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3VA #PWR0134
+U 1 1 620AD6CB
+P 5900 1450
+F 0 "#PWR0134" H 5900 1300 50  0001 C CNN
+F 1 "+3.3VA" V 5915 1577 50  0000 L CNN
+F 2 "" H 5900 1450 50  0001 C CNN
+F 3 "" H 5900 1450 50  0001 C CNN
+	1    5900 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDC #PWR0135
+U 1 1 620B4578
+P 4150 1700
+F 0 "#PWR0135" H 4150 1600 50  0001 C CNN
+F 1 "VDC" V 4165 1827 50  0000 L CNN
+F 2 "" H 4150 1700 50  0001 C CNN
+F 3 "" H 4150 1700 50  0001 C CNN
+	1    4150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDC #PWR0136
+U 1 1 620C2CE2
+P 1400 1500
+F 0 "#PWR0136" H 1400 1400 50  0001 C CNN
+F 1 "VDC" V 1415 1627 50  0000 L CNN
+F 2 "" H 1400 1500 50  0001 C CNN
+F 3 "" H 1400 1500 50  0001 C CNN
+	1    1400 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0137
+U 1 1 620D77A2
+P 1600 4600
+F 0 "#PWR0137" H 1600 4450 50  0001 C CNN
+F 1 "+5V" V 1615 4728 50  0000 L CNN
+F 2 "" H 1600 4600 50  0001 C CNN
+F 3 "" H 1600 4600 50  0001 C CNN
+	1    1600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0138
+U 1 1 620E6476
+P 2500 5950
+F 0 "#PWR0138" H 2500 5800 50  0001 C CNN
+F 1 "+5V" V 2515 6078 50  0000 L CNN
+F 2 "" H 2500 5950 50  0001 C CNN
+F 3 "" H 2500 5950 50  0001 C CNN
+	1    2500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0139
+U 1 1 620F4727
+P 7850 2150
+F 0 "#PWR0139" H 7850 2000 50  0001 C CNN
+F 1 "+5V" V 7865 2278 50  0000 L CNN
+F 2 "" H 7850 2150 50  0001 C CNN
+F 3 "" H 7850 2150 50  0001 C CNN
+	1    7850 2150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8550 4050 2    50   Input ~ 0
+BOOT_1
+Text GLabel 8550 3950 2    50   Input ~ 0
+NRST
+Text GLabel 7850 3850 0    50   Input ~ 0
+DEBUG_SWCLK
+Text GLabel 8550 3850 2    50   Input ~ 0
+DEBUG_SWDIO
+Text GLabel 8550 4450 2    50   Input ~ 0
+DEBUG_SWO
+$Comp
+L power:+3.3V #PWR0160
+U 1 1 62551599
+P 7850 4050
+F 0 "#PWR0160" H 7850 3900 50  0001 C CNN
+F 1 "+3.3V" V 7865 4178 50  0000 L CNN
+F 2 "" H 7850 4050 50  0001 C CNN
+F 3 "" H 7850 4050 50  0001 C CNN
+	1    7850 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 625523AA
+P 7850 3950
+F 0 "#PWR0161" H 7850 3700 50  0001 C CNN
+F 1 "GND" V 7855 3822 50  0000 R CNN
+F 2 "" H 7850 3950 50  0001 C CNN
+F 3 "" H 7850 3950 50  0001 C CNN
+	1    7850 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 3850 7950 3850
+Wire Wire Line
+	7950 3950 7850 3950
+Wire Wire Line
+	7850 4050 7950 4050
+Wire Wire Line
+	8450 3850 8550 3850
+Wire Wire Line
+	8450 3950 8550 3950
+Wire Wire Line
+	8550 4050 8450 4050
 $EndSCHEMATC
