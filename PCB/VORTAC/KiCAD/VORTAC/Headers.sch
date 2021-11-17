@@ -14,18 +14,6 @@ Comment3 "Canbus Networked Smart Tool Board"
 Comment4 "-- VORTAC PCB --"
 $EndDescr
 $Comp
-L ToolChanger:MillMax_004 J4
-U 1 1 61450233
-P 2000 2675
-F 0 "J4" H 2180 2956 50  0000 L CNN
-F 1 "MillMax_004" H 2180 2865 50  0000 L CNN
-F 2 "ToolChanger:MillMax-858-10-004-10-012000" H 2270 2565 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/273/MMMC_S_A0006083300_1-2558511.pdf" H 2270 2565 50  0001 C CNN
-F 4 "575-8582200480012101" H 2000 2675 50  0001 C CNN "Mouser"
-	1    2000 2675
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 61456757
 P 1750 1000
@@ -34,17 +22,6 @@ F 1 "GND" V 1755 872 50  0000 R CNN
 F 2 "" H 1750 1000 50  0001 C CNN
 F 3 "" H 1750 1000 50  0001 C CNN
 	1    1750 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 614656F6
-P 1750 1850
-F 0 "#PWR03" H 1750 1600 50  0001 C CNN
-F 1 "GND" V 1755 1722 50  0000 R CNN
-F 2 "" H 1750 1850 50  0001 C CNN
-F 3 "" H 1750 1850 50  0001 C CNN
-	1    1750 1850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -58,46 +35,23 @@ F 3 "" H 1750 2250 50  0001 C CNN
 	1    1750 2250
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 61466955
-P 1750 3100
-F 0 "#PWR05" H 1750 2850 50  0001 C CNN
-F 1 "GND" V 1755 2972 50  0000 R CNN
-F 2 "" H 1750 3100 50  0001 C CNN
-F 3 "" H 1750 3100 50  0001 C CNN
-	1    1750 3100
-	0    1    1    0   
-$EndComp
-Text GLabel 1400 2900 0    50   Input ~ 0
+Text GLabel 1400 1650 0    50   Input ~ 0
 TOOL_DATA_L
-Text GLabel 1400 1200 0    50   Input ~ 0
+Text GLabel 1400 2750 0    50   Input ~ 0
 TOOL_ID
 $Comp
 L power:GND #PWR01
 U 1 1 61467CD1
-P 1400 1650
-F 0 "#PWR01" H 1400 1400 50  0001 C CNN
-F 1 "GND" V 1405 1522 50  0000 R CNN
-F 2 "" H 1400 1650 50  0001 C CNN
-F 3 "" H 1400 1650 50  0001 C CNN
-	1    1400 1650
+P 1400 1200
+F 0 "#PWR01" H 1400 950 50  0001 C CNN
+F 1 "GND" V 1405 1072 50  0000 R CNN
+F 2 "" H 1400 1200 50  0001 C CNN
+F 3 "" H 1400 1200 50  0001 C CNN
+	1    1400 1200
 	0    1    1    0   
 $EndComp
-Text GLabel 1400 3800 0    50   Input ~ 0
+Text GLabel 1400 3700 0    50   Input ~ 0
 DOCK_VDC
-$Comp
-L ToolChanger:MillMax_004 J3
-U 1 1 6144A490
-P 2000 1425
-F 0 "J3" H 2180 1706 50  0000 L CNN
-F 1 "MillMax_004" H 2180 1615 50  0000 L CNN
-F 2 "ToolChanger:MillMax-858-10-004-10-012000" H 2270 1315 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/273/MMMC_S_A0006083300_1-2558511.pdf" H 2270 1315 50  0001 C CNN
-F 4 "575-8582200480012101" H 2000 1425 50  0001 C CNN "Mouser"
-	1    2000 1425
-	1    0    0    -1  
-$EndComp
 Text Notes 2250 1500 0    50   ~ 0
 Upper Pogo Connector
 Text Notes 2250 2700 0    50   ~ 0
@@ -110,7 +64,7 @@ Wire Notes Line
 	3250 650  650  650 
 Text Notes 850  850  0    71   ~ 0
 Tool Interface
-Text GLabel 1400 2750 0    50   Input ~ 0
+Text GLabel 1400 1500 0    50   Input ~ 0
 TOOL_DATA_H
 Text GLabel 2300 3600 2    50   Input ~ 0
 TOOL_DATA_L
@@ -189,10 +143,9 @@ Text Notes 3550 900  0    71   ~ 0
 Combined Hotend Header
 Text Notes 9200 7050 0    50   ~ 0
 todo:\n- consider connector selection\n- consider combining fan or io/led headers\n- remove duplicate heater/thermistor header\n- add probepoints\n- change usb-c symbol (sucks bro)
-NoConn ~ 1400 1350
 Text GLabel 1600 4700 0    50   Input ~ 0
 HOST_USB_DRAIN
-Text GLabel 1400 3700 0    50   Input ~ 0
+Text GLabel 1400 3600 0    50   Input ~ 0
 DOCK_GND
 $Comp
 L Connector_Generic:Conn_02x03_Top_Bottom J2
@@ -501,8 +454,6 @@ Uplink USB Port \nfor nozzlecams
 Wire Wire Line
 	1400 1200 1750 1200
 Wire Wire Line
-	1750 1350 1400 1350
-Wire Wire Line
 	1400 1500 1750 1500
 Wire Wire Line
 	1400 1650 1750 1650
@@ -514,17 +465,6 @@ Wire Wire Line
 	1400 2750 1750 2750
 Wire Wire Line
 	2100 3600 2300 3600
-$Comp
-L power:GND #PWR0120
-U 1 1 61BCE37C
-P 1400 3600
-F 0 "#PWR0120" H 1400 3350 50  0001 C CNN
-F 1 "GND" V 1405 3472 50  0000 R CNN
-F 2 "" H 1400 3600 50  0001 C CNN
-F 3 "" H 1400 3600 50  0001 C CNN
-	1    1400 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1400 2900 1750 2900
 Wire Wire Line
@@ -576,12 +516,12 @@ $EndComp
 $Comp
 L power:VDC #PWR0136
 U 1 1 620C2CE2
-P 1400 1500
-F 0 "#PWR0136" H 1400 1400 50  0001 C CNN
-F 1 "VDC" V 1415 1627 50  0000 L CNN
-F 2 "" H 1400 1500 50  0001 C CNN
-F 3 "" H 1400 1500 50  0001 C CNN
-	1    1400 1500
+P 1400 1350
+F 0 "#PWR0136" H 1400 1250 50  0001 C CNN
+F 1 "VDC" V 1415 1477 50  0000 L CNN
+F 2 "" H 1400 1350 50  0001 C CNN
+F 3 "" H 1400 1350 50  0001 C CNN
+	1    1400 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -667,11 +607,11 @@ F 4 "C157991" H 8450 2350 50  0001 C CNN "LCSC"
 	1    8450 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 7850 2350 0    50   Input ~ 0
+Text GLabel 7850 2550 0    50   Input ~ 0
 IO_1_OUT
 Text GLabel 7850 2450 0    50   Input ~ 0
 IO_2_OUT
-Text GLabel 7850 2550 0    50   Input ~ 0
+Text GLabel 7850 2350 0    50   Input ~ 0
 IO_3_OUT
 Wire Wire Line
 	7850 2550 8250 2550
@@ -841,17 +781,6 @@ BOOT_1
 Text Notes 7650 3600 0    71   ~ 0
 Debug Header
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
-U 1 1 618086B2
-P 8150 4100
-F 0 "J1" H 7900 4500 50  0000 C CNN
-F 1 "DEBUG" H 7900 4400 50  0000 C CNN
-F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 8150 4100 50  0001 C CNN
-F 3 "~" H 8150 4100 50  0001 C CNN
-	1    8150 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x02_Odd_Even J13
 U 1 1 61AA32CC
 P 6650 1650
@@ -980,67 +909,118 @@ Wire Wire Line
 Connection ~ 6300 3400
 Wire Wire Line
 	6300 3500 6300 3400
-Text GLabel 6400 4500 2    50   Input ~ 0
+Text GLabel 6400 4450 2    50   Input ~ 0
 LED_1_V_OUT
 Wire Wire Line
-	5800 4600 5700 4600
+	5800 4550 5700 4550
 Wire Wire Line
-	5800 4500 5700 4500
+	5800 4450 5700 4450
 Wire Wire Line
-	5800 4400 5700 4400
+	5800 4350 5700 4350
 Wire Wire Line
-	6400 4500 6300 4500
+	6400 4450 6300 4450
 $Comp
 L power:VDC #PWR0131
 U 1 1 620A2E25
-P 5700 4400
-F 0 "#PWR0131" H 5700 4300 50  0001 C CNN
-F 1 "VDC" V 5715 4528 50  0000 L CNN
-F 2 "" H 5700 4400 50  0001 C CNN
-F 3 "" H 5700 4400 50  0001 C CNN
-	1    5700 4400
+P 5700 4350
+F 0 "#PWR0131" H 5700 4250 50  0001 C CNN
+F 1 "VDC" V 5715 4478 50  0000 L CNN
+F 2 "" H 5700 4350 50  0001 C CNN
+F 3 "" H 5700 4350 50  0001 C CNN
+	1    5700 4350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR0132
 U 1 1 620A2E2B
-P 5700 4500
-F 0 "#PWR0132" H 5700 4350 50  0001 C CNN
-F 1 "+12V" V 5715 4628 50  0000 L CNN
-F 2 "" H 5700 4500 50  0001 C CNN
-F 3 "" H 5700 4500 50  0001 C CNN
-	1    5700 4500
+P 5700 4450
+F 0 "#PWR0132" H 5700 4300 50  0001 C CNN
+F 1 "+12V" V 5715 4578 50  0000 L CNN
+F 2 "" H 5700 4450 50  0001 C CNN
+F 3 "" H 5700 4450 50  0001 C CNN
+	1    5700 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0133
 U 1 1 620A2E31
-P 5700 4600
-F 0 "#PWR0133" H 5700 4450 50  0001 C CNN
-F 1 "+5V" V 5715 4728 50  0000 L CNN
-F 2 "" H 5700 4600 50  0001 C CNN
-F 3 "" H 5700 4600 50  0001 C CNN
-	1    5700 4600
+P 5700 4550
+F 0 "#PWR0133" H 5700 4400 50  0001 C CNN
+F 1 "+5V" V 5715 4678 50  0000 L CNN
+F 2 "" H 5700 4550 50  0001 C CNN
+F 3 "" H 5700 4550 50  0001 C CNN
+	1    5700 4550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6300 4400 6300 4500
-Connection ~ 6300 4500
+	6300 4350 6300 4450
+Connection ~ 6300 4450
 Wire Wire Line
-	6300 4500 6300 4600
+	6300 4450 6300 4550
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 61A78792
-P 6000 4500
-F 0 "J12" H 6450 4650 50  0000 C CNN
-F 1 "LED_V" H 6500 4750 50  0000 C CNN
-F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 6000 4500 50  0001 C CNN
-F 3 "~" H 6000 4500 50  0001 C CNN
-	1    6000 4500
+P 6000 4450
+F 0 "J12" H 6450 4600 50  0000 C CNN
+F 1 "LED_V" H 6500 4700 50  0000 C CNN
+F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 6000 4450 50  0001 C CNN
+F 3 "~" H 6000 4450 50  0001 C CNN
+	1    6000 4450
 	1    0    0    -1  
 $EndComp
 Text GLabel 4100 4500 0    50   Input ~ 0
 LED_1_PWM
 Wire Wire Line
 	4100 4500 4450 4500
+$Comp
+L ToolChanger:MillMax_004 J3
+U 1 1 6144A490
+P 2000 1425
+F 0 "J3" H 2180 1706 50  0000 L CNN
+F 1 "MillMax_004" H 2180 1615 50  0000 L CNN
+F 2 "ToolChanger:MillMax-858-10-004-10-012000" H 2270 1315 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/273/MMMC_S_A0006083300_1-2558511.pdf" H 2270 1315 50  0001 C CNN
+F 4 "575-8582200480012101" H 2000 1425 50  0001 C CNN "Mouser"
+	1    2000 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:MillMax_004 J4
+U 1 1 61450233
+P 2000 2675
+F 0 "J4" H 2180 2956 50  0000 L CNN
+F 1 "MillMax_004" H 2180 2865 50  0000 L CNN
+F 2 "ToolChanger:MillMax-858-10-004-10-012000" H 2270 2565 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/273/MMMC_S_A0006083300_1-2558511.pdf" H 2270 2565 50  0001 C CNN
+F 4 "575-8582200480012101" H 2000 2675 50  0001 C CNN "Mouser"
+	1    2000 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1350 1400 1350
+NoConn ~ 1400 2900
+Text Notes -400 2950 0    50   ~ 0
+Maybe add boot pin for reflashing ability?
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 618086B2
+P 8250 4100
+F 0 "J1" H 8000 4500 50  0000 C CNN
+F 1 "DEBUG" H 8000 4400 50  0000 C CNN
+F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 8250 4100 50  0001 C CNN
+F 3 "~" H 8250 4100 50  0001 C CNN
+	1    8250 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 61BCE37C
+P 1400 3800
+F 0 "#PWR0120" H 1400 3550 50  0001 C CNN
+F 1 "GND" V 1405 3672 50  0000 R CNN
+F 2 "" H 1400 3800 50  0001 C CNN
+F 3 "" H 1400 3800 50  0001 C CNN
+	1    1400 3800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

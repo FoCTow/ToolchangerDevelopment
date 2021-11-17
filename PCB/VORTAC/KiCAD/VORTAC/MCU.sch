@@ -71,8 +71,8 @@ ADXL_CS
 Text GLabel 9050 5600 0    50   Input ~ 0
 ADXL_SCL
 Text GLabel 9050 5500 0    50   Input ~ 0
-ADXL_SDI
-Text GLabel 9050 5400 0    50   Input ~ 0
+ADXL_SDA
+Text GLabel 8950 5400 0    50   Input ~ 0
 ADXL_SDO
 NoConn ~ 9950 6000
 NoConn ~ 9550 5000
@@ -201,7 +201,7 @@ AR Path="/613DBE83/63266110" Ref="IC?"  Part="1"
 AR Path="/613DC005/63266110" Ref="IC1"  Part="1" 
 F 0 "IC1" H 8250 3350 50  0000 C CNN
 F 1 "TMC2209-LA" H 8250 3250 50  0000 C CNN
-F 2 "ToolChanger:tmc_2209_package" V 8350 1550 50  0001 L CNN
+F 2 "ToolChanger:tmc_2209_ThermalPad" V 8350 1550 50  0001 L CNN
 F 3 "https://www.lcsc.com/product-detail/Motor-Driver-ICs_TRINAMIC-Motion-Control-GmbH-TMC2209-LA_C465949.html" H 7200 2900 50  0001 L CNN
 F 4 "C465949" V 8250 2500 50  0001 C CNN "LCSC"
 	1    8250 2150
@@ -746,32 +746,24 @@ Wire Wire Line
 	2050 5350 2250 5350
 Wire Wire Line
 	2050 5450 2250 5450
-Text GLabel 4300 5450 2    50   Input ~ 0
+Text GLabel 4500 5450 2    50   Input ~ 0
 USART_1_TX
-Text GLabel 4300 5550 2    50   Input ~ 0
+Text GLabel 4500 5550 2    50   Input ~ 0
 USART_1_RX
 Wire Wire Line
 	3550 5650 3750 5650
 Wire Wire Line
 	3950 5650 4300 5650
 Wire Wire Line
-	3550 5550 4300 5550
-Wire Wire Line
-	3550 5450 4300 5450
-Wire Wire Line
 	3550 5750 3900 5750
-Text GLabel 2050 5550 0    50   Input ~ 0
+Text GLabel 1300 5550 0    50   Input ~ 0
 USART_3_TX
-Text GLabel 2050 5650 0    50   Input ~ 0
+Text GLabel 1300 5650 0    50   Input ~ 0
 USART_3_RX
 Wire Wire Line
 	2050 5550 2250 5550
 Wire Wire Line
 	2050 5650 2250 5650
-Text GLabel 3800 4750 2    50   Input ~ 0
-USART_2_TX
-Text GLabel 3800 4850 2    50   Input ~ 0
-USART_2_RX
 Wire Wire Line
 	3550 4750 3800 4750
 Wire Wire Line
@@ -1172,19 +1164,15 @@ Wire Wire Line
 Connection ~ 1850 1050
 Wire Wire Line
 	1850 1050 1950 1050
-Text GLabel 3750 5850 2    50   Input ~ 0
+Text GLabel 4300 5850 2    50   Input ~ 0
 DEBUG_SWDIO
-Text GLabel 3750 5950 2    50   Input ~ 0
+Text GLabel 4300 5950 2    50   Input ~ 0
 DEBUG_SWCLK
-Text GLabel 2050 4850 0    50   Input ~ 0
+Text GLabel 1300 4850 0    50   Input ~ 0
 DEBUG_SWO
 Wire Wire Line
-	3550 5850 3750 5850
-Wire Wire Line
-	3750 5950 3550 5950
-Wire Wire Line
 	2050 4850 2250 4850
-Text Notes 550  4850 0    50   ~ 0
+Text Notes -250 4900 0    50   ~ 0
 Optional Asynchronous SW
 Wire Wire Line
 	3050 3250 2950 3250
@@ -1388,8 +1376,6 @@ F 3 "" H 10450 5000 50  0001 C CNN
 	1    10450 5000
 	0    1    1    0   
 $EndComp
-Text GLabel 2050 4650 0    50   Input ~ 0
-BOOT_1
 Text GLabel 2050 3650 0    50   Input ~ 0
 BOOT_0
 Wire Wire Line
@@ -1400,53 +1386,49 @@ Wire Wire Line
 	2050 3850 2250 3850
 Wire Wire Line
 	2050 3650 2250 3650
-Text GLabel 2050 3450 0    50   Input ~ 0
-NRST
 Wire Wire Line
 	2050 3450 2250 3450
-Text GLabel 5100 4600 2    50   Input ~ 0
+Text GLabel 2050 4250 0    50   Input ~ 0
 TMC_DIR
-Text GLabel 5100 4700 2    50   Input ~ 0
-TMC_STEP
-Text GLabel 5100 4800 2    50   Input ~ 0
-TMC_ENN
-Text GLabel 5100 4900 2    50   Input ~ 0
-TMC_DIAG
-Text GLabel 5100 4200 2    50   Input ~ 0
-FAN_1_TACHO
-Text GLabel 5100 4400 2    50   Input ~ 0
-FAN_2_TACHO
-Text GLabel 5100 4100 2    50   Input ~ 0
-FAN_1_GATE
-Text GLabel 5100 4300 2    50   Input ~ 0
-FAN_2_GATE
-Text GLabel 5100 3700 2    50   Input ~ 0
-HEATER_GATE
-Text GLabel 5100 3800 2    50   Input ~ 0
-LED_1_GATE
-Text GLabel 5100 3900 2    50   Input ~ 0
-HOST_USB_GATE
 Text GLabel 2050 4150 0    50   Input ~ 0
+TMC_STEP
+Text GLabel 3800 4650 2    50   Input ~ 0
+TMC_ENN
+Text GLabel 2050 4350 0    50   Input ~ 0
+TMC_DIAG
+Text GLabel 3800 5250 2    50   Input ~ 0
+FAN_1_TACHO
+Text GLabel 3800 5150 2    50   Input ~ 0
+FAN_2_TACHO
+Text GLabel 3800 5050 2    50   Input ~ 0
+FAN_2_GATE
+Text GLabel 2050 5150 0    50   Input ~ 0
+HEATER_GATE
+Text GLabel 2050 5950 0    50   Input ~ 0
+LED_1_GATE
+Text GLabel 2050 6050 0    50   Input ~ 0
+HOST_USB_GATE
+Text GLabel 2050 4750 0    50   Input ~ 0
 LED_0
-Text GLabel 5100 5150 2    50   Input ~ 0
+Text GLabel 2050 5750 0    50   Input ~ 0
 ADXL_CS
-Text GLabel 5100 5250 2    50   Input ~ 0
+Text GLabel 2050 5550 0    50   Input ~ 0
 ADXL_SCL
-Text GLabel 5100 5350 2    50   Input ~ 0
-ADXL_SDI
-Text GLabel 5100 5450 2    50   Input ~ 0
+Text GLabel 2050 5650 0    50   Input ~ 0
+ADXL_SDA
+Text GLabel 5200 5450 2    50   Input ~ 0
 ADXL_SDO
-Text GLabel 5100 5550 2    50   Input ~ 0
+Text GLabel 2050 5850 0    50   Input ~ 0
 ADXL_INT1
-Text GLabel 5100 5750 2    50   Input ~ 0
+Text GLabel 3800 4550 2    50   Input ~ 0
 TOOL_ID
-Text GLabel 5100 5950 2    50   Input ~ 0
+Text GLabel 3750 6050 2    50   Input ~ 0
 THERM_1_PIN
-Text GLabel 5100 6150 2    50   Input ~ 0
+Text GLabel 2050 4850 0    50   Input ~ 0
 IO_3_OUT
-Text GLabel 5100 6250 2    50   Input ~ 0
+Text GLabel 2050 4950 0    50   Input ~ 0
 IO_2_OUT
-Text GLabel 5100 6350 2    50   Input ~ 0
+Text GLabel 2050 5050 0    50   Input ~ 0
 IO_1_OUT
 $Comp
 L Device:LED_Small D6
@@ -1454,7 +1436,7 @@ U 1 1 62708D96
 P 1850 1950
 F 0 "D6" H 1850 1750 50  0000 C CNN
 F 1 "LED_Small" H 1850 1834 50  0000 C CNN
-F 2 "" V 1850 1950 50  0001 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" V 1850 1950 50  0001 C CNN
 F 3 "~" V 1850 1950 50  0001 C CNN
 	1    1850 1950
 	-1   0    0    1   
@@ -1465,7 +1447,7 @@ U 1 1 6270D474
 P 1500 1950
 F 0 "R38" V 1600 1950 50  0000 C CNN
 F 1 "R_Small" V 1700 1950 50  0000 C CNN
-F 2 "" H 1500 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 1950 50  0001 C CNN
 F 3 "~" H 1500 1950 50  0001 C CNN
 	1    1500 1950
 	0    1    1    0   
@@ -1483,4 +1465,92 @@ F 3 "" H 2100 1950 50  0001 C CNN
 	1    2100 1950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1250 1950 1400 1950
+Wire Wire Line
+	1600 1950 1750 1950
+Wire Wire Line
+	1950 1950 2100 1950
+$Comp
+L LED:NeoPixel_THT D7
+U 1 1 61C160D1
+P -250 2700
+F 0 "D7" H 94  2746 50  0000 L CNN
+F 1 "NeoPixel_THT" H 94  2655 50  0000 L CNN
+F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H -200 2400 50  0001 L TNN
+F 3 "https://www.adafruit.com/product/1938" H -150 2325 50  0001 L TNN
+	1    -250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D8
+U 1 1 61C17900
+P -300 3400
+F 0 "D8" H 44  3446 50  0000 L CNN
+F 1 "SK6812" H 44  3355 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H -250 3100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H -200 3025 50  0001 L TNN
+	1    -300 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 3450 0    50   Input ~ 0
+NRST
+Text GLabel 2050 4650 0    50   Input ~ 0
+BOOT_1
+Wire Wire Line
+	3550 6050 3750 6050
+Wire Wire Line
+	3550 5850 4300 5850
+Wire Wire Line
+	3550 5950 4300 5950
+Text GLabel 3800 4950 2    50   Input ~ 0
+FAN_1_GATE
+Text GLabel 4500 4850 2    50   Input ~ 0
+USART_2_RX
+Text GLabel 4500 4750 2    50   Input ~ 0
+USART_2_TX
+Text GLabel 2050 4550 0    50   Input ~ 0
+LED_1_PWM
+Wire Wire Line
+	3550 4950 3800 4950
+Wire Wire Line
+	3550 5050 3800 5050
+Wire Wire Line
+	3800 5150 3550 5150
+Wire Wire Line
+	3550 5250 3800 5250
+Wire Wire Line
+	2050 4550 2250 4550
+Wire Wire Line
+	2050 4750 2250 4750
+Text Notes 8500 5300 0    50   ~ 0
+SDO is adress?? DO we need that???
+Wire Wire Line
+	2050 5750 2250 5750
+Wire Wire Line
+	2050 5850 2250 5850
+Wire Wire Line
+	2050 5950 2250 5950
+Wire Wire Line
+	2050 6050 2250 6050
+Wire Wire Line
+	2050 4950 2250 4950
+Wire Wire Line
+	2250 5050 2050 5050
+Wire Wire Line
+	2050 5150 2250 5150
+Text GLabel 3800 4850 2    50   Input ~ 0
+TMC_UART_RX
+Text GLabel 3800 4750 2    50   Input ~ 0
+TMC_UART_TX
+Wire Wire Line
+	2050 4150 2250 4150
+Wire Wire Line
+	2050 4250 2250 4250
+Wire Wire Line
+	2050 4350 2250 4350
+Wire Wire Line
+	3550 4550 3800 4550
+Wire Wire Line
+	3550 4650 3800 4650
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=10/25/2021 11:03:17 AM
+update=11/17/2021 11:29:20 AM
 version=1
 last_client=kicad
 [general]
@@ -237,11 +237,33 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=Wide
+Name=0.35mm
+Clearance=0.2
+TrackWidth=0.35
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=0.5mm
 Clearance=0.2
 TrackWidth=0.5
 ViaDiameter=1.2
 ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=2.0mm
+Clearance=0.2
+TrackWidth=2
+ViaDiameter=0.8
+ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
