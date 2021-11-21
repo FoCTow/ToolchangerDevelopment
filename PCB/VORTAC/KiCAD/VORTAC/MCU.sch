@@ -738,14 +738,6 @@ Text GLabel 4300 5650 2    50   Input ~ 0
 USB_D-
 Wire Wire Line
 	4100 5750 4300 5750
-Text GLabel 2050 5450 0    50   Input ~ 0
-CAN_TX
-Text GLabel 2050 5350 0    50   Input ~ 0
-CAN_RX
-Wire Wire Line
-	2050 5350 2250 5350
-Wire Wire Line
-	2050 5450 2250 5450
 Text GLabel 4500 5450 2    50   Input ~ 0
 USART_1_TX
 Text GLabel 4500 5550 2    50   Input ~ 0
@@ -1069,23 +1061,6 @@ F 3 "" H 3050 6350 50  0001 C CNN
 	1    3050 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 3850 0    50   Input ~ 0
-HSE_OSC_IN
-Text GLabel 2050 3950 0    50   Input ~ 0
-HSE_OSC_OUT
-$Comp
-L power:GND #PWR?
-U 1 1 61C25CA8
-P 1850 1350
-AR Path="/613DBE83/61C25CA8" Ref="#PWR?"  Part="1" 
-AR Path="/613DC005/61C25CA8" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 1850 1100 50  0001 C CNN
-F 1 "GND" H 1855 1177 50  0000 C CNN
-F 2 "" H 1850 1350 50  0001 C CNN
-F 3 "" H 1850 1350 50  0001 C CNN
-	1    1850 1350
-	1    0    0    -1  
-$EndComp
 Text GLabel 1250 1050 0    50   Input ~ 0
 HSE_OSC_IN
 Text GLabel 2150 1050 2    50   Input ~ 0
@@ -1146,7 +1121,6 @@ Wire Wire Line
 	1350 1250 1350 1350
 Wire Wire Line
 	1850 1350 1850 1250
-Connection ~ 1850 1350
 Connection ~ 1550 1350
 Wire Wire Line
 	1550 1350 1700 1350
@@ -1172,7 +1146,7 @@ Text GLabel 1300 4850 0    50   Input ~ 0
 DEBUG_SWO
 Wire Wire Line
 	2050 4850 2250 4850
-Text Notes -250 4900 0    50   ~ 0
+Text Notes -1000 4900 0    50   ~ 0
 Optional Asynchronous SW
 Wire Wire Line
 	3050 3250 2950 3250
@@ -1376,59 +1350,47 @@ F 3 "" H 10450 5000 50  0001 C CNN
 	1    10450 5000
 	0    1    1    0   
 $EndComp
-Text GLabel 2050 3650 0    50   Input ~ 0
-BOOT_0
 Wire Wire Line
 	2050 4650 2250 4650
-Wire Wire Line
-	2050 3950 2250 3950
-Wire Wire Line
-	2050 3850 2250 3850
-Wire Wire Line
-	2050 3650 2250 3650
-Wire Wire Line
-	2050 3450 2250 3450
-Text GLabel 2050 4250 0    50   Input ~ 0
+Text GLabel 700  4250 0    50   Input ~ 0
 TMC_DIR
-Text GLabel 2050 4150 0    50   Input ~ 0
+Text GLabel 700  4150 0    50   Input ~ 0
 TMC_STEP
-Text GLabel 3800 4650 2    50   Input ~ 0
+Text GLabel 5100 4650 2    50   Input ~ 0
 TMC_ENN
-Text GLabel 2050 4350 0    50   Input ~ 0
+Text GLabel 700  4350 0    50   Input ~ 0
 TMC_DIAG
-Text GLabel 3800 5250 2    50   Input ~ 0
+Text GLabel 5100 5250 2    50   Input ~ 0
 FAN_1_TACHO
-Text GLabel 3800 5150 2    50   Input ~ 0
+Text GLabel 5100 5150 2    50   Input ~ 0
 FAN_2_TACHO
-Text GLabel 3800 5050 2    50   Input ~ 0
+Text GLabel 5100 5050 2    50   Input ~ 0
 FAN_2_GATE
-Text GLabel 2050 5150 0    50   Input ~ 0
+Text GLabel 700  5150 0    50   Input ~ 0
 HEATER_GATE
-Text GLabel 2050 5950 0    50   Input ~ 0
+Text GLabel 700  5950 0    50   Input ~ 0
 LED_1_GATE
-Text GLabel 2050 6050 0    50   Input ~ 0
+Text GLabel 700  6050 0    50   Input ~ 0
 HOST_USB_GATE
-Text GLabel 2050 4750 0    50   Input ~ 0
+Text GLabel 700  4750 0    50   Input ~ 0
 LED_0
-Text GLabel 2050 5750 0    50   Input ~ 0
+Text GLabel 700  5750 0    50   Input ~ 0
 ADXL_CS
-Text GLabel 2050 5550 0    50   Input ~ 0
-ADXL_SCL
 Text GLabel 2050 5650 0    50   Input ~ 0
 ADXL_SDA
-Text GLabel 5200 5450 2    50   Input ~ 0
+Text GLabel 5100 5450 2    50   Input ~ 0
 ADXL_SDO
-Text GLabel 2050 5850 0    50   Input ~ 0
+Text GLabel 700  5850 0    50   Input ~ 0
 ADXL_INT1
-Text GLabel 3800 4550 2    50   Input ~ 0
+Text GLabel 5100 4550 2    50   Input ~ 0
 TOOL_ID
-Text GLabel 3750 6050 2    50   Input ~ 0
+Text GLabel 5100 6050 2    50   Input ~ 0
 THERM_1_PIN
-Text GLabel 2050 4850 0    50   Input ~ 0
+Text GLabel 700  4850 0    50   Input ~ 0
 IO_3_OUT
-Text GLabel 2050 4950 0    50   Input ~ 0
+Text GLabel 700  4950 0    50   Input ~ 0
 IO_2_OUT
-Text GLabel 2050 5050 0    50   Input ~ 0
+Text GLabel 700  5050 0    50   Input ~ 0
 IO_1_OUT
 $Comp
 L Device:LED_Small D6
@@ -1493,23 +1455,19 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    -300 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 3450 0    50   Input ~ 0
-NRST
-Text GLabel 2050 4650 0    50   Input ~ 0
+Text GLabel 700  4650 0    50   Input ~ 0
 BOOT_1
 Wire Wire Line
 	3550 6050 3750 6050
 Wire Wire Line
 	3550 5850 4300 5850
-Wire Wire Line
-	3550 5950 4300 5950
-Text GLabel 3800 4950 2    50   Input ~ 0
+Text GLabel 5100 4950 2    50   Input ~ 0
 FAN_1_GATE
 Text GLabel 4500 4850 2    50   Input ~ 0
 USART_2_RX
 Text GLabel 4500 4750 2    50   Input ~ 0
 USART_2_TX
-Text GLabel 2050 4550 0    50   Input ~ 0
+Text GLabel 700  4550 0    50   Input ~ 0
 LED_1_PWM
 Wire Wire Line
 	3550 4950 3800 4950
@@ -1539,9 +1497,9 @@ Wire Wire Line
 	2250 5050 2050 5050
 Wire Wire Line
 	2050 5150 2250 5150
-Text GLabel 3800 4850 2    50   Input ~ 0
+Text GLabel 5100 4850 2    50   Input ~ 0
 TMC_UART_RX
-Text GLabel 3800 4750 2    50   Input ~ 0
+Text GLabel 5100 4750 2    50   Input ~ 0
 TMC_UART_TX
 Wire Wire Line
 	2050 4150 2250 4150
@@ -1553,4 +1511,44 @@ Wire Wire Line
 	3550 4550 3800 4550
 Wire Wire Line
 	3550 4650 3800 4650
+Wire Wire Line
+	1750 5450 2250 5450
+Wire Wire Line
+	1750 5350 2250 5350
+Text GLabel 1800 3450 0    50   Input ~ 0
+NRST
+Text GLabel 1800 3650 0    50   Input ~ 0
+BOOT_0
+Text GLabel 1800 3950 0    50   Input ~ 0
+HSE_OSC_OUT
+Text GLabel 1800 3850 0    50   Input ~ 0
+HSE_OSC_IN
+Wire Wire Line
+	1800 3950 2250 3950
+Wire Wire Line
+	1800 3850 2250 3850
+Wire Wire Line
+	1800 3650 2250 3650
+Wire Wire Line
+	1800 3450 2250 3450
+Text GLabel 1750 5450 0    50   Input ~ 0
+CAN_TX
+Text GLabel 1750 5350 0    50   Input ~ 0
+CAN_RX
+Text GLabel 2050 5550 0    50   Input ~ 0
+ADXL_SCL
+Wire Wire Line
+	3550 5950 4300 5950
+$Comp
+L power:GND1 #PWR0163
+U 1 1 61D49860
+P 1850 1350
+F 0 "#PWR0163" H 1850 1100 50  0001 C CNN
+F 1 "GND1" H 1855 1177 50  0000 C CNN
+F 2 "" H 1850 1350 50  0001 C CNN
+F 3 "" H 1850 1350 50  0001 C CNN
+	1    1850 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1350
 $EndSCHEMATC

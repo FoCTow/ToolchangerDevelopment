@@ -50,7 +50,7 @@ F 3 "" H 1400 1200 50  0001 C CNN
 	1    1400 1200
 	0    1    1    0   
 $EndComp
-Text GLabel 1400 3800 0    50   Input ~ 0
+Text GLabel 1400 3700 0    50   Input ~ 0
 DOCK_VDC
 Text Notes 2250 1500 0    50   ~ 0
 Upper Pogo Connector
@@ -145,7 +145,7 @@ Text Notes 9200 7050 0    50   ~ 0
 todo:\n- consider connector selection\n- consider combining fan or io/led headers\n- remove duplicate heater/thermistor header\n- add probepoints\n- change usb-c symbol (sucks bro)
 Text GLabel 1600 4700 0    50   Input ~ 0
 HOST_USB_DRAIN
-Text GLabel 1400 3700 0    50   Input ~ 0
+Text GLabel 1400 3600 0    50   Input ~ 0
 DOCK_GND
 $Comp
 L Connector_Generic:Conn_02x03_Top_Bottom J2
@@ -465,17 +465,6 @@ Wire Wire Line
 	1400 2750 1750 2750
 Wire Wire Line
 	2100 3600 2300 3600
-$Comp
-L power:GND #PWR0120
-U 1 1 61BCE37C
-P 1400 3600
-F 0 "#PWR0120" H 1400 3350 50  0001 C CNN
-F 1 "GND" V 1405 3472 50  0000 R CNN
-F 2 "" H 1400 3600 50  0001 C CNN
-F 3 "" H 1400 3600 50  0001 C CNN
-	1    1400 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1400 2900 1750 2900
 Wire Wire Line
@@ -920,63 +909,63 @@ Wire Wire Line
 Connection ~ 6300 3400
 Wire Wire Line
 	6300 3500 6300 3400
-Text GLabel 6400 4500 2    50   Input ~ 0
+Text GLabel 6400 4450 2    50   Input ~ 0
 LED_1_V_OUT
 Wire Wire Line
-	5800 4600 5700 4600
+	5800 4550 5700 4550
 Wire Wire Line
-	5800 4500 5700 4500
+	5800 4450 5700 4450
 Wire Wire Line
-	5800 4400 5700 4400
+	5800 4350 5700 4350
 Wire Wire Line
-	6400 4500 6300 4500
+	6400 4450 6300 4450
 $Comp
 L power:VDC #PWR0131
 U 1 1 620A2E25
-P 5700 4400
-F 0 "#PWR0131" H 5700 4300 50  0001 C CNN
-F 1 "VDC" V 5715 4528 50  0000 L CNN
-F 2 "" H 5700 4400 50  0001 C CNN
-F 3 "" H 5700 4400 50  0001 C CNN
-	1    5700 4400
+P 5700 4350
+F 0 "#PWR0131" H 5700 4250 50  0001 C CNN
+F 1 "VDC" V 5715 4478 50  0000 L CNN
+F 2 "" H 5700 4350 50  0001 C CNN
+F 3 "" H 5700 4350 50  0001 C CNN
+	1    5700 4350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR0132
 U 1 1 620A2E2B
-P 5700 4500
-F 0 "#PWR0132" H 5700 4350 50  0001 C CNN
-F 1 "+12V" V 5715 4628 50  0000 L CNN
-F 2 "" H 5700 4500 50  0001 C CNN
-F 3 "" H 5700 4500 50  0001 C CNN
-	1    5700 4500
+P 5700 4450
+F 0 "#PWR0132" H 5700 4300 50  0001 C CNN
+F 1 "+12V" V 5715 4578 50  0000 L CNN
+F 2 "" H 5700 4450 50  0001 C CNN
+F 3 "" H 5700 4450 50  0001 C CNN
+	1    5700 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0133
 U 1 1 620A2E31
-P 5700 4600
-F 0 "#PWR0133" H 5700 4450 50  0001 C CNN
-F 1 "+5V" V 5715 4728 50  0000 L CNN
-F 2 "" H 5700 4600 50  0001 C CNN
-F 3 "" H 5700 4600 50  0001 C CNN
-	1    5700 4600
+P 5700 4550
+F 0 "#PWR0133" H 5700 4400 50  0001 C CNN
+F 1 "+5V" V 5715 4678 50  0000 L CNN
+F 2 "" H 5700 4550 50  0001 C CNN
+F 3 "" H 5700 4550 50  0001 C CNN
+	1    5700 4550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6300 4400 6300 4500
-Connection ~ 6300 4500
+	6300 4350 6300 4450
+Connection ~ 6300 4450
 Wire Wire Line
-	6300 4500 6300 4600
+	6300 4450 6300 4550
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 61A78792
-P 6000 4500
-F 0 "J12" H 6450 4650 50  0000 C CNN
-F 1 "LED_V" H 6500 4750 50  0000 C CNN
-F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 6000 4500 50  0001 C CNN
-F 3 "~" H 6000 4500 50  0001 C CNN
-	1    6000 4500
+P 6000 4450
+F 0 "J12" H 6450 4600 50  0000 C CNN
+F 1 "LED_V" H 6500 4700 50  0000 C CNN
+F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 6000 4450 50  0001 C CNN
+F 3 "~" H 6000 4450 50  0001 C CNN
+	1    6000 4450
 	1    0    0    -1  
 $EndComp
 Text GLabel 4100 4500 0    50   Input ~ 0
@@ -1022,5 +1011,16 @@ F 2 "ToolChanger:PinHeader_2x03_P1.27mm_Vertical" H 8250 4100 50  0001 C CNN
 F 3 "~" H 8250 4100 50  0001 C CNN
 	1    8250 4100
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 61BCE37C
+P 1400 3800
+F 0 "#PWR0120" H 1400 3550 50  0001 C CNN
+F 1 "GND" V 1405 3672 50  0000 R CNN
+F 2 "" H 1400 3800 50  0001 C CNN
+F 3 "" H 1400 3800 50  0001 C CNN
+	1    1400 3800
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
