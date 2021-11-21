@@ -1360,9 +1360,9 @@ Text GLabel 5100 4650 2    50   Input ~ 0
 TMC_ENN
 Text GLabel 700  4350 0    50   Input ~ 0
 TMC_DIAG
-Text GLabel 5100 5250 2    50   Input ~ 0
+Text GLabel 2050 4250 0    50   Input ~ 0
 FAN_1_TACHO
-Text GLabel 5100 5150 2    50   Input ~ 0
+Text GLabel 2050 4150 0    50   Input ~ 0
 FAN_2_TACHO
 Text GLabel 5100 5050 2    50   Input ~ 0
 FAN_2_GATE
@@ -1442,17 +1442,6 @@ F 1 "NeoPixel_THT" H 94  2655 50  0000 L CNN
 F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H -200 2400 50  0001 L TNN
 F 3 "https://www.adafruit.com/product/1938" H -150 2325 50  0001 L TNN
 	1    -250 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812 D8
-U 1 1 61C17900
-P -300 3400
-F 0 "D8" H 44  3446 50  0000 L CNN
-F 1 "SK6812" H 44  3355 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H -250 3100 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H -200 3025 50  0001 L TNN
-	1    -300 3400
 	1    0    0    -1  
 $EndComp
 Text GLabel 700  4650 0    50   Input ~ 0
