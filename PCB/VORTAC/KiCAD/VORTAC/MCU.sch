@@ -738,20 +738,12 @@ Text GLabel 4300 5650 2    50   Input ~ 0
 USB_D-
 Wire Wire Line
 	4100 5750 4300 5750
-Text GLabel 4500 5450 2    50   Input ~ 0
-USART_1_TX
-Text GLabel 4500 5550 2    50   Input ~ 0
-USART_1_RX
 Wire Wire Line
 	3550 5650 3750 5650
 Wire Wire Line
 	3950 5650 4300 5650
 Wire Wire Line
 	3550 5750 3900 5750
-Text GLabel 1300 5550 0    50   Input ~ 0
-USART_3_TX
-Text GLabel 1300 5650 0    50   Input ~ 0
-USART_3_RX
 Wire Wire Line
 	2050 5550 2250 5550
 Wire Wire Line
@@ -1352,27 +1344,27 @@ F 3 "" H 10450 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 4650 2250 4650
-Text GLabel 700  4250 0    50   Input ~ 0
+Text GLabel 3750 6050 2    50   Input ~ 0
 TMC_DIR
-Text GLabel 700  4150 0    50   Input ~ 0
+Text GLabel 2050 5050 0    50   Input ~ 0
 TMC_STEP
-Text GLabel 5100 4650 2    50   Input ~ 0
+Text GLabel 2050 4950 0    50   Input ~ 0
 TMC_ENN
-Text GLabel 700  4350 0    50   Input ~ 0
+Text GLabel 2050 4850 0    50   Input ~ 0
 TMC_DIAG
 Text GLabel 2050 4250 0    50   Input ~ 0
-FAN_1_TACHO
+FAN_1_TACHO_PIN
 Text GLabel 2050 4150 0    50   Input ~ 0
-FAN_2_TACHO
+FAN_2_TACHO_PIN
 Text GLabel 5100 5050 2    50   Input ~ 0
 FAN_2_GATE
-Text GLabel 700  5150 0    50   Input ~ 0
+Text GLabel 3800 5350 2    50   Input ~ 0
 HEATER_GATE
 Text GLabel 700  5950 0    50   Input ~ 0
 LED_1_GATE
 Text GLabel 700  6050 0    50   Input ~ 0
 HOST_USB_GATE
-Text GLabel 700  4750 0    50   Input ~ 0
+Text GLabel 2050 5150 0    50   Input ~ 0
 LED_0
 Text GLabel 700  5750 0    50   Input ~ 0
 ADXL_CS
@@ -1382,15 +1374,15 @@ Text GLabel 5100 5450 2    50   Input ~ 0
 ADXL_SDO
 Text GLabel 700  5850 0    50   Input ~ 0
 ADXL_INT1
-Text GLabel 5100 4550 2    50   Input ~ 0
-TOOL_ID
-Text GLabel 5100 6050 2    50   Input ~ 0
+Text GLabel 2050 5250 0    50   Input ~ 0
+TOOL_ID_PIN
+Text GLabel 2050 5750 0    50   Input ~ 0
 THERM_1_PIN
-Text GLabel 700  4850 0    50   Input ~ 0
+Text GLabel 2050 5850 0    50   Input ~ 0
 IO_3_OUT
-Text GLabel 700  4950 0    50   Input ~ 0
+Text GLabel 2050 5950 0    50   Input ~ 0
 IO_2_OUT
-Text GLabel 700  5050 0    50   Input ~ 0
+Text GLabel 2050 6050 0    50   Input ~ 0
 IO_1_OUT
 $Comp
 L Device:LED_Small D6
@@ -1444,7 +1436,7 @@ F 3 "https://www.adafruit.com/product/1938" H -150 2325 50  0001 L TNN
 	1    -250 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 700  4650 0    50   Input ~ 0
+Text GLabel 2050 4750 0    50   Input ~ 0
 BOOT_1
 Wire Wire Line
 	3550 6050 3750 6050
@@ -1452,12 +1444,8 @@ Wire Wire Line
 	3550 5850 4300 5850
 Text GLabel 5100 4950 2    50   Input ~ 0
 FAN_1_GATE
-Text GLabel 4500 4850 2    50   Input ~ 0
-USART_2_RX
-Text GLabel 4500 4750 2    50   Input ~ 0
-USART_2_TX
-Text GLabel 700  4550 0    50   Input ~ 0
-LED_1_PWM
+Text GLabel 2050 4350 0    50   Input ~ 0
+LED_1_PWM_PIN
 Wire Wire Line
 	3550 4950 3800 4950
 Wire Wire Line
@@ -1486,9 +1474,9 @@ Wire Wire Line
 	2250 5050 2050 5050
 Wire Wire Line
 	2050 5150 2250 5150
-Text GLabel 5100 4850 2    50   Input ~ 0
+Text GLabel 3800 5550 2    50   Input ~ 0
 TMC_UART_RX
-Text GLabel 5100 4750 2    50   Input ~ 0
+Text GLabel 3800 5450 2    50   Input ~ 0
 TMC_UART_TX
 Wire Wire Line
 	2050 4150 2250 4150
@@ -1540,4 +1528,12 @@ F 3 "" H 1850 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1850 1350
+Wire Wire Line
+	2050 5250 2250 5250
+Wire Wire Line
+	3800 5350 3550 5350
+Wire Wire Line
+	3550 5450 3800 5450
+Wire Wire Line
+	3800 5550 3550 5550
 $EndSCHEMATC
