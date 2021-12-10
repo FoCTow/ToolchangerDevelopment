@@ -1,15 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TJA1040T
+$CMP SN65HVD232DR
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
-$CMP TJA1042T
+$CMP TJA1040T
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
-F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
+F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TMC2209-LA

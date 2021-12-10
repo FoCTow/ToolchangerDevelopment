@@ -20,7 +20,7 @@ P 2950 4750
 F 0 "U2" H 2100 6450 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 2100 6300 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2350 3350 50  0001 R CNN
-F 3 "http://www.st.com/st-web-https://www.lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics-STM32F103C8T6_C8734.html" H 2950 4750 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics-STM32F103C8T6_C8734.html" H 2950 4750 50  0001 C CNN
 F 4 "C8734" H 2950 4750 50  0001 C CNN "LCSC"
 	1    2950 4750
 	1    0    0    -1  
@@ -45,9 +45,9 @@ P 10350 5200
 AR Path="/613DBE83/6326606B" Ref="C?"  Part="1" 
 AR Path="/613DC005/6326606B" Ref="C32"  Part="1" 
 F 0 "C32" H 10442 5246 50  0000 L CNN
-F 1 "C_Small" H 10442 5155 50  0000 L CNN
+F 1 "4.7uF 10V" H 10442 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10350 5200 50  0001 C CNN
-F 3 "~" H 10350 5200 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A475KP5NRNC_C368809.html" H 10350 5200 50  0001 C CNN
 	1    10350 5200
 	1    0    0    -1  
 $EndComp
@@ -71,8 +71,8 @@ ADXL_CS
 Text GLabel 9050 5600 0    50   Input ~ 0
 ADXL_SCL
 Text GLabel 9050 5500 0    50   Input ~ 0
-ADXL_SDA
-Text GLabel 8950 5400 0    50   Input ~ 0
+ADXL_SDI
+Text GLabel 9050 5400 0    50   Input ~ 0
 ADXL_SDO
 NoConn ~ 9950 6000
 NoConn ~ 9550 5000
@@ -191,20 +191,6 @@ F 1 "GND" H 9050 3150 50  0000 C CNN
 F 2 "" H 9050 3300 50  0001 C CNN
 F 3 "" H 9050 3300 50  0001 C CNN
 	1    9050 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ToolChanger:TMC2209-LA IC?
-U 1 1 63266110
-P 8250 2150
-AR Path="/613DBE83/63266110" Ref="IC?"  Part="1" 
-AR Path="/613DC005/63266110" Ref="IC1"  Part="1" 
-F 0 "IC1" H 8250 3350 50  0000 C CNN
-F 1 "TMC2209-LA" H 8250 3250 50  0000 C CNN
-F 2 "ToolChanger:tmc_2209_ThermalPad" V 8350 1550 50  0001 L CNN
-F 3 "https://www.lcsc.com/product-detail/Motor-Driver-ICs_TRINAMIC-Motion-Control-GmbH-TMC2209-LA_C465949.html" H 7200 2900 50  0001 L CNN
-F 4 "C465949" V 8250 2500 50  0001 C CNN "LCSC"
-	1    8250 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -591,9 +577,9 @@ P 10050 2950
 AR Path="/613DBE83/632660EB" Ref="C?"  Part="1" 
 AR Path="/613DC005/632660EB" Ref="C31"  Part="1" 
 F 0 "C31" V 9950 3300 50  0000 R CNN
-F 1 "0.1uF 16V" V 9950 3050 50  0000 R CNN
+F 1 "0.1uF 50V" V 9950 3050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10050 2950 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.html" H 10050 2950 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 10050 2950 50  0001 C CNN
 F 4 "C66501" V 10050 2950 50  0001 C CNN "LCSC"
 	1    10050 2950
 	-1   0    0    1   
@@ -681,10 +667,10 @@ P 9750 5500
 AR Path="/613DBE83/6326605E" Ref="U?"  Part="1" 
 AR Path="/613DC005/6326605E" Ref="U5"  Part="1" 
 F 0 "U5" H 8700 5950 50  0000 L CNN
-F 1 "ADXL345BCCZ-RL7" H 8550 5850 50  0000 L CNN
+F 1 "ADXL345BCCZ-RL" H 8550 5850 50  0000 L CNN
 F 2 "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" H 9750 5500 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Motion-Sensors-Accelerometers_Analog-Devices-ADXL345BCCZ-RL7_C9667.html" H 9750 5500 50  0001 C CNN
-F 4 "C9667" H 9750 5500 50  0001 C CNN "LCSC"
+F 3 "https://www.lcsc.com/product-detail/Motion-Sensors-Accelerometers_Analog-Devices-ADXL345BCCZ-RL_C579457.html" H 9750 5500 50  0001 C CNN
+F 4 "C579457" H 9750 5500 50  0001 C CNN "LCSC"
 	1    9750 5500
 	1    0    0    -1  
 $EndComp
@@ -752,17 +738,6 @@ Wire Wire Line
 	3550 4750 3800 4750
 Wire Wire Line
 	3550 4850 3800 4850
-$Comp
-L ToolChanger:TJA1040T U6
-U 1 1 619288F5
-P 7100 5450
-F 0 "U6" H 6200 5850 50  0000 C CNN
-F 1 "TJA1040T" H 6300 5750 50  0000 C CNN
-F 2 "ToolChanger:SOIC-8_3.9x4.9mm_P1.27mm" H 7100 4950 50  0001 C CIN
-F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 7100 5450 50  0001 C CNN
-	1    7100 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 5850 6950 5950
 Wire Wire Line
@@ -826,9 +801,9 @@ P 7700 5150
 AR Path="/613DBE83/619A4E50" Ref="C?"  Part="1" 
 AR Path="/613DC005/619A4E50" Ref="C35"  Part="1" 
 F 0 "C35" H 7792 5196 50  0000 L CNN
-F 1 "C_Small" H 7792 5105 50  0000 L CNN
+F 1 "0.1uF 16V" H 7792 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7700 5150 50  0001 C CNN
-F 3 "~" H 7700 5150 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html" H 7700 5150 50  0001 C CNN
 	1    7700 5150
 	1    0    0    -1  
 $EndComp
@@ -839,7 +814,7 @@ Wire Wire Line
 Connection ~ 7700 4950
 Wire Wire Line
 	7700 4950 7800 4950
-Text Notes 3450 7800 0    50   ~ 0
+Text Notes 4550 7600 0    50   ~ 0
 todo \n-consider AREF implementation\n-3.3v vs AREF for ADXL & CAN\n\n>> routing for can therm and can gets kinda awkward\n>> can and therm should be unified to AREF or 3.3
 Connection ~ 6950 5950
 Wire Notes Line
@@ -893,9 +868,9 @@ P 10250 2950
 AR Path="/613DBE83/61914ECE" Ref="C?"  Part="1" 
 AR Path="/613DC005/61914ECE" Ref="C41"  Part="1" 
 F 0 "C41" V 10150 3300 50  0000 R CNN
-F 1 "0.1uF 16V" V 10150 3050 50  0000 R CNN
+F 1 "0.1uF 50V" V 10150 3050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10250 2950 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.html" H 10250 2950 50  0001 C CNN
+F 3 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 10250 2950 50  0001 C CNN
 F 4 "C66501" V 10250 2950 50  0001 C CNN "LCSC"
 	1    10250 2950
 	-1   0    0    1   
@@ -970,8 +945,8 @@ F 4 "C1525" V 3950 1250 50  0001 C CNN "LCSC"
 	1    3950 1250
 	-1   0    0    1   
 $EndComp
-Text Notes 8600 3850 0    71   ~ 14
-!!esd caps could be smaller 0402 vs 0603!!\n!!alternatively these could be changed to \n50V which are already in BOM!!
+Text Notes 8600 3950 0    71   ~ 14
+RESOLVED\n!!esd caps could be smaller 0402 vs 0603!!\n!!alternatively these could be changed to \n50V which are already in BOM!!
 $Comp
 L Device:C_Small C?
 U 1 1 619B8CC7
@@ -1102,8 +1077,8 @@ P 1550 1050
 F 0 "HSE1" H 1250 1350 50  0000 L CNN
 F 1 "8MHz" H 1250 1250 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1550 1050 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/Crystals_Suzhou-Liming-Elec-3225-8-00-10-10-10-A_C518154.html" H 1550 1050 50  0001 C CNN
-F 4 "C518154" H 1550 1050 50  0001 C CNN "LCSC"
+F 3 "https://www.lcsc.com/product-detail/Crystals_Suzhou-Liming-Elec-3225-8-00-12-10-10-A_C518155.html" H 1550 1050 50  0001 C CNN
+F 4 "C518155" H 1550 1050 50  0001 C CNN "LCSC"
 	1    1550 1050
 	1    0    0    -1  
 $EndComp
@@ -1138,7 +1113,7 @@ Text GLabel 1300 4850 0    50   Input ~ 0
 DEBUG_SWO
 Wire Wire Line
 	2050 4850 2250 4850
-Text Notes -1000 4900 0    50   ~ 0
+Text Notes -300 4900 0    50   ~ 0
 Optional Asynchronous SW
 Wire Wire Line
 	3050 3250 2950 3250
@@ -1356,23 +1331,23 @@ Text GLabel 2050 4250 0    50   Input ~ 0
 FAN_1_TACHO_PIN
 Text GLabel 2050 4150 0    50   Input ~ 0
 FAN_2_TACHO_PIN
-Text GLabel 5100 5050 2    50   Input ~ 0
+Text GLabel 4150 4600 2    50   Input ~ 0
 FAN_2_GATE
 Text GLabel 3800 5350 2    50   Input ~ 0
 HEATER_GATE
-Text GLabel 700  5950 0    50   Input ~ 0
+Text GLabel 1300 5550 0    50   Input ~ 0
 LED_1_GATE
-Text GLabel 700  6050 0    50   Input ~ 0
+Text GLabel 1300 5650 0    50   Input ~ 0
 HOST_USB_GATE
 Text GLabel 2050 5150 0    50   Input ~ 0
 LED_0
-Text GLabel 700  5750 0    50   Input ~ 0
+Text GLabel 3800 4950 2    50   Input ~ 0
 ADXL_CS
-Text GLabel 2050 5650 0    50   Input ~ 0
-ADXL_SDA
-Text GLabel 5100 5450 2    50   Input ~ 0
+Text GLabel 3800 5250 2    50   Input ~ 0
+ADXL_SDI
+Text GLabel 3800 5150 2    50   Input ~ 0
 ADXL_SDO
-Text GLabel 700  5850 0    50   Input ~ 0
+Text GLabel 3800 4850 2    50   Input ~ 0
 ADXL_INT1
 Text GLabel 2050 5250 0    50   Input ~ 0
 TOOL_ID_PIN
@@ -1428,12 +1403,12 @@ Wire Wire Line
 $Comp
 L LED:NeoPixel_THT D7
 U 1 1 61C160D1
-P -250 2700
-F 0 "D7" H 94  2746 50  0000 L CNN
-F 1 "NeoPixel_THT" H 94  2655 50  0000 L CNN
-F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H -200 2400 50  0001 L TNN
-F 3 "https://www.adafruit.com/product/1938" H -150 2325 50  0001 L TNN
-	1    -250 2700
+P 3050 7250
+F 0 "D7" H 3394 7296 50  0000 L CNN
+F 1 "NeoPixel_THT" H 3394 7205 50  0000 L CNN
+F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H 3100 6950 50  0001 L TNN
+F 3 "https://www.adafruit.com/product/1938" H 3150 6875 50  0001 L TNN
+	1    3050 7250
 	1    0    0    -1  
 $EndComp
 Text GLabel 2050 4750 0    50   Input ~ 0
@@ -1442,7 +1417,7 @@ Wire Wire Line
 	3550 6050 3750 6050
 Wire Wire Line
 	3550 5850 4300 5850
-Text GLabel 5100 4950 2    50   Input ~ 0
+Text GLabel 4150 4500 2    50   Input ~ 0
 FAN_1_GATE
 Text GLabel 2050 4350 0    50   Input ~ 0
 LED_1_PWM_PIN
@@ -1512,7 +1487,7 @@ Text GLabel 1750 5450 0    50   Input ~ 0
 CAN_TX
 Text GLabel 1750 5350 0    50   Input ~ 0
 CAN_RX
-Text GLabel 2050 5550 0    50   Input ~ 0
+Text GLabel 3800 5050 2    50   Input ~ 0
 ADXL_SCL
 Wire Wire Line
 	3550 5950 4300 5950
@@ -1536,4 +1511,32 @@ Wire Wire Line
 	3550 5450 3800 5450
 Wire Wire Line
 	3800 5550 3550 5550
+$Comp
+L ToolChanger:SN65HVD232DR U6
+U 1 1 619288F5
+P 7100 5450
+F 0 "U6" H 6200 5850 50  0000 C CNN
+F 1 "SN65HVD232DR" H 6300 5750 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7100 4950 50  0001 C CIN
+F 3 "https://www.lcsc.com/product-detail/CAN-ICs_Texas-Instruments-SN65HVD232DR_C30530.html" H 7100 5450 50  0001 C CNN
+F 4 "C30530" H 7100 5450 50  0001 C CNN "LCSC"
+	1    7100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ToolChanger:TMC2209-LA IC?
+U 1 1 63266110
+P 8250 2150
+AR Path="/613DBE83/63266110" Ref="IC?"  Part="1" 
+AR Path="/613DC005/63266110" Ref="IC1"  Part="1" 
+F 0 "IC1" H 8250 3350 50  0000 C CNN
+F 1 "TMC2209-LA" H 8250 3250 50  0000 C CNN
+F 2 "ToolChanger:tmc_2209_ThermalPad" V 8350 1550 50  0001 L CNN
+F 3 "https://www.lcsc.com/product-detail/Motor-Driver-ICs_TRINAMIC-Motion-Control-GmbH-TMC2209-LA_C465949.html" H 7200 2900 50  0001 L CNN
+F 4 "C465949" V 8250 2500 50  0001 C CNN "LCSC"
+	1    8250 2150
+	1    0    0    -1  
+$EndComp
+Text Notes 750  4750 0    50   ~ 0
+BOOT 1 need pulldown
 $EndSCHEMATC

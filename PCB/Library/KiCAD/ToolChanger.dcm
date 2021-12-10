@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SN65HVD232DR
+D Basic High-Speed CAN Transceiver, SOIC-8
+K High-Speed CAN Transceiver
+F https://www.lcsc.com/product-detail/CAN-ICs_Texas-Instruments-SN65HVD232DR_C30530.html
+$ENDCMP
+#
 $CMP TJA1040T
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
