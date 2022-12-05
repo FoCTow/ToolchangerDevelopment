@@ -71,8 +71,8 @@ ADXL_CS
 Text GLabel 9050 5600 0    50   Input ~ 0
 ADXL_SCL
 Text GLabel 9050 5500 0    50   Input ~ 0
-ADXL_SDA
-Text GLabel 8950 5400 0    50   Input ~ 0
+ADXL_SDI
+Text GLabel 9050 5400 0    50   Input ~ 0
 ADXL_SDO
 NoConn ~ 9950 6000
 NoConn ~ 9550 5000
@@ -733,8 +733,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 5550 2250 5550
 Wire Wire Line
-	2050 5650 2250 5650
-Wire Wire Line
 	3550 4750 3800 4750
 Wire Wire Line
 	3550 4850 3800 4850
@@ -1109,11 +1107,11 @@ Text GLabel 4300 5850 2    50   Input ~ 0
 DEBUG_SWDIO
 Text GLabel 4300 5950 2    50   Input ~ 0
 DEBUG_SWCLK
-Text GLabel 1300 4850 0    50   Input ~ 0
+Text GLabel 1150 4850 0    50   Input ~ 0
 DEBUG_SWO
 Wire Wire Line
 	2050 4850 2250 4850
-Text Notes -1000 4900 0    50   ~ 0
+Text Notes -450 4900 0    50   ~ 0
 Optional Asynchronous SW
 Wire Wire Line
 	3050 3250 2950 3250
@@ -1319,46 +1317,32 @@ F 3 "" H 10450 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 4650 2250 4650
-Text GLabel 3750 6050 2    50   Input ~ 0
+Text GLabel 3800 5350 2    50   Input ~ 0
 TMC_DIR
-Text GLabel 2050 5050 0    50   Input ~ 0
+Text GLabel 2050 6050 0    50   Input ~ 0
 TMC_STEP
 Text GLabel 2050 4950 0    50   Input ~ 0
 TMC_ENN
-Text GLabel 2050 4850 0    50   Input ~ 0
+Text GLabel 3750 6050 2    50   Input ~ 0
 TMC_DIAG
-Text GLabel 2050 4250 0    50   Input ~ 0
+Text GLabel 1700 4450 0    50   Input ~ 0
 FAN_1_TACHO_PIN
-Text GLabel 2050 4150 0    50   Input ~ 0
+Text GLabel 1700 4350 0    50   Input ~ 0
 FAN_2_TACHO_PIN
-Text GLabel 5100 5050 2    50   Input ~ 0
-FAN_2_GATE
-Text GLabel 3800 5350 2    50   Input ~ 0
-HEATER_GATE
-Text GLabel 700  5950 0    50   Input ~ 0
-LED_1_GATE
-Text GLabel 700  6050 0    50   Input ~ 0
-HOST_USB_GATE
-Text GLabel 2050 5150 0    50   Input ~ 0
-LED_0
-Text GLabel 700  5750 0    50   Input ~ 0
-ADXL_CS
-Text GLabel 2050 5650 0    50   Input ~ 0
-ADXL_SDA
-Text GLabel 5100 5450 2    50   Input ~ 0
-ADXL_SDO
-Text GLabel 700  5850 0    50   Input ~ 0
-ADXL_INT1
-Text GLabel 2050 5250 0    50   Input ~ 0
-TOOL_ID_PIN
-Text GLabel 2050 5750 0    50   Input ~ 0
-THERM_1_PIN
-Text GLabel 2050 5850 0    50   Input ~ 0
-IO_3_OUT
 Text GLabel 2050 5950 0    50   Input ~ 0
-IO_2_OUT
-Text GLabel 2050 6050 0    50   Input ~ 0
-IO_1_OUT
+HEATER_GATE
+Text GLabel 3800 4650 2    50   Input ~ 0
+LED_1_GATE
+Text GLabel 3800 4550 2    50   Input ~ 0
+HOST_USB_GATE
+Text GLabel 3800 4950 2    50   Input ~ 0
+ADXL_CS
+Text GLabel 3800 5250 2    50   Input ~ 0
+ADXL_SDI
+Text GLabel 3800 5150 2    50   Input ~ 0
+ADXL_SDO
+Text GLabel 3800 4850 2    50   Input ~ 0
+ADXL_INT1
 $Comp
 L Device:LED_Small D6
 U 1 1 62708D96
@@ -1417,9 +1401,7 @@ Wire Wire Line
 	3550 6050 3750 6050
 Wire Wire Line
 	3550 5850 4300 5850
-Text GLabel 5100 4950 2    50   Input ~ 0
-FAN_1_GATE
-Text GLabel 2050 4350 0    50   Input ~ 0
+Text GLabel 1700 4550 0    50   Input ~ 0
 LED_1_PWM_PIN
 Wire Wire Line
 	3550 4950 3800 4950
@@ -1433,16 +1415,6 @@ Wire Wire Line
 	2050 4550 2250 4550
 Wire Wire Line
 	2050 4750 2250 4750
-Text Notes 8500 5300 0    50   ~ 0
-SDO is adress?? DO we need that???
-Wire Wire Line
-	2050 5750 2250 5750
-Wire Wire Line
-	2050 5850 2250 5850
-Wire Wire Line
-	2050 5950 2250 5950
-Wire Wire Line
-	2050 6050 2250 6050
 Wire Wire Line
 	2050 4950 2250 4950
 Wire Wire Line
@@ -1487,7 +1459,7 @@ Text GLabel 1750 5450 0    50   Input ~ 0
 CAN_TX
 Text GLabel 1750 5350 0    50   Input ~ 0
 CAN_RX
-Text GLabel 2050 5550 0    50   Input ~ 0
+Text GLabel 3800 5050 2    50   Input ~ 0
 ADXL_SCL
 Wire Wire Line
 	3550 5950 4300 5950
@@ -1537,4 +1509,92 @@ F 4 "C465949" V 8250 2500 50  0001 C CNN "LCSC"
 	1    8250 2150
 	1    0    0    -1  
 $EndComp
+Text Notes 800  4800 0    50   ~ 0
+BOOT 1 needs pulldown
+Text GLabel 2050 5150 0    50   Input ~ 0
+FAN_1_GATE
+Text GLabel 2050 4150 0    50   Input ~ 0
+LED_0
+Text GLabel 2050 5250 0    50   Input ~ 0
+FAN_2_GATE
+Text GLabel 2050 5050 0    50   Input ~ 0
+TOOL_ID_PIN
+Wire Wire Line
+	2050 6050 2250 6050
+Wire Wire Line
+	2050 5950 2250 5950
+Wire Wire Line
+	2050 5850 2250 5850
+Wire Wire Line
+	2050 5750 2250 5750
+Text GLabel 2050 5850 0    50   Input ~ 0
+IO_1_OUT_PIN
+Text GLabel 2050 5750 0    50   Input ~ 0
+IO_2_OUT_PIN
+Text GLabel 2050 5650 0    50   Input ~ 0
+IO_3_OUT_PIN
+Text GLabel 2050 5550 0    50   Input ~ 0
+THERM_1_PIN
+Wire Wire Line
+	2050 5650 2250 5650
+Text Notes 8350 5850 0    50   ~ 0
+SDO is adress?? DO we need that???
+Text Notes 3600 3600 0    50   ~ 0
+add ambient sensor on pcb\n
+Text Notes 2550 4550 0    50   ~ 0
+pwm
+Text Notes 2550 4650 0    50   ~ 0
+pwm
+Text Notes 2600 5550 0    50   ~ 0
+pwm
+Text Notes 2600 5650 0    50   ~ 0
+pwm
+Text Notes 2600 5750 0    50   ~ 0
+pwm
+Text Notes 2600 5850 0    50   ~ 0
+pwm
+Text Notes 2600 5950 0    50   ~ 0
+pwm
+Text Notes 2600 6050 0    50   ~ 0
+pwm
+Text Notes 3100 5350 0    50   ~ 0
+pwm
+Text Notes 3100 5450 0    50   ~ 0
+pwm
+Text Notes 3100 5550 0    50   ~ 0
+pwm
+Text Notes 3100 5650 0    50   ~ 0
+pwm
+Text Notes 3100 5750 0    50   ~ 0
+pwm
+Text Notes 3100 6050 0    50   ~ 0
+pwm
+Text Notes 2550 4850 0    50   ~ 0
+pwm
+Text Notes 2550 4950 0    50   ~ 0
+pwm
+Text Notes 2550 5050 0    50   ~ 0
+pwm
+Text Notes 2550 5150 0    50   ~ 0
+pwm
+Text Notes 2550 5250 0    50   ~ 0
+pwm
+Text Notes 2550 5350 0    50   ~ 0
+pwm
+Text Notes 2550 5450 0    50   ~ 0
+pwm
+Text Notes 3100 4550 0    50   ~ 0
+pwm
+Text Notes 3100 4650 0    50   ~ 0
+pwm
+Text Notes 3100 4750 0    50   ~ 0
+pwm
+Text Notes 3100 4850 0    50   ~ 0
+pwm
+Text Notes 3100 5150 0    50   ~ 0
+pwm
+Text Notes 3100 5250 0    50   ~ 0
+pwm
+Text Notes 4300 4900 0    50   ~ 0
+this interrupt should be obsolete??
 $EndSCHEMATC

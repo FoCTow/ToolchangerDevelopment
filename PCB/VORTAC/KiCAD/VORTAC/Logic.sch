@@ -906,6 +906,7 @@ F 1 "10uH" V 3350 4600 50  0000 C CNN
 F 2 "ToolChanger:L_Sunlord_MWSA0518_5.4x5.2mm" H 3250 4600 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Power-Inductors_Sunlord-MWSA0503S-100MT_C408412.html" H 3250 4600 50  0001 C CNN
 F 4 "C408412" V 3250 4600 50  0001 C CNN "LCSC"
+F 5 "C436530" V 3250 4600 50  0001 C CNN "LCSC ALT"
 	1    3250 4600
 	0    -1   -1   0   
 $EndComp
@@ -1335,6 +1336,7 @@ F 1 "10uH" V 3350 2600 50  0000 C CNN
 F 2 "ToolChanger:L_Sunlord_MWSA0518_5.4x5.2mm" H 3250 2600 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Power-Inductors_Sunlord-MWSA0503S-100MT_C408412.html" H 3250 2600 50  0001 C CNN
 F 4 "C408412" V 3250 2600 50  0001 C CNN "LCSC"
+F 5 "C436530" V 3250 2600 50  0001 C CNN "LCSC ALT"
 	1    3250 2600
 	0    -1   -1   0   
 $EndComp
@@ -1417,8 +1419,8 @@ AR Path="/613DBE83/6328916A" Ref="U1"  Part="1"
 F 0 "U1" H 1300 6450 50  0000 C CNN
 F 1 "TLV73333PDBV" H 1300 6550 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1550 7325 50  0001 C CIN
-F 3 "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-TLV73333PDBVR_C134139.html" H 1550 7000 50  0001 C CNN
-F 4 "C134139" H 1550 7000 50  0001 C CNN "Field4"
+F 3 "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-TLV74333PDBVR_C408972.html" H 1550 7000 50  0001 C CNN
+F 4 "C408972" H 1550 7000 50  0001 C CNN "LCSC"
 	1    1550 7000
 	1    0    0    -1  
 $EndComp
