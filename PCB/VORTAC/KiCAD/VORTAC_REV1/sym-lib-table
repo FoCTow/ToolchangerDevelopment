@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ToolChanger")(type "Legacy")(uri "${KIPRJMOD}/../../../Library/KiCAD/ToolChanger.lib")(options "")(descr ""))
+  (lib (name "VORTAC-rescue")(type "KiCad")(uri "${KIPRJMOD}/VORTAC-rescue.kicad_sym")(options "")(descr ""))
+)

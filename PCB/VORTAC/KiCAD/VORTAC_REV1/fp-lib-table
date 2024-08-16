@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ToolChanger")(type "KiCad")(uri "${KIPRJMOD}/../../../Library/KiCAD/ToolChanger.pretty")(options "")(descr ""))
+)
