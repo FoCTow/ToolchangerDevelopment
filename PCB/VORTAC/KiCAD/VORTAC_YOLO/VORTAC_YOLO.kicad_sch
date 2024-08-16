@@ -1,0 +1,148 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed58d858-d9f9-4504-a982-ccfc7f9efbad")
+	(paper "A4")
+	(title_block
+		(title "ROOT")
+		(date "2021-10-17")
+		(rev "0.0")
+		(company "VORTAC DESIGN")
+		(comment 1 "!! wip untested revesion !!")
+		(comment 2 "Designed to be used with Klipper Firmware")
+		(comment 3 "Canbus Networked Smart Tool Board")
+		(comment 4 "-- VORTAC PCB --")
+	)
+	(lib_symbols)
+	(text "notes:\n-depletion mosfet - potenmtial candidate for reverse voltage protection (if not use p type mosfet)"
+		(exclude_from_sim no)
+		(at 173.99 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79fe9f2a-f5b3-4d91-93a3-a36cae5255e8")
+	)
+	(sheet
+		(at 24.13 143.51)
+		(size 140.97 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000613db78d")
+		(property "Sheetname" "Headers"
+			(at 24.13 142.4301 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Headers.kicad_sch"
+			(at 24.13 188.8392 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VORTAC_YOLO"
+				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 81.28)
+		(size 140.97 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000613dbe83")
+		(property "Sheetname" "Logic"
+			(at 24.13 80.2001 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic.kicad_sch"
+			(at 24.13 126.6092 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VORTAC_YOLO"
+				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 21.59)
+		(size 140.97 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000613dc005")
+		(property "Sheetname" "MCU"
+			(at 24.13 20.5101 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 24.13 65.6492 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VORTAC_YOLO"
+				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
