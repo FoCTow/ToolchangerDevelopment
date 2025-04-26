@@ -57,7 +57,7 @@
 			)
 		)
 		(instances
-			(project "VORTAC_YOLO"
+			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad"
 					(page "4")
 				)
@@ -95,7 +95,7 @@
 			)
 		)
 		(instances
-			(project "VORTAC_YOLO"
+			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad"
 					(page "3")
 				)
@@ -133,7 +133,7 @@
 			)
 		)
 		(instances
-			(project "VORTAC_YOLO"
+			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad"
 					(page "2")
 				)

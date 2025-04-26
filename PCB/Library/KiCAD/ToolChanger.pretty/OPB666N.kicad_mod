@@ -140,4 +140,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "e10df9f6-ad31-4532-ae1b-b0df946f2ccc")
 	)
+	(model "D:/Git/ToolchangerDevelopment/PCB/Library/KiCAD/StepFiles/OPB666N.stp"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
