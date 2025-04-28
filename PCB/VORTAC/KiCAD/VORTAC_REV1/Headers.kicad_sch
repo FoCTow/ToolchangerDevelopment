@@ -2283,7 +2283,7 @@
 	)
 	(polyline
 		(pts
-			(xy 16.51 135.89) (xy 16.51 193.04)
+			(xy 16.51 137.16) (xy 16.51 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2363,7 +2363,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.55 135.89) (xy 82.55 193.04)
+			(xy 82.55 137.16) (xy 82.55 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2503,7 @@
 	)
 	(polyline
 		(pts
-			(xy 16.51 135.89) (xy 82.55 135.89)
+			(xy 16.51 137.16) (xy 82.55 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3008,7 +3008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+		(property "Footprint" "ToolChanger:USB-C-TH_HANBO_MC-118LD-H65"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -3017,7 +3017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103051833_Jing-Extension-of-the-Electronic-Co.-918-418K2023S40001_C167321.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412131142_Hanbo-Electronic-MC-118LD-H65_C6332304.pdf"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -3035,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167321"
+		(property "LCSC" "C6332304"
 			(at 31.75 166.37 0)
 			(effects
 				(font
