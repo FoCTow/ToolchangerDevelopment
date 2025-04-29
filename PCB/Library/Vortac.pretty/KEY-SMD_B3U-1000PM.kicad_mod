@@ -200,7 +200,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "6be21637-265f-4392-b79d-b416e6943290")
 	)
-	(model "E:/ToolChanger/PCB/Library/Vortac.3dshapes/KEY-SMD_2P-L3.0-W2.5-H1.6-LS4.0.wrl"
+	(model "${VORTAC_SHAPES}/KEY-SMD_2P-L3.0-W2.5-H1.6-LS4.0.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)
