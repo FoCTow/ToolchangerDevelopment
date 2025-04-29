@@ -3008,7 +3008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vortac:USB-C-TH_HANBO_MC-118LD-H65"
+		(property "Footprint" "Vortac:USB-C-SMD_TYPEC-303-ACP16"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -3017,7 +3017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412131142_Hanbo-Electronic-MC-118LD-H65_C6332304.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220120_XUNPU-TYPEC-303-ACP16_C720628.pdf"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -3035,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6332304"
+		(property "LCSC" "C720628"
 			(at 31.75 166.37 0)
 			(effects
 				(font
