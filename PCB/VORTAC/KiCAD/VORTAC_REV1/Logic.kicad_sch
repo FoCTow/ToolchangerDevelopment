@@ -4347,7 +4347,7 @@
 			)
 		)
 	)
-	(global_label "AS_CS"
+	(global_label "AS_NCS"
 		(shape input)
 		(at 40.64 167.64 180)
 		(effects
@@ -8014,7 +8014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_AMS-AS5047D-ATSM_C2693743.pdf"
 			(at 41.91 181.61 0)
 			(effects
 				(font
