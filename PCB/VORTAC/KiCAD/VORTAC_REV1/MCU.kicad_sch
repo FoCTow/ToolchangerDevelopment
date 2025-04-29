@@ -11101,7 +11101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:tmc_2209_package"
+		(property "Footprint" "Vortac:tmc_2209_package"
 			(at 212.09 69.85 90)
 			(effects
 				(font
@@ -12857,7 +12857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vortac:KEY-SMD_B3U-1000PM"
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -12866,7 +12866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_Omron-Electronics-B3U-1000P_C231329.pdf"
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -12884,7 +12884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" "C231329"
 			(at 115.57 176.53 0)
 			(effects
 				(font
@@ -12933,7 +12933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
+		(property "Footprint" "Vortac:L_CommonModeChoke_Coilcraft_0805USB"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -13015,7 +13015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vortac:KEY-SMD_B3U-1000PM"
 			(at 115.57 154.94 0)
 			(effects
 				(font
@@ -13024,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_Omron-Electronics-B3U-1000P_C231329.pdf"
 			(at 115.57 154.94 0)
 			(effects
 				(font
@@ -13042,7 +13042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" "C231329"
 			(at 115.57 160.02 0)
 			(effects
 				(font

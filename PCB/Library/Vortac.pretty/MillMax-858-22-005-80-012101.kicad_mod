@@ -1,0 +1,206 @@
+(footprint "MillMax-858-22-005-80-012101"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14.5 -5 0)
+		(layer "F.SilkS")
+		(uuid "69e0e65a-0c75-4373-bf2d-46cc04765a9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MillMax-858-22-005-80-012101"
+		(at 1.5 -5 0)
+		(layer "F.Fab")
+		(uuid "e61f82ab-554c-4247-8e44-c16aed5a567b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "940a71b5-739e-4074-a09e-a215f7016f47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ad076b-e146-4bba-b545-3d63edc43b93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6ab7e27-1343-4ac4-8948-8fd7e3ca4841")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17 0.5)
+		(end -17 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4e8c1418-11df-4c65-9c80-3a19cb089050")
+	)
+	(fp_line
+		(start 13.5 -4)
+		(end -13.5 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c74ec11c-4883-4bd5-99ce-97d919165395")
+	)
+	(fp_line
+		(start 13.5 4)
+		(end -13.5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ca2281bd-1e78-4215-a484-10e86b9b6247")
+	)
+	(fp_line
+		(start 17 -0.5)
+		(end 17 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7c568449-05d2-4e37-9efc-d358ed071053")
+	)
+	(fp_arc
+		(start -17 -0.5)
+		(mid -15.974874 -2.974874)
+		(end -13.5 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "76a8a3b1-13ae-462d-8d69-00cd2c592e65")
+	)
+	(fp_arc
+		(start -13.5 4)
+		(mid -15.974874 2.974874)
+		(end -17 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "84630f63-69c4-478d-b382-a6392f9f61d7")
+	)
+	(fp_arc
+		(start 13.5 -4)
+		(mid 15.974874 -2.974874)
+		(end 17 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9ee11453-4e4e-4686-aaaa-63ea4def95b2")
+	)
+	(fp_arc
+		(start 17 0.5)
+		(mid 15.974874 2.974874)
+		(end 13.5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3e2889d1-e829-4c77-8c79-8b84e64be386")
+	)
+	(pad "1" connect circle
+		(at -8 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1d03c937-1d8c-4789-9a80-f74281e0bf88")
+	)
+	(pad "2" connect circle
+		(at -4 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d9d4890b-8a8a-4bb9-ba23-527ad914d739")
+	)
+	(pad "3" connect circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f5952f9c-8139-4ff9-980c-6edd84a25edc")
+	)
+	(pad "4" connect circle
+		(at 4 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "980646c2-6b99-4363-bdee-19fce47846f9")
+	)
+	(pad "5" connect circle
+		(at 8 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7044973d-4fdc-4fc8-a141-a1be38e8e2e8")
+	)
+	(pad "M1" thru_hole circle
+		(at -13 0)
+		(size 5.5 5.5)
+		(drill 3.045)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a16928c-f440-4a39-acd6-57ee1acab401")
+	)
+	(pad "M2" thru_hole circle
+		(at 13 0)
+		(size 5.5 5.5)
+		(drill 3.045)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b19d72e0-fc89-4203-982c-6b895c23ddff")
+	)
+	(model "${VORTAC_SHAPES}/Mill Max - 858-22-005-80-012101.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

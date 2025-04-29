@@ -3008,7 +3008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:USB-C-TH_HANBO_MC-118LD-H65"
+		(property "Footprint" "Vortac:USB-C-TH_HANBO_MC-118LD-H65"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -3405,7 +3405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:PinHeader_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Vortac:PinHeader_2x03_P1.27mm_Vertical"
 			(at 48.26 59.69 0)
 			(effects
 				(font

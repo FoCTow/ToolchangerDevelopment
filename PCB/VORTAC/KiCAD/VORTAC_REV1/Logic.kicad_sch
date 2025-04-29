@@ -4512,7 +4512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:L_Sunlord_MWSA0518_5.4x5.2mm"
+		(property "Footprint" "Vortac:L_Sunlord_MWSA0518_5.4x5.2mm"
 			(at 82.55 116.84 0)
 			(effects
 				(font
@@ -4539,16 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C408412"
-			(at 82.55 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC ALT" "C436530"
+		(property "LCSC" "C436530"
 			(at 82.55 116.84 90)
 			(effects
 				(font
@@ -5297,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
+		(property "Footprint" "Vortac:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
 			(at 66.04 133.35 0)
 			(effects
 				(font
@@ -6795,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:SENSOR_EE-SX3350_OMR"
+		(property "Footprint" "Vortac:SENSOR_EE-SX3350_OMR"
 			(at 214.884 67.564 0)
 			(effects
 				(font
@@ -6953,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:SENSOR_EE-SX3350_OMR"
+		(property "Footprint" "Vortac:SENSOR_EE-SX3350_OMR"
 			(at 214.884 44.704 0)
 			(effects
 				(font
