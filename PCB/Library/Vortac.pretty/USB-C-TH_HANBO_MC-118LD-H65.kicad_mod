@@ -364,7 +364,7 @@
 		(remove_unused_layers no)
 		(uuid "e196703a-5d17-4baa-bd84-bdc56b2e1125")
 	)
-	(model "E:/ToolChanger/PCB/Library/Vortac.3dshapes/USB-C-TH_HANBO_MC-118LD-H65.step"
+	(model "${VORTAC_SHAPES}/USB-C-TH_HANBO_MC-118LD-H65.step"
 		(offset
 			(xyz 0 -0 0)
 		)
