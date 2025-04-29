@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Vortac")(type "KiCad")(uri "E:/ToolChanger/PCB/Library/Vortac.pretty")(options "")(descr ""))
+  (lib (name "Vortac")(type "KiCad")(uri "${KIPRJMOD}/../../../Library/Vortac.pretty")(options "")(descr ""))
 )
