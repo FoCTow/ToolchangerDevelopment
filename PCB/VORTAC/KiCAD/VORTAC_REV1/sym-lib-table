@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ToolChanger")(type "Legacy")(uri "${KIPRJMOD}/../../../Library/KiCAD/ToolChanger.lib")(options "")(descr "")(disabled)(hidden))
   (lib (name "Vortac")(type "KiCad")(uri "${KIPRJMOD}/../../../Library/Vortac.kicad_sym")(options "")(descr ""))
 )
