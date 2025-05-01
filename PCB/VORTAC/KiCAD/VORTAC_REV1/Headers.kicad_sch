@@ -693,6 +693,319 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
@@ -2243,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 57.15) (xy 40.64 57.15)
+			(xy 57.15 59.69) (xy 54.61 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 62.23) (xy 53.34 62.23)
+			(xy 39.37 54.61) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 57.15) (xy 55.88 57.15)
+			(xy 41.91 59.69) (xy 39.37 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 59.69) (xy 38.1 59.69)
+			(xy 54.61 57.15) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 59.69) (xy 55.88 59.69)
+			(xy 41.91 57.15) (xy 39.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 62.23) (xy 40.64 62.23)
+			(xy 57.15 54.61) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2597,6 +2910,17 @@
 		)
 		(uuid "64a6aa8c-da70-42d7-b7ce-705b7bd687cc")
 	)
+	(text "BOOT_1 optional for SRAM boot\nIf not included a sjumper it could be \naccessed by soldering to the resistor when needed"
+		(exclude_from_sim no)
+		(at 103.632 52.832 0)
+		(effects
+			(font
+				(size 0.7874 0.7874)
+			)
+			(justify left top)
+		)
+		(uuid "742f85ce-7034-445a-9186-b1e6e80d1ae8")
+	)
 	(text "Debug Header"
 		(exclude_from_sim no)
 		(at 20.574 50.546 0)
@@ -2619,7 +2943,7 @@
 		)
 		(uuid "f0a3805f-de1f-4c52-a657-e3336115f1e8")
 	)
-	(text "ESD Protection for Shield could be added\n(ther design add a cap and resistor to ground)"
+	(text "ESD Protection for Shield could be added\n(other design add a cap and resistor to ground)"
 		(exclude_from_sim no)
 		(at 20.32 188.468 0)
 		(effects
@@ -2712,16 +3036,36 @@
 	)
 	(global_label "BOOT_1"
 		(shape input)
-		(at 55.88 62.23 0)
+		(at 99.06 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5e5cf565-9762-4336-a939-5944722633d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 62.23 0)
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOOT_0"
+		(shape input)
+		(at 39.37 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63f8de7e-16df-4269-b723-8d047c1f0cb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,16 +3076,16 @@
 	)
 	(global_label "DEBUG_SWDIO"
 		(shape input)
-		(at 55.88 57.15 0)
+		(at 39.37 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8773535a-b83f-44fc-bd14-eff81154c449")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 57.15 0)
+			(at 39.37 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,16 +3176,16 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 55.88 59.69 0)
+		(at 39.37 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "cab38a5e-fa53-4015-855d-e04fed46c42f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 59.69 0)
+			(at 39.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,16 +3196,16 @@
 	)
 	(global_label "DEBUG_SWO"
 		(shape input)
-		(at 38.1 59.69 180)
+		(at 57.15 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "cb7c3298-3a98-4ae8-85af-febf292a6af3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 59.69 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,16 +3236,16 @@
 	)
 	(global_label "DEBUG_SWCLK"
 		(shape input)
-		(at 38.1 57.15 180)
+		(at 57.15 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f043de77-9995-44f5-9b5c-925c61131530")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 55.88 140.97 0)
 			(effects
 				(font
@@ -3393,7 +3737,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 48.26 59.69 180)
+		(at 46.99 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3401,7 +3745,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618086b2")
 		(property "Reference" "J1"
-			(at 46.99 53.34 0)
+			(at 45.212 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3753,7 @@
 			)
 		)
 		(property "Value" "DEBUG"
-			(at 46.99 50.8 0)
+			(at 50.292 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3761,7 @@
 			)
 		)
 		(property "Footprint" "Vortac:PinHeader_2x03_P1.27mm_Vertical"
-			(at 48.26 59.69 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 59.69 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3779,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 59.69 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3948,7 @@
 	)
 	(symbol
 		(lib_id "VORTAC-rescue:+3.3V-power")
-		(at 38.1 62.23 90)
+		(at 57.15 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3612,7 +3956,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062551599")
 		(property "Reference" "#PWR0160"
-			(at 41.91 62.23 0)
+			(at 53.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3965,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 34.8488 61.849 90)
+			(at 60.4012 54.991 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 62.23 0)
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 62.23 0)
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 62.23 0)
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,6 +4007,91 @@
 			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613db78d"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 46.99 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bec4ac6-9837-48f3-9a0c-fa317de6f199")
+		(property "Reference" "J2"
+			(at 46.228 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DEBUG"
+			(at 51.816 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ad1e935-4ec1-416d-ac78-dc00431c6448")
+		)
+		(pin "1"
+			(uuid "7e766e2f-020c-444b-8c9c-b95a222de523")
+		)
+		(pin "6"
+			(uuid "ff7d1bd7-8601-4fe2-b635-0487ce5103d3")
+		)
+		(pin "7"
+			(uuid "49096dc6-c920-4ca2-84f0-066be0f90217")
+		)
+		(pin "4"
+			(uuid "3e9dd47b-ddef-49ff-a40d-4d214575df2c")
+		)
+		(pin "3"
+			(uuid "c1f0aa32-cb64-4e7c-b8f1-74eed935b713")
+		)
+		(pin "5"
+			(uuid "a0ac4895-a1b9-4b83-a893-d708e9142c68")
+		)
+		(pin "8"
+			(uuid "05b8fcde-d733-4486-9ff5-cf97f2b25979")
+		)
+		(instances
+			(project "VORTAC_REV1"
+				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613db78d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
