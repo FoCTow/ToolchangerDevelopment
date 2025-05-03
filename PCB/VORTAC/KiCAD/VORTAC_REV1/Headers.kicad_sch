@@ -3281,7 +3281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Vortac:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 48.26 29.21 0)
 			(effects
 				(font
