@@ -6810,6 +6810,18 @@
 		)
 		(uuid "bc633dc8-b86a-4481-a95a-5f1e6c71cba8")
 	)
+	(text "Add LED Probe"
+		(exclude_from_sim no)
+		(at 25.908 30.226 0)
+		(effects
+			(font
+				(size 0.7874 0.7874)
+				(color 255 0 244 1)
+			)
+			(justify left top)
+		)
+		(uuid "c303cfe7-0d23-4550-978b-54ff002e155e")
+	)
 	(text "SPI 2"
 		(exclude_from_sim no)
 		(at 44.958 93.726 0)
@@ -7507,6 +7519,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DIN"
+		(shape input)
+		(at 34.29 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b52da1c-405b-4c05-9f72-8481c39a3bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.339 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
