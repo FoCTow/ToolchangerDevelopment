@@ -1,0 +1,154 @@
+(footprint "Motor_Hand_Wire_pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST JWPF series connector, B04B-JWPF-SK-R (http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST JWPF side entry")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "1817486d-ffb3-451c-b3ec-8c9862cf2442")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Motor_Hand_Wire"
+		(at 2 8.2 0)
+		(layer "F.Fab")
+		(uuid "ab4faff4-324f-48d0-af61-e3c6410778f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcc6a03f-332c-422e-89fa-6c4c4c89df79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "431f36c6-518c-44a7-861a-7f88856033da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "202b0754-fe5c-415d-926e-a54bd830d2e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.2 6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "567a0963-54c1-4ae5-a02b-67dcda1d6348")
+	)
+	(fp_line
+		(start -1.2 6.8)
+		(end 1.2 6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02d18b09-3c9e-465d-b5f7-2a29ed82e6fb")
+	)
+	(fp_line
+		(start 1.2 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "153ae152-955c-4bde-93eb-47e7352a56dc")
+	)
+	(fp_line
+		(start 1.2 6.8)
+		(end 1.2 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f2b9cd7-c343-4d13-98a0-36308f3b08b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4 1.8 90)
+		(layer "F.Fab")
+		(uuid "a0063616-1e5d-4616-8f2b-7074348000df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 1.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.192308)
+		(uuid "f5b62a8b-d346-4f64-b50d-d986deb2293a")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2)
+		(size 2 1.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49512b95-8068-4b90-bc8f-14784970a952")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4)
+		(size 2 1.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a93caf36-10e1-4ca6-bda8-1b9657d14cc7")
+	)
+	(pad "4" thru_hole oval
+		(at 0 6)
+		(size 2 1.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffa66dea-678a-47e2-be0b-ab7bb855709e")
+	)
+)
