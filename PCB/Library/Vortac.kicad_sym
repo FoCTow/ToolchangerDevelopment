@@ -1423,7 +1423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ToolChanger:SENSOR_EE-SX4320_OMR"
+		(property "Footprint" "Vortac:SENSOR_EE-SX4320_OMR"
 			(at 20.066 12.192 0)
 			(effects
 				(font
