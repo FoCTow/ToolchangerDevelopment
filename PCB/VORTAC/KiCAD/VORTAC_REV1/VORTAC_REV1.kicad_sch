@@ -15,17 +15,6 @@
 		(comment 4 "-- VORTAC PCB --")
 	)
 	(lib_symbols)
-	(text "notes:\n-depletion mosfet - potenmtial candidate for reverse voltage protection (if not use p type mosfet)"
-		(exclude_from_sim no)
-		(at 173.99 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79fe9f2a-f5b3-4d91-93a3-a36cae5255e8")
-	)
 	(sheet
 		(at 24.13 143.51)
 		(size 140.97 44.45)
