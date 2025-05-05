@@ -1021,7 +1021,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Open"
+		(symbol "Jumper:Jumper_2_Small_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1029,18 +1029,18 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at 0 2.794 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Small_Open"
+			(property "Value" "Jumper_2_Small_Bridged"
 				(at 0 -2.286 0)
 				(effects
 					(font
@@ -1066,7 +1066,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, small symbol, open"
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1093,7 +1093,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Small_Open_0_0"
+			(symbol "Jumper_2_Small_Bridged_0_0"
 				(circle
 					(center -1.016 0)
 					(radius 0.254)
@@ -1117,11 +1117,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Open_0_1"
+			(symbol "Jumper_2_Small_Bridged_0_1"
 				(arc
-					(start -0.762 1.0196)
-					(mid 0 1.2729)
-					(end 0.762 1.0196)
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -1131,7 +1131,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Open_1_1"
+			(symbol "Jumper_2_Small_Bridged_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -7015,26 +7015,6 @@
 			)
 		)
 	)
-	(global_label "TOOL_ID_PIN"
-		(shape input)
-		(at 101.6 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d5e1b10-0f20-4073-b8eb-67098bf4824f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_H"
 		(shape input)
 		(at 250.19 132.08 0)
@@ -11930,6 +11910,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 241.3 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3763c624-4ada-4ad8-971d-ae4d3d9493b3")
+		(property "Reference" "JP2"
+			(at 236.474 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 233.426 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f4b4ceb-1a06-4cf4-b4d6-ab6059435c73")
+		)
+		(pin "1"
+			(uuid "2808842f-3905-4925-8c2f-c538a9c58ce3")
+		)
+		(instances
+			(project ""
+				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dc005"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VORTAC-rescue:+3.3V-power")
 		(at 127 160.02 270)
 		(unit 1)
@@ -11989,75 +12038,6 @@
 			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dc005"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 241.3 146.05 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "464c56e7-8b7d-4f27-ae3f-ad6a6f6ea9eb")
-		(property "Reference" "JP1"
-			(at 243.332 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 243.332 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical"
-			(at 241.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 241.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1ee57c0-2c6e-4af2-aa56-91dfbbee2395")
-		)
-		(pin "1"
-			(uuid "2c3b4768-6265-4883-89c4-9e1e3fb29094")
-		)
-		(instances
-			(project "VORTAC_REV1"
-				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dc005"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
