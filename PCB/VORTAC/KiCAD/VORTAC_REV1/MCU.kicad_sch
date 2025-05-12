@@ -3651,6 +3651,17 @@
 		)
 		(uuid "042a1ae5-f3a9-4daa-ab2e-f0caa44409ff")
 	)
+	(text "PA9-10 can be used to connect a USB to Serial\nadapter to USART1 for USB Flashing without USB Bootloader"
+		(exclude_from_sim no)
+		(at 100.838 85.852 0)
+		(effects
+			(font
+				(size 0.7874 0.7874)
+			)
+			(justify left top)
+		)
+		(uuid "06bfd626-d1b0-4396-9af5-ea07fe6aab66")
+	)
 	(text "pwm"
 		(exclude_from_sim no)
 		(at 68.58 95.25 0)
