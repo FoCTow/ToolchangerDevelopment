@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Vortac")(type "KiCad")(uri "D:/Git/ToolchangerDevelopment/PCB/Library/Vortac.kicad_sym")(options "")(descr ""))
+)
