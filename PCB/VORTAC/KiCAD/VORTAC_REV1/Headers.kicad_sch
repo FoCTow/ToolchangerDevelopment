@@ -2900,16 +2900,16 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 38.1 105.41 180)
+		(at 58.42 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "929a8d79-adf8-4bd9-b903-9e403138e5bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 105.41 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +2980,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 58.42 102.87 0)
+		(at 58.42 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2989,7 +2989,7 @@
 		)
 		(uuid "d5657fea-b61b-4764-8772-1a5809fd1bed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 102.87 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 105.41 90)
+		(at 38.1 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3616,7 +3616,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061bce37c")
 		(property "Reference" "#PWR120"
-			(at 64.77 105.41 0)
+			(at 31.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3625,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 61.6712 105.283 90)
+			(at 34.798 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 105.41 0)
+			(at 38.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 105.41 0)
+			(at 38.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 105.41 0)
+			(at 38.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 38.1 102.87 90)
+		(at 38.1 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4096,7 +4096,7 @@
 		(dnp no)
 		(uuid "67e1cdeb-2b77-4f93-a3d1-1381cb8b5b2d")
 		(property "Reference" "#PWR1"
-			(at 41.91 102.87 0)
+			(at 41.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 32.766 101.092 90)
+			(at 33.02 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 102.87 0)
+			(at 38.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 102.87 0)
+			(at 38.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 38.1 102.87 0)
+			(at 38.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

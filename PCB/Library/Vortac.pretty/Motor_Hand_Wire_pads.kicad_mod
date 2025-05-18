@@ -1,7 +1,7 @@
 (footprint "Motor_Hand_Wire_pads"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST JWPF series connector, B04B-JWPF-SK-R (http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST JWPF side entry")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bcc6a03f-332c-422e-89fa-6c4c4c89df79")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.2 -0.8)
-		(end -1.2 6.8)
+		(start -1 -0.8)
+		(end -1 6.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -78,8 +65,8 @@
 		(uuid "567a0963-54c1-4ae5-a02b-67dcda1d6348")
 	)
 	(fp_line
-		(start -1.2 6.8)
-		(end 1.2 6.8)
+		(start -1 6.8)
+		(end 1 6.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -88,8 +75,8 @@
 		(uuid "02d18b09-3c9e-465d-b5f7-2a29ed82e6fb")
 	)
 	(fp_line
-		(start 1.2 -0.8)
-		(end -1.2 -0.8)
+		(start 1 -0.8)
+		(end -1 -0.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -98,8 +85,8 @@
 		(uuid "153ae152-955c-4bde-93eb-47e7352a56dc")
 	)
 	(fp_line
-		(start 1.2 6.8)
-		(end 1.2 -0.8)
+		(start 1 6.8)
+		(end 1 -0.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -118,37 +105,37 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2 1.3)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.192308)
 		(uuid "f5b62a8b-d346-4f64-b50d-d986deb2293a")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 0 2)
-		(size 2 1.3)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "49512b95-8068-4b90-bc8f-14784970a952")
 	)
-	(pad "3" thru_hole oval
+	(pad "3" thru_hole circle
 		(at 0 4)
-		(size 2 1.3)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a93caf36-10e1-4ca6-bda8-1b9657d14cc7")
 	)
-	(pad "4" thru_hole oval
+	(pad "4" thru_hole circle
 		(at 0 6)
-		(size 2 1.3)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ffa66dea-678a-47e2-be0b-ab7bb855709e")
 	)
+	(embedded_fonts no)
 )

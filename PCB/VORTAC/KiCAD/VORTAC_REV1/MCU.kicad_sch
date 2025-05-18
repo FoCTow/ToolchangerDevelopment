@@ -4198,7 +4198,7 @@
 		(uuid "5c5316cf-e50a-466b-8501-9131c791b231")
 	)
 	(junction
-		(at 243.84 137.16)
+		(at 251.46 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c7efe1e-5868-4d98-b86e-ca9ad1ab06d9")
@@ -4270,7 +4270,7 @@
 		(uuid "81e950b4-296c-4fba-972d-637f1680e49d")
 	)
 	(junction
-		(at 248.92 132.08)
+		(at 256.54 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "827ceea0-ac8f-416f-b295-d0e707c2da4b")
@@ -4699,16 +4699,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 132.08) (xy 223.52 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1154f6cc-0728-4d57-8087-eadb6859c309")
-	)
-	(wire
-		(pts
 			(xy 173.99 147.32) (xy 173.99 149.86)
 		)
 		(stroke
@@ -4799,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 137.16) (xy 255.27 137.16)
+			(xy 251.46 133.35) (xy 262.89 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4989,16 +4979,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 132.08) (xy 223.52 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ef2fc98-8b85-44d8-b6e8-c4462bae43a8")
-	)
-	(wire
-		(pts
 			(xy 54.61 90.17) (xy 59.69 90.17)
 		)
 		(stroke
@@ -5169,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 137.16) (xy 243.84 137.16)
+			(xy 243.84 133.35) (xy 251.46 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5186,6 +5166,16 @@
 			(type default)
 		)
 		(uuid "4a5cf8b3-5fc8-482d-9af7-b48ac0d4ffbe")
+	)
+	(wire
+		(pts
+			(xy 228.6 135.89) (xy 210.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b195f4e-b8e0-4853-b856-ca69efd2218b")
 	)
 	(wire
 		(pts
@@ -5729,16 +5719,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 137.16) (xy 223.52 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89bdbbc9-d656-4ae6-931a-98e37905edd8")
-	)
-	(wire
-		(pts
 			(xy 44.45 182.88) (xy 48.26 182.88)
 		)
 		(stroke
@@ -5789,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 135.89) (xy 223.52 135.89)
+			(xy 228.6 128.27) (xy 233.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5919,16 +5899,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 137.16) (xy 223.52 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9926494b-d860-4248-91c9-f35d15296805")
-	)
-	(wire
-		(pts
 			(xy 44.45 172.72) (xy 48.26 172.72)
 		)
 		(stroke
@@ -6049,6 +6019,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 128.27) (xy 228.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a437fa4d-c016-4db1-8b5f-a858bd39e2bf")
+	)
+	(wire
+		(pts
 			(xy 269.24 40.64) (xy 261.62 40.64)
 		)
 		(stroke
@@ -6119,7 +6099,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 133.35) (xy 210.82 133.35)
+			(xy 210.82 133.35) (xy 233.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6179,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 132.08) (xy 248.92 132.08)
+			(xy 243.84 128.27) (xy 256.54 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +6209,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 149.86) (xy 255.27 149.86)
+			(xy 251.46 146.05) (xy 262.89 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6449,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 137.16) (xy 243.84 140.97)
+			(xy 251.46 133.35) (xy 251.46 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6539,7 +6519,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 132.08) (xy 255.27 132.08)
+			(xy 256.54 128.27) (xy 262.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6639,7 +6619,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 146.05) (xy 243.84 149.86)
+			(xy 251.46 142.24) (xy 251.46 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6649,7 +6629,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 132.08) (xy 248.92 144.78)
+			(xy 256.54 128.27) (xy 256.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6749,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 144.78) (xy 255.27 144.78)
+			(xy 256.54 140.97) (xy 262.89 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6849,7 +6829,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 255.27 132.08 0)
+		(at 262.89 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +6838,7 @@
 		)
 		(uuid "0d5f4299-7741-48ae-b926-d45a10267f73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 132.08 0)
+			(at 262.89 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6870,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 255.27 137.16 0)
+		(at 262.89 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6899,7 +6879,7 @@
 		)
 		(uuid "2c0753fb-cf7b-4683-9d2a-687ab3b3f132")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 137.16 0)
+			(at 262.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +6970,7 @@
 	)
 	(global_label "CAN_TRM_L"
 		(shape input)
-		(at 255.27 149.86 0)
+		(at 262.89 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6999,7 +6979,7 @@
 		)
 		(uuid "4ec86a0c-2a28-422d-a2cd-c76caf5f3fe2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 149.86 0)
+			(at 262.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7698,7 @@
 	)
 	(global_label "CAN_TRM_H"
 		(shape input)
-		(at 255.27 144.78 0)
+		(at 262.89 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7727,7 +7707,7 @@
 		)
 		(uuid "c847d657-34c3-4bc1-b300-4348597ee870")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 144.78 0)
+			(at 262.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12530,7 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_Wurth_WE-CNSW_744232090")
-		(at 231.14 134.62 0)
+		(at 238.76 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12558,7 +12538,7 @@
 		(dnp no)
 		(uuid "ab131a40-23c0-4d3e-9f1a-2d05f732afee")
 		(property "Reference" "L1"
-			(at 230.886 130.556 0)
+			(at 238.506 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +12546,7 @@
 			)
 		)
 		(property "Value" "Common Choke"
-			(at 231.902 138.684 0)
+			(at 239.522 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +12554,7 @@
 			)
 		)
 		(property "Footprint" "Vortac:L_CommonModeChoke_Coilcraft_0805USB"
-			(at 231.14 144.78 0)
+			(at 238.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12563,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412201235_TDK-ACM2012-201-2P-T001_C383338.pdf"
-			(at 231.14 142.24 0)
+			(at 238.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +12572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 134.62 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12581,7 @@
 			)
 		)
 		(property "LCSC" "C3029267"
-			(at 231.14 134.62 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12844,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 243.84 143.51 0)
+		(at 251.46 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12872,7 +12852,7 @@
 		(dnp no)
 		(uuid "c4901bc8-0b09-4f4a-94bb-d10180a8da40")
 		(property "Reference" "R10"
-			(at 246.126 148.844 90)
+			(at 253.746 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,7 +12861,7 @@
 			)
 		)
 		(property "Value" "115R"
-			(at 246.126 144.272 90)
+			(at 253.746 140.462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +12870,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 243.84 143.51 0)
+			(at 251.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +12879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 143.51 0)
+			(at 251.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +12888,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 243.84 143.51 0)
+			(at 251.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +12897,7 @@
 			)
 		)
 		(property "LCSC" "C295872"
-			(at 243.84 143.51 0)
+			(at 251.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12926,7 +12906,7 @@
 			)
 		)
 		(property "notes" "hard to calculate make jumpable 120 Ohm ? "
-			(at 243.84 143.51 0)
+			(at 251.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

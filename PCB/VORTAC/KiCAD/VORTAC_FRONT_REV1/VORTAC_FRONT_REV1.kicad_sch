@@ -1369,7 +1369,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 64.77 46.99 0)
+		(at 64.77 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1379,7 +1379,7 @@
 		)
 		(uuid "0e46c95c-335c-4512-82f0-e2eb4f59f23e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.7424 46.99 0)
+			(at 73.7424 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,29 +1413,29 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 44.45 49.53 180)
+		(at 64.77 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2d84863e-d5b3-48c0-89bb-0a0d0c2c5806")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.78 49.53 0)
+			(at 73.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 50.8 127 180)
+		(at 50.8 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1445,7 +1445,7 @@
 		)
 		(uuid "3cd4b876-88f7-42a4-8a43-c8fb6ccd6706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.13 127 0)
+			(at 42.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1479,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 44.45 88.9 180)
+		(at 44.45 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1489,7 +1489,7 @@
 		)
 		(uuid "8adb08ca-63f7-4758-978f-652b3d42ceb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.8448 88.9 0)
+			(at 33.8448 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 50.8 137.16 180)
+		(at 50.8 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1511,7 +1511,7 @@
 		)
 		(uuid "a1480f40-84d2-4fc0-a3a2-8e6b196d4626")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.1948 137.16 0)
+			(at 40.1948 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1545,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 44.45 86.36 180)
+		(at 44.45 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1555,7 +1555,7 @@
 		)
 		(uuid "aeb1b992-f830-487c-9ee5-a3e4fd0733a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.78 86.36 0)
+			(at 35.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1567,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 50.8 124.46 180)
+		(at 50.8 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1577,7 +1577,7 @@
 		)
 		(uuid "d8ceae6d-7d47-4b7f-87e6-3829e618e104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8276 124.46 0)
+			(at 41.8276 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1589,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 50.8 139.7 180)
+		(at 50.8 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1599,7 +1599,7 @@
 		)
 		(uuid "da5a52ac-f3ff-4d70-b5e4-104b8a82e37a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.1948 139.7 0)
+			(at 40.1948 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 44.45 46.99 90)
+		(at 44.45 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1716,7 +1716,7 @@
 		(fields_autoplaced yes)
 		(uuid "4104b21d-b578-43fd-9d66-0ac2b286710e")
 		(property "Reference" "#PWR02"
-			(at 48.26 46.99 0)
+			(at 48.26 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1725,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 40.64 46.9899 90)
+			(at 40.64 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 46.99 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 46.99 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 44.45 46.99 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,16 +1841,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 49.53 90)
+		(at 44.45 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77b9139c-31c7-4daf-b222-87e04137f5b2")
 		(property "Reference" "#PWR01"
-			(at 71.12 49.53 0)
+			(at 38.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,16 +1858,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 49.5299 90)
+			(at 38.608 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 49.53 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 49.53 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 49.53 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2174,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 44.45 83.82 90)
+		(at 44.45 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2185,7 +2183,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf70edaa-ee5d-437a-bc43-4fc14b53f7f0")
 		(property "Reference" "#PWR03"
-			(at 48.26 83.82 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2192,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 40.64 83.8199 90)
+			(at 40.64 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 83.82 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 83.82 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 44.45 83.82 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
