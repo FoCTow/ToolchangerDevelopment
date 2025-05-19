@@ -486,10 +486,38 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "0.25mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "0.3mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -501,7 +529,7 @@
         "microvia_drill": 0.1,
         "name": "0.5mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 1.2,
@@ -518,7 +546,7 @@
         "microvia_drill": 0.1,
         "name": "2.0mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 0.8,
@@ -937,19 +965,19 @@
         "pattern": "Net-(U5-Pad9)"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "STEP_1_A1"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "STEP_1_A2"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "STEP_1_B1"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "STEP_1_B2"
       },
       {
