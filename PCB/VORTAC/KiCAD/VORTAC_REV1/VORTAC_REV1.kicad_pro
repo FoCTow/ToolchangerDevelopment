@@ -645,7 +645,7 @@
         "pattern": "FAN_2_TACHO_PIN"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "GND"
       },
       {
@@ -989,11 +989,11 @@
         "pattern": "THERM_1_PIN"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "TMC_BRA"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "TMC_BRB"
       },
       {
@@ -1053,7 +1053,7 @@
         "pattern": "+3.3VA"
       },
       {
-        "netclass": "0.5mm",
+        "netclass": "0.3mm",
         "pattern": "+5V"
       },
       {
