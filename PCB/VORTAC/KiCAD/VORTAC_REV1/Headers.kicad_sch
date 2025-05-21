@@ -2640,6 +2640,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 102.87) (xy 41.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a501c7-df4d-424a-890a-d2ed05e96929")
+	)
+	(wire
+		(pts
 			(xy 52.07 163.83) (xy 52.07 146.05)
 		)
 		(stroke
@@ -2697,16 +2707,6 @@
 			(type dash)
 		)
 		(uuid "e20231f4-293b-4bf8-8b75-091df40e5ec8")
-	)
-	(wire
-		(pts
-			(xy 38.1 102.87) (xy 41.91 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f4d842-cd7b-4405-b376-f54dfde2beef")
 	)
 	(wire
 		(pts
@@ -3898,7 +3898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "Vortac:MountingHole_2.2mm_M2_Pad_Via_netless"
 			(at 77.47 27.94 0)
 			(effects
 				(font
@@ -4011,10 +4011,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6519ff9e-b7fa-4833-bccc-51d73e3be2d2")
 		(property "Reference" "J3"
-			(at 48.26 96.52 0)
+			(at 47.752 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4021,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 48.26 99.06 0)
+			(at 48.514 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "Vortac:MountingHole_2.2mm_M2_Pad_Via_netless"
 			(at 102.87 27.94 0)
 			(effects
 				(font

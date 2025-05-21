@@ -1,7 +1,7 @@
 (footprint "LED-SMD_4P-L4.0-W1.6-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.01 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "880c98b3-5128-44f0-a07b-735925217694")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -63,7 +51,7 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2 1.36)
+		(start -2 1.25)
 		(end -2 0.71)
 		(stroke
 			(width 0.15)
@@ -73,18 +61,8 @@
 		(uuid "dc6754e3-0354-489c-b512-f2c36ac13267")
 	)
 	(fp_line
-		(start -1.17 1.36)
-		(end -1.12 1.36)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e7799486-ae5a-429a-852a-d3c5520aa967")
-	)
-	(fp_line
-		(start -1.12 1.36)
-		(end -0.87 1.11)
+		(start -1.12 1.25)
+		(end -0.87 1)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -93,8 +71,8 @@
 		(uuid "9beb42b8-908a-4f5d-8d52-1f1ac1c42837")
 	)
 	(fp_line
-		(start -0.87 1.11)
-		(end 0.89 1.11)
+		(start -0.87 1)
+		(end 0.89 1)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -103,8 +81,8 @@
 		(uuid "f697152b-36d1-4440-a421-97039693f7fb")
 	)
 	(fp_line
-		(start 0.89 1.11)
-		(end 1.14 1.36)
+		(start 0.89 1)
+		(end 1.14 1.25)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -114,7 +92,7 @@
 	)
 	(fp_line
 		(start 2 0.69)
-		(end 2 1.36)
+		(end 2 1.25)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -123,8 +101,8 @@
 		(uuid "4f8c7d5b-fff0-4861-8f6a-61b37d197f97")
 	)
 	(fp_line
-		(start 2 1.36)
-		(end -2 1.36)
+		(start 2 1.25)
+		(end -2 1.25)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -139,7 +117,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "226772a8-d118-47b4-a468-71440390fed8")
 	)
@@ -150,18 +128,18 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "98c8cdd8-7609-4d39-8c77-2b469679aa57")
 	)
 	(fp_circle
-		(center -2 1.36)
-		(end -1.97 1.36)
+		(center -2 1.25)
+		(end -1.97 1.25)
 		(stroke
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3d34f9c8-d0e3-4501-a85a-3583349981bf")
 	)
@@ -179,7 +157,7 @@
 	(pad "1" smd custom
 		(at -1.8 0.01)
 		(size 0.01 0.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -200,7 +178,7 @@
 	(pad "2" smd custom
 		(at -0.45 -0.01)
 		(size 0.01 0.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -220,7 +198,7 @@
 	(pad "3" smd custom
 		(at 0.57 -0.01)
 		(size 0.01 0.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -240,7 +218,7 @@
 	(pad "4" smd custom
 		(at 1.8 -0.01)
 		(size 0.01 0.01)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -258,6 +236,7 @@
 		)
 		(uuid "fc6fda6c-37d7-400e-87a5-cf3cbd5f6ce4")
 	)
+	(embedded_fonts no)
 	(model "${VORTAC_SHAPES}/LED-SMD_4P-L4.0-W1.6-L.wrl"
 		(offset
 			(xyz -0 -0.57 1)

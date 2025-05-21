@@ -1516,196 +1516,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Vortac:BSS138AKDW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BSS138AKDW"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_ElecSuper-BSS138AKDW_C5224287.pdf"
-				(at 2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5224287"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BSS138AKDW_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Vortac:EE-SX3350"
 			(pin_names
 				(offset 0.254)
@@ -3996,18 +3806,6 @@
 		(uuid 7d62d573-00de-4e11-99eb-1f1592f69ac7)
 	)
 	(rectangle
-		(start 85.725 164.465)
-		(end 139.7 193.04)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8f06ec43-617c-4d74-9adf-7de722b6f897)
-	)
-	(rectangle
 		(start 16.51 16.51)
 		(end 139.7 74.93)
 		(stroke
@@ -4029,17 +3827,6 @@
 			(justify left bottom)
 		)
 		(uuid "1e5db49a-22d4-4e6f-b20e-30bf8257e7e2")
-	)
-	(text "Controllable CAN Terminator"
-		(exclude_from_sim no)
-		(at 89.408 169.418 0)
-		(effects
-			(font
-				(size 1.8034 1.8034)
-			)
-			(justify left bottom)
-		)
-		(uuid "24387438-bfe7-4b69-b380-0489a22cc7b9")
 	)
 	(text "Side Facing Adressable LEDs\n(used for Iluminating the Z Probe during leveling)"
 		(exclude_from_sim no)
@@ -4133,12 +3920,6 @@
 		(uuid "4b1138da-23e2-451a-9355-acc97ae15aaa")
 	)
 	(junction
-		(at 104.14 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55f56416-f0d7-4b08-9d3c-e0fbe65cb0f8")
-	)
-	(junction
 		(at 35.56 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4191,12 +3972,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b61b0996-3970-4b6d-9364-88a7ec2a65f8")
-	)
-	(junction
-		(at 123.19 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6e11305-df05-4c27-a937-253628d1ff47")
 	)
 	(junction
 		(at 95.25 97.79)
@@ -4388,16 +4163,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 179.07) (xy 104.14 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c57474d-3d42-4484-b033-3087ac8ab08c")
-	)
-	(wire
-		(pts
 			(xy 95.25 105.41) (xy 77.47 105.41)
 		)
 		(stroke
@@ -4458,16 +4223,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 186.69) (xy 121.92 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ef9ae9f-12b1-47c9-a405-3077686637d3")
-	)
-	(wire
-		(pts
 			(xy 121.92 152.4) (xy 121.92 151.13)
 		)
 		(stroke
@@ -4475,16 +4230,6 @@
 			(type default)
 		)
 		(uuid "305d29cb-67d3-4ef1-968d-2cec88746dfb")
-	)
-	(wire
-		(pts
-			(xy 121.92 186.69) (xy 121.92 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341ce419-f9ce-4437-a4c1-0d8767bb3773")
 	)
 	(wire
 		(pts
@@ -4608,16 +4353,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 179.07) (xy 120.65 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5881a604-ebac-4daa-ad0a-5d376b7cfd88")
-	)
-	(wire
-		(pts
 			(xy 72.39 165.1) (xy 72.39 180.34)
 		)
 		(stroke
@@ -4625,16 +4360,6 @@
 			(type default)
 		)
 		(uuid "59593b9c-ede8-4655-a2ac-5857ff9547d3")
-	)
-	(wire
-		(pts
-			(xy 102.87 179.07) (xy 104.14 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "596e3dd6-0e51-4f4e-88ae-9e4ecbd255c2")
 	)
 	(polyline
 		(pts
@@ -4665,16 +4390,6 @@
 			(type default)
 		)
 		(uuid "645fd18e-766a-4fe2-8781-4bcb2e5cac1a")
-	)
-	(wire
-		(pts
-			(xy 88.9 176.53) (xy 88.9 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f8dd1d-3190-4f61-91f2-c01b56851e0c")
 	)
 	(wire
 		(pts
@@ -4715,16 +4430,6 @@
 			(type default)
 		)
 		(uuid "6cfbb74f-4d48-4731-8e47-19a6e6463f69")
-	)
-	(wire
-		(pts
-			(xy 123.19 189.23) (xy 124.46 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7044ae5d-d685-4eb8-b022-85cf73c525d8")
 	)
 	(wire
 		(pts
@@ -4838,16 +4543,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 176.53) (xy 88.9 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b50e763-f7ae-4ba8-8d6f-37a9ea7e31e1")
-	)
-	(wire
-		(pts
 			(xy 113.03 39.37) (xy 113.03 45.72)
 		)
 		(stroke
@@ -4885,16 +4580,6 @@
 			(type default)
 		)
 		(uuid "910022f7-73aa-437d-9186-01e4508c931d")
-	)
-	(wire
-		(pts
-			(xy 120.65 176.53) (xy 123.19 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94bf1d77-ce7a-4e61-9dfc-a8ba70018dc0")
 	)
 	(wire
 		(pts
@@ -5045,36 +4730,6 @@
 			(type default)
 		)
 		(uuid "aff442e9-dbd1-409d-bab4-f465cc4f030d")
-	)
-	(wire
-		(pts
-			(xy 121.92 181.61) (xy 120.65 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0daec70-baea-4200-bb5a-227157e02eb2")
-	)
-	(wire
-		(pts
-			(xy 104.14 189.23) (xy 123.19 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15c7395-2dbf-45d5-b4c0-228a5e61f780")
-	)
-	(wire
-		(pts
-			(xy 129.54 189.23) (xy 130.81 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f0a43d-d39c-4bde-bef1-0485ae40efa5")
 	)
 	(wire
 		(pts
@@ -5238,16 +4893,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 189.23) (xy 123.19 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c19aa4-0827-477c-a57e-3fa3422dfc90")
-	)
-	(wire
-		(pts
 			(xy 121.92 140.97) (xy 121.92 146.05)
 		)
 		(stroke
@@ -5378,16 +5023,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 181.61) (xy 105.41 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72319de-09c5-4e29-8723-703f28d1223b")
-	)
-	(wire
-		(pts
 			(xy 101.6 140.97) (xy 101.6 146.05)
 		)
 		(stroke
@@ -5395,16 +5030,6 @@
 			(type default)
 		)
 		(uuid "f7d319b4-b020-4ad2-a631-94d06b0e200c")
-	)
-	(wire
-		(pts
-			(xy 104.14 179.07) (xy 104.14 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f7b004-baae-4357-964f-7697325e4d11")
 	)
 	(wire
 		(pts
@@ -5484,26 +5109,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_TRM_H"
-		(shape input)
-		(at 102.87 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2151dcde-a2b2-4328-bc74-60d2c4129668")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -5588,46 +5193,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_TRM_L"
-		(shape input)
-		(at 123.19 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "949b8017-c9cb-46ac-a291-75a6b3d57122")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_TRM"
-		(shape input)
-		(at 102.87 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8c283ae-66b9-4ae3-b2b2-95148ade16f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6360,94 +5925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Vortac:BSS138AKDW")
-		(at 113.03 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19a97aed-2810-498e-b493-99a651b67400")
-		(property "Reference" "Q3"
-			(at 106.68 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138AKDW"
-			(at 115.062 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 113.03 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_ElecSuper-BSS138AKDW_C5224287.pdf"
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5224287"
-			(at 113.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7984f538-588f-44e9-a025-11908b259735")
-		)
-		(pin "2"
-			(uuid "371214fd-cf42-4913-9570-5f6db6549121")
-		)
-		(pin "4"
-			(uuid "b101af9a-04d9-42ae-beab-bd258d74272f")
-		)
-		(pin "1"
-			(uuid "80c35e93-1be1-4563-8f33-af34329ad820")
-		)
-		(pin "3"
-			(uuid "dcee7ce7-abd0-4ca6-9ab1-bb70fce5fa22")
-		)
-		(pin "5"
-			(uuid "cd684d07-3b88-4ef3-8351-f4b0416aadef")
-		)
-		(instances
-			(project "VORTAC_REV1"
-				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dbe83"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 111.76 0)
 		(unit 1)
@@ -6807,82 +6284,6 @@
 			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dbe83"
 					(reference "#PWR38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 127 189.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d4c033b-02ba-4482-a0fb-0b3903ccb5cd")
-		(property "Reference" "R16"
-			(at 125.73 186.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 130.048 186.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69872593-eefe-4c7c-be2e-47dfd8405061")
-		)
-		(pin "2"
-			(uuid "7c0af37c-6ada-4544-9551-cb476bb8c760")
-		)
-		(instances
-			(project "VORTAC_REV1"
-				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dbe83"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8676,72 +8077,6 @@
 			(project "VORTAC_REV1"
 				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dbe83"
 					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 130.81 189.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a448410e-c6c3-488b-9658-a1abe52b59c9")
-		(property "Reference" "#PWR039"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 132.842 186.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 130.81 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "226f3060-e11e-4ca2-a161-891ad5d508e1")
-		)
-		(instances
-			(project "VORTAC_REV1"
-				(path "/ed58d858-d9f9-4504-a982-ccfc7f9efbad/00000000-0000-0000-0000-0000613dbe83"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)

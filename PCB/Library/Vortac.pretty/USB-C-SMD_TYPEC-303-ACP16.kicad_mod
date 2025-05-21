@@ -215,20 +215,18 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -3.75 0)
 		(size 0.6 0.6)
 		(drill 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "1a437e99-a6bf-4e27-b2a3-b4468809f523")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 3.75 0)
 		(size 0.6 0.6)
 		(drill 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "3a73d636-cee5-429d-896c-e39ff01d5c7a")
 	)
 	(pad "A1" smd roundrect
