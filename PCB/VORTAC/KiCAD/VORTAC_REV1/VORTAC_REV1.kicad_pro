@@ -538,8 +538,8 @@
       },
       {
         "clearance": 0.101,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.101,
+        "diff_pair_width": 0.254,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "120R CAN",
@@ -568,16 +568,16 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.101,
+        "diff_pair_gap": 0.101,
+        "diff_pair_width": 0.3,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "90R USB",
+        "name": "95R USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -589,7 +589,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "0.3mm",
         "pattern": "+3V3"
       },
       {
@@ -985,11 +985,11 @@
         "pattern": "TOOL_ID_PIN"
       },
       {
-        "netclass": "0.5mm",
+        "netclass": "95R USB",
         "pattern": "USB_D+"
       },
       {
-        "netclass": "90R USB",
+        "netclass": "95R USB",
         "pattern": "USB_D-"
       },
       {
@@ -1005,20 +1005,16 @@
         "pattern": "GND_IN"
       },
       {
-        "netclass": "120R CAN",
-        "pattern": "/MCU/CAN_H_CHOKE"
+        "netclass": "95R USB",
+        "pattern": "*USB*"
       },
       {
         "netclass": "120R CAN",
-        "pattern": "/MCU/CAN_L_CHOKE"
+        "pattern": "*CAN_H*"
       },
       {
-        "netclass": "90R USB",
-        "pattern": "/MCU/DAMPEND_USB_DL"
-      },
-      {
-        "netclass": "90R USB",
-        "pattern": "/MCU/DAMPEND_USB_DH"
+        "netclass": "120R CAN",
+        "pattern": "*CAN_L*"
       }
     ]
   },

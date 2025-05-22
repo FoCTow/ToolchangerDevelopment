@@ -6781,7 +6781,7 @@
 		)
 		(uuid "ff627a42-ea47-48c1-907c-93e30ac844f8")
 	)
-	(label "DAMPEND_USB_DH"
+	(label "DAMPEND_USB_D+"
 		(at 93.98 92.71 0)
 		(effects
 			(font
@@ -6811,7 +6811,7 @@
 		)
 		(uuid "ea99ec0c-57f0-4061-962d-1dad1e4d3312")
 	)
-	(label "DAMPEND_USB_DL"
+	(label "DAMPEND_USB_D-"
 		(at 93.98 90.17 0)
 		(effects
 			(font
