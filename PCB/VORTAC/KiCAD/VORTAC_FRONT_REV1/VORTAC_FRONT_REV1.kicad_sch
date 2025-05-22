@@ -750,6 +750,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1085,6 +1211,18 @@
 		)
 	)
 	(rectangle
+		(start 94.615 19.05)
+		(end 174.625 57.785)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 062e670f-ae00-4253-810b-8a42569c69be)
+	)
+	(rectangle
 		(start 20.32 19.05)
 		(end 89.535 57.785)
 		(stroke
@@ -1143,6 +1281,17 @@
 		)
 		(uuid "138b3856-c9cc-4f39-9b0f-f85bd3325605")
 	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 100.076 25.4 0)
+		(effects
+			(font
+				(size 1.8034 1.8034)
+			)
+			(justify left)
+		)
+		(uuid "25dae2e4-ba68-4ec8-9f1b-b15c8403f3a4")
+	)
 	(text "Umbillical Connection"
 		(exclude_from_sim no)
 		(at 28.702 69.088 0)
@@ -1196,6 +1345,26 @@
 			(type default)
 		)
 		(uuid "0c30d4ba-3193-488e-88e4-d94f69d4184b")
+	)
+	(wire
+		(pts
+			(xy 59.69 176.53) (xy 64.77 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101ffa00-8dc5-48f4-ada6-3f2569b7a1b8")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfbff71-c777-4d20-9f8b-5cc0bc779442")
 	)
 	(wire
 		(pts
@@ -1319,6 +1488,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 39.37) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be54a05c-e97b-4184-8807-1e546ecd12ef")
+	)
+	(wire
+		(pts
 			(xy 60.96 46.99) (xy 64.77 46.99)
 		)
 		(stroke
@@ -1369,22 +1548,22 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 64.77 49.53 0)
+		(at 44.45 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0e46c95c-335c-4512-82f0-e2eb4f59f23e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.7424 49.53 0)
+			(at 35.4776 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1413,7 +1592,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 64.77 46.99 0)
+		(at 64.77 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1423,7 +1602,7 @@
 		)
 		(uuid "2d84863e-d5b3-48c0-89bb-0a0d0c2c5806")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.44 46.99 0)
+			(at 73.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1614,7 @@
 	)
 	(global_label "CAN_L"
 		(shape input)
-		(at 50.8 139.7 180)
+		(at 50.8 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1445,7 +1624,7 @@
 		)
 		(uuid "3cd4b876-88f7-42a4-8a43-c8fb6ccd6706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.13 139.7 0)
+			(at 42.13 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1746,7 @@
 	)
 	(global_label "CAN_H"
 		(shape input)
-		(at 50.8 137.16 180)
+		(at 50.8 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1577,7 +1756,7 @@
 		)
 		(uuid "d8ceae6d-7d47-4b7f-87e6-3829e618e104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8276 137.16 0)
+			(at 41.8276 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,6 +1863,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2840016"
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1f43c70-4afb-4f38-a864-2df99c2881db")
 		)
@@ -1706,17 +1894,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 44.45 49.53 90)
+		(lib_id "power:GND")
+		(at 138.43 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4104b21d-b578-43fd-9d66-0ac2b286710e")
-		(property "Reference" "#PWR02"
-			(at 48.26 49.53 0)
+		(uuid "3b1a547b-27c7-40a7-8e79-22296a12cc01")
+		(property "Reference" "#PWR08"
+			(at 138.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,17 +1911,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDC"
-			(at 40.64 49.5299 90)
+		(property "Value" "GND"
+			(at 142.494 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 49.53 0)
+			(at 138.43 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1929,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 49.53 0)
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d66ed151-01a1-4837-818e-1789b4fb1954")
+		)
+		(instances
+			(project "VORTAC_FRONT_REV1"
+				(path "/3fc99e24-c24b-45f1-84c7-8e09f231367f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 64.77 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4104b21d-b578-43fd-9d66-0ac2b286710e")
+		(property "Reference" "#PWR02"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 68.58 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +2005,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 44.45 49.53 0)
+			(at 64.77 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,16 +2027,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 176.53 90)
+		(at 113.03 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bcd9f56-5d32-40e0-86e2-e1b04c0c66d9")
-		(property "Reference" "#PWR07"
-			(at 60.96 176.53 0)
+		(uuid "59a79f44-e9a9-44ad-b3b0-fe8fd6a3b8f6")
+		(property "Reference" "#PWR09"
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,16 +2044,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 176.5299 90)
+			(at 117.094 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 176.53 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +2061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 176.53 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +2070,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 176.53 0)
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5e35d15-883b-4254-82dc-d730add1c8af")
+		)
+		(instances
+			(project "VORTAC_FRONT_REV1"
+				(path "/3fc99e24-c24b-45f1-84c7-8e09f231367f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bcd9f56-5d32-40e0-86e2-e1b04c0c66d9")
+		(property "Reference" "#PWR07"
+			(at 71.12 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 115.57 29.21 0)
+		(at 113.03 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1982,7 +2300,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9f0f0d3-161d-4f1d-b813-7008ad72af3c")
 		(property "Reference" "H1"
-			(at 118.11 26.6699 0)
+			(at 115.57 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2309,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 118.11 29.2099 0)
+			(at 115.57 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,8 +2317,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 115.57 29.21 0)
+		(property "Footprint" "Vortac:MountingHole_2.2mm_M2_Pad_Via_NTR"
+			(at 113.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 29.21 0)
+			(at 113.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2336,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 115.57 29.21 0)
+			(at 113.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2358,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 115.57 36.83 0)
+		(at 138.43 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2049,7 +2367,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd3d2a53-60c6-4734-b341-8e119423a0c0")
 		(property "Reference" "H2"
-			(at 118.11 34.2899 0)
+			(at 140.97 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2376,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 118.11 36.8299 0)
+			(at 140.97 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,8 +2384,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 115.57 36.83 0)
+		(property "Footprint" "Vortac:MountingHole_2.2mm_M2_Pad_Via_NTR"
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 36.83 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2403,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 115.57 36.83 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,6 +2693,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C234188"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d062538e-76f1-41ee-858d-6bd2b71a3997")
 		)
@@ -2397,6 +2724,74 @@
 			(project ""
 				(path "/3fc99e24-c24b-45f1-84c7-8e09f231367f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 57.15 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ac1e90-04dc-4b1b-bef2-db4d132e63b5")
+		(property "Reference" "NT1"
+			(at 57.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 57.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 57.15 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 57.15 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a13f9e51-437d-4434-bcd1-318ffe002c2c")
+		)
+		(pin "1"
+			(uuid "a9d73427-afcb-4fe4-b937-4038115851f7")
+		)
+		(instances
+			(project ""
+				(path "/3fc99e24-c24b-45f1-84c7-8e09f231367f"
+					(reference "NT1")
 					(unit 1)
 				)
 			)

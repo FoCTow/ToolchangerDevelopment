@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|122700000|101400000|a70327ca-279e-42e0-b26d-5de79bd5aeb8|f419174a-541c-4608-88f9-3e43e5aafd88|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|124503949|103203949|a70327ca-279e-42e0-b26d-5de79bd5aeb8|e5eb88a5-4111-4a76-a54f-785c662e2a2a|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -508,7 +499,7 @@
         "microvia_drill": 0.1,
         "name": "0.25mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -522,7 +513,7 @@
         "microvia_drill": 0.1,
         "name": "0.3mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -538,12 +529,26 @@
         "microvia_drill": 0.1,
         "name": "0.5mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.5,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.101,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "120R CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -555,12 +560,26 @@
         "microvia_drill": 0.1,
         "name": "2.0mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -575,26 +594,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "ADXL_CS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ADXL_INT1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ADXL_SCL"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ADXL_SDI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ADXL_SDO"
-      },
-      {
-        "netclass": "Default",
         "pattern": "BOOT_0"
       },
       {
@@ -602,11 +601,11 @@
         "pattern": "BOOT_1"
       },
       {
-        "netclass": "Default",
+        "netclass": "120R CAN",
         "pattern": "CAN_H"
       },
       {
-        "netclass": "Default",
+        "netclass": "120R CAN",
         "pattern": "CAN_L"
       },
       {
@@ -630,52 +629,8 @@
         "pattern": "DEBUG_SWO"
       },
       {
-        "netclass": "Default",
-        "pattern": "FAN_1_GATE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FAN_1_TACHO"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FAN_1_TACHO_PIN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FAN_2_GATE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FAN_2_TACHO"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FAN_2_TACHO_PIN"
-      },
-      {
         "netclass": "0.3mm",
         "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "HEATER_GATE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "HOST_USB_D+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "HOST_USB_D-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "HOST_USB_GATE"
       },
       {
         "netclass": "Default",
@@ -990,14 +945,6 @@
         "pattern": "STEP_1_B2"
       },
       {
-        "netclass": "Default",
-        "pattern": "THERM_1_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "THERM_1_PIN"
-      },
-      {
         "netclass": "0.3mm",
         "pattern": "TMC_BRA"
       },
@@ -1031,14 +978,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "TOOL_DATA_H"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "TOOL_DATA_L"
-      },
-      {
-        "netclass": "Default",
         "pattern": "TOOL_ID"
       },
       {
@@ -1046,20 +985,12 @@
         "pattern": "TOOL_ID_PIN"
       },
       {
-        "netclass": "Default",
+        "netclass": "0.5mm",
         "pattern": "USB_D+"
       },
       {
-        "netclass": "Default",
+        "netclass": "90R USB",
         "pattern": "USB_D-"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "+3.3VA"
       },
       {
         "netclass": "0.3mm",
@@ -1067,51 +998,27 @@
       },
       {
         "netclass": "0.5mm",
-        "pattern": "FAN_1_DRAIN"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "FAN_1_V_OUT"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "FAN_2_DRAIN"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "FAN_2_V_OUT"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "HOST_USB_DRAIN"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "LED_1_DRAIN"
-      },
-      {
-        "netclass": "0.5mm",
-        "pattern": "LED_1_V_OUT"
-      },
-      {
-        "netclass": "0.5mm",
         "pattern": "VDC"
-      },
-      {
-        "netclass": "2.0mm",
-        "pattern": "DOCK_GND"
-      },
-      {
-        "netclass": "2.0mm",
-        "pattern": "DOCK_VDC"
-      },
-      {
-        "netclass": "2.0mm",
-        "pattern": "HEATER_DRAIN"
       },
       {
         "netclass": "0.5mm",
         "pattern": "GND_IN"
+      },
+      {
+        "netclass": "120R CAN",
+        "pattern": "/MCU/CAN_H_CHOKE"
+      },
+      {
+        "netclass": "120R CAN",
+        "pattern": "/MCU/CAN_L_CHOKE"
+      },
+      {
+        "netclass": "90R USB",
+        "pattern": "/MCU/DAMPEND_USB_DL"
+      },
+      {
+        "netclass": "90R USB",
+        "pattern": "/MCU/DAMPEND_USB_DH"
       }
     ]
   },

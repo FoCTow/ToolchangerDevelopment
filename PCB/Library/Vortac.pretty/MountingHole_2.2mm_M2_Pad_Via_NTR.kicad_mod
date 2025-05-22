@@ -1,4 +1,4 @@
-(footprint "MountingHole_2.2mm_M2_Pad_Via_netless"
+(footprint "MountingHole_2.2mm_M2_Pad_Via_NTR"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.2mm_M2_Pad_Via_netless"
+	(property "Value" "MountingHole_2.2mm_M2_Pad_Via_NTR"
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(uuid "4db890d3-f11e-4e7c-ae4d-c99f86e181f8")
