@@ -154,10 +154,16 @@
 	(net 12 "unconnected-(D2-K-Pad1)")
 	(net 13 "unconnected-(D2-A-Pad3)")
 	(net 14 "unconnected-(J2-Pin_2-Pad2)")
+	(net 15 "unconnected-(J2-Pin_1-Pad1)")
+	(net 16 "unconnected-(J3-Pin_2-Pad2)")
+	(net 17 "unconnected-(J3-Pin_5-Pad5)")
+	(net 18 "unconnected-(J3-Pin_3-Pad3)")
+	(net 19 "unconnected-(J3-Pin_1-Pad1)")
+	(net 20 "unconnected-(J3-Pin_4-Pad4)")
 	(footprint "Vortac:MountingHole_2.2mm_M2_Pad_Via_NTR"
 		(layer "F.Cu")
 		(uuid "0fc9c716-c226-4521-ad65-bf43e7ec9fa3")
-		(at 109.95 89.02)
+		(at 117.7 88.03)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H2"
@@ -271,7 +277,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "7a6a1bbc-3e10-4f45-9f3c-a66713f0936b")
 		)
 		(pad "1" thru_hole circle
 			(at -1.166726 1.166726)
@@ -283,7 +289,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "da6ad509-993b-4d59-b250-a4cbbb3d2f98")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -1.65)
@@ -295,7 +301,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "489ca2d0-1a46-41a6-8190-e716190f5a76")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -306,7 +312,7 @@
 			(net 3 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "87412bb2-789b-4d3d-8f59-3f398daffbc3")
 		)
 		(pad "1" thru_hole circle
 			(at 0 1.65)
@@ -318,7 +324,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "d9e09cf6-90cb-4713-8889-739d13bb5b9e")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 -1.166726)
@@ -330,7 +336,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "0ba5b88a-ce80-45c0-8b44-e804bc29f572")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 1.166726)
@@ -342,7 +348,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "1bd155b7-730d-4365-811f-84612d896ade")
 		)
 		(pad "1" thru_hole circle
 			(at 1.65 0)
@@ -354,14 +360,14 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "25d6dbc2-7707-45e6-976b-49c10f64cf76")
+			(uuid "237be44d-80bb-4766-ab0b-0f3a0d19d273")
 		)
 		(embedded_fonts no)
 	)
 	(footprint "Vortac:Toolplate_Solderpoint_01x02_Power"
 		(layer "F.Cu")
 		(uuid "1dfb6f8c-84ef-4a56-973e-7b59951bba67")
-		(at 120.16 68.92)
+		(at 120.33 69.02)
 		(property "Reference" "J2"
 			(at 0 -2.6 0)
 			(unlocked yes)
@@ -433,18 +439,21 @@
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
-			(size 4 3)
-			(drill 2)
+			(size 3.6 2.8)
+			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15)
+			(net 15 "unconnected-(J2-Pin_1-Pad1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
 			(thermal_bridge_angle 45)
 			(uuid "45053c82-9dcb-4a38-b7fa-48ca18df3b4b")
 		)
 		(pad "2" thru_hole oval
-			(at 0 4)
-			(size 4 3)
-			(drill 2)
+			(at 0 3.8)
+			(size 3.6 2.8)
+			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "unconnected-(J2-Pin_2-Pad2)")
@@ -572,7 +581,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "81818fd0-f046-4a63-a1cf-ea3ad2b34bc8")
 		)
 		(pad "1" thru_hole circle
 			(at -1.166726 1.166726)
@@ -584,7 +593,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "b119bc86-05cf-40e2-a2d6-0b6cb36addc8")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -1.65)
@@ -596,7 +605,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "3d546e35-c243-4dfa-8fe5-64fc71c2047d")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -607,7 +616,7 @@
 			(net 3 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "fd412c7a-57c7-4ee0-ab68-a1fdc4e3a245")
 		)
 		(pad "1" thru_hole circle
 			(at 0 1.65)
@@ -619,7 +628,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "0e67cfcb-2099-4a4c-b2c9-117b96efeb4d")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 -1.166726)
@@ -631,7 +640,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "d1d509c0-7279-4e6c-913f-27a17577f576")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 1.166726)
@@ -643,7 +652,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "5ed78bcd-dc18-4c14-a9a3-84de5c81f675")
 		)
 		(pad "1" thru_hole circle
 			(at 1.65 0)
@@ -655,14 +664,143 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "9b30758b-8f95-4588-a9d5-1db5f9522e00")
+			(uuid "b6c1520c-1969-489d-b707-c9026c899ee0")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Vortac:Toolplate_Solderpoint_01x05_Data"
+		(layer "F.Cu")
+		(uuid "34b536f0-c3b7-46dd-8c72-afaa21748f42")
+		(at 121.06 75.85)
+		(property "Reference" "J3"
+			(at 0.04 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b8477d7a-8450-44de-9f81-dc47640827cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 0 -4.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b66ecfe4-5f63-4319-af77-aba85d3c4515")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "504bba9d-3e0d-44c7-8931-09e89a7f1cf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33ebd6e6-05ac-488b-8626-94fe89b1c57a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/5b367e79-88bf-4981-9d0c-f86331fa91f7")
+		(sheetname "/")
+		(sheetfile "VORTAC_TOOLPLATE_REV1.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at -1.25 4.25 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "badfd340-7ea2-4795-b4fd-3c45f842b378")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "unconnected-(J3-Pin_1-Pad1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "9fb20afb-a02d-4ba6-a154-c75c0507010b")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.2)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "unconnected-(J3-Pin_2-Pad2)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "13034c8e-4c48-411a-88a9-1f6db4ec4ce5")
+		)
+		(pad "3" thru_hole circle
+			(at 0 4.4)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "unconnected-(J3-Pin_3-Pad3)")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "8aa24bd0-c829-4f84-8fbf-54810eafdbfe")
+		)
+		(pad "4" thru_hole circle
+			(at 0 6.6)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "unconnected-(J3-Pin_4-Pad4)")
+			(pinfunction "Pin_4")
+			(pintype "passive")
+			(uuid "a15b41b5-41a8-4180-ae66-e24d50e63342")
+		)
+		(pad "5" thru_hole circle
+			(at 0 8.8)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "unconnected-(J3-Pin_5-Pad5)")
+			(pinfunction "Pin_5")
+			(pintype "passive")
+			(uuid "212e2ceb-50dc-4012-b277-ceef3691d9b4")
 		)
 		(embedded_fonts no)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "43b93930-1a53-4ac7-9f52-26fd93bf9793")
-		(at 116.18 78.54)
+		(at 116.68 79.61)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D2"
@@ -1040,7 +1178,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "c3a0d371-7612-454f-aed3-6c05fa2b9294")
-		(at 116.3775 83.66)
+		(at 116.69 83.2075)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D1"
@@ -1264,25 +1402,128 @@
 		)
 	)
 	(gr_arc
-		(start 117.5501 68.8819)
-		(mid 116.128544 70.833197)
-		(end 113.835413 70.078277)
+		(start 107.3 69.6785)
+		(mid 109.511155 66.941118)
+		(end 112.648811 68.519378)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0615736c-6e9c-454a-9395-6527f0cdaf71")
+		(uuid "0d24cdeb-a5ab-45c7-996d-6f5ea1c2579c")
 	)
 	(gr_line
-		(start 117.5501 68.8819)
-		(end 117.5501 67.6785)
+		(start 117.9501 68.8819)
+		(end 117.9501 67.6785)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0d306a18-4889-4b9f-b275-83b2b1553e8c")
+		(uuid "1bea73b3-40fb-4696-ad80-1c22a8eaabd6")
+	)
+	(gr_arc
+		(start 121.8999 66.878531)
+		(mid 122.465674 67.112847)
+		(end 122.7 67.689107)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34fb8c0b-0638-4ca0-8710-dda0d339a710")
+	)
+	(gr_line
+		(start 118.7501 66.878531)
+		(end 121.8999 66.878531)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a49a1d2-c5ed-446b-94e1-b64a9247080e")
+	)
+	(gr_line
+		(start 121.3 86.399989)
+		(end 121.903999 86.399989)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "420146a3-c20e-4394-87ed-0dff8633343c")
+	)
+	(gr_line
+		(start 113.266811 69.889331)
+		(end 113.266796 69.889338)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "45cf9552-086e-4ca0-9464-151275a3e94d")
+	)
+	(gr_line
+		(start 107.3 69.6785)
+		(end 107.3 85.599989)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4aeddf9c-99d7-41ea-8f0d-43b9d5b582a3")
+	)
+	(gr_line
+		(start 113.266796 69.889338)
+		(end 112.648811 68.519378)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "502e075c-237a-4ff0-a685-e9c604b14691")
+	)
+	(gr_arc
+		(start 117.9501 67.6785)
+		(mid 118.184404 67.112826)
+		(end 118.7501 66.878531)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6729dce8-78b6-4c11-abe1-a908aaf610b6")
+	)
+	(gr_line
+		(start 120.5 88.0534)
+		(end 120.5 87.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "70be4e7f-b56a-4d50-ab38-6463d386b0e0")
+	)
+	(gr_arc
+		(start 122.7 85.6)
+		(mid 122.465689 86.165682)
+		(end 121.903999 86.399989)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "758113ce-5df0-4cd1-8631-20a62e130d66")
+	)
+	(gr_line
+		(start 121.3 86.4)
+		(end 121.3 86.399989)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "76d9c452-ade2-4b8f-aac7-72de72af5645")
 	)
 	(gr_arc
 		(start 108.1 86.399989)
@@ -1293,48 +1534,71 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "14c891b5-b559-44bf-acad-029f4556c481")
+		(uuid "b045d4d5-ff67-4c94-96c6-4e446a03234a")
 	)
-	(gr_line
-		(start 107.3 85.599989)
-		(end 107.3 69.6785)
+	(gr_arc
+		(start 120.5 87.2)
+		(mid 120.734318 86.634311)
+		(end 121.3 86.4)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "19531807-3564-4454-9c14-f4423a73b88d")
+		(uuid "b7cc8aad-9d0a-455b-af25-054f98846406")
+	)
+	(gr_arc
+		(start 120.5 88.0534)
+		(mid 118.288843 90.790783)
+		(end 115.147671 89.204751)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bdc98180-3efb-4f04-96a9-ad8e9fe1de86")
+	)
+	(gr_arc
+		(start 117.9501 68.8819)
+		(mid 116.015336 71.27711)
+		(end 113.266811 69.889331)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ce2fdd8a-ae0c-4016-b6bd-1e26fc31cda7")
 	)
 	(gr_line
-		(start 121.895805 86.399989)
+		(start 112.2999 86.399989)
 		(end 108.1 86.399989)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "2efa23c5-3760-4a56-b52a-296131549cc6")
+		(uuid "dc842774-d2a8-4139-930c-25bf5d1a5a51")
 	)
 	(gr_arc
-		(start 121.9 66.878531)
-		(mid 122.465674 67.112847)
-		(end 122.7 67.689107)
+		(start 112.2999 86.399989)
+		(mid 113.629242 86.791991)
+		(end 114.530618 87.83686)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6207383e-1667-47eb-8fef-b84b27f375fc")
+		(uuid "e8de2899-f5cb-4895-819d-c57ef43e2f47")
 	)
 	(gr_line
-		(start 112.379563 68.052586)
-		(end 113.835395 70.07829)
+		(start 115.147671 89.204751)
+		(end 114.530618 87.83686)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7fd6f63b-ee64-4b96-8683-60e1039b866c")
+		(uuid "f053dbdd-9a53-4296-89c3-6435a14c8db6")
 	)
 	(gr_line
 		(start 122.7 67.689107)
@@ -1344,70 +1608,20 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "aec7ef8d-1d46-47b9-a843-b97999d584b0")
-	)
-	(gr_line
-		(start 113.835413 70.078277)
-		(end 113.835395 70.07829)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "cc374eda-3459-45dc-87e1-51a0b31fef27")
-	)
-	(gr_arc
-		(start 122.7 85.6)
-		(mid 122.465689 86.165682)
-		(end 121.895805 86.399989)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d8b2af48-fac8-4583-b5de-bc62a1beaf1c")
-	)
-	(gr_arc
-		(start 107.3 69.6785)
-		(mid 109.24163 67.013317)
-		(end 112.379563 68.052586)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e04d5f13-6171-4955-a69c-cb8d44d2eba4")
-	)
-	(gr_line
-		(start 118.3501 66.878531)
-		(end 121.9 66.878531)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "faa26d7d-3264-4a39-bc08-01fabfd34df1")
-	)
-	(gr_arc
-		(start 117.5501 67.6785)
-		(mid 117.784404 67.112826)
-		(end 118.3501 66.878531)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fce7c06b-90ac-41a4-9b4c-73ac7e1c288a")
+		(uuid "fbd2e3d6-8916-4299-8f5f-5e1a5a70bfe4")
 	)
 	(group ""
-		(uuid "528d4c81-8a07-4207-87ea-3587dbc00bb3")
-		(members "0615736c-6e9c-454a-9395-6527f0cdaf71" "0d306a18-4889-4b9f-b275-83b2b1553e8c"
-			"14c891b5-b559-44bf-acad-029f4556c481" "19531807-3564-4454-9c14-f4423a73b88d"
-			"2efa23c5-3760-4a56-b52a-296131549cc6" "6207383e-1667-47eb-8fef-b84b27f375fc"
-			"7fd6f63b-ee64-4b96-8683-60e1039b866c" "aec7ef8d-1d46-47b9-a843-b97999d584b0"
-			"cc374eda-3459-45dc-87e1-51a0b31fef27" "d8b2af48-fac8-4583-b5de-bc62a1beaf1c"
-			"e04d5f13-6171-4955-a69c-cb8d44d2eba4" "faa26d7d-3264-4a39-bc08-01fabfd34df1"
-			"fce7c06b-90ac-41a4-9b4c-73ac7e1c288a"
+		(uuid "46eb8c71-2032-4d16-be9e-341c8b5710c8")
+		(members "0d24cdeb-a5ab-45c7-996d-6f5ea1c2579c" "1bea73b3-40fb-4696-ad80-1c22a8eaabd6"
+			"34fb8c0b-0638-4ca0-8710-dda0d339a710" "3a49a1d2-c5ed-446b-94e1-b64a9247080e"
+			"420146a3-c20e-4394-87ed-0dff8633343c" "45cf9552-086e-4ca0-9464-151275a3e94d"
+			"4aeddf9c-99d7-41ea-8f0d-43b9d5b582a3" "502e075c-237a-4ff0-a685-e9c604b14691"
+			"6729dce8-78b6-4c11-abe1-a908aaf610b6" "70be4e7f-b56a-4d50-ab38-6463d386b0e0"
+			"758113ce-5df0-4cd1-8631-20a62e130d66" "76d9c452-ade2-4b8f-aac7-72de72af5645"
+			"b045d4d5-ff67-4c94-96c6-4e446a03234a" "b7cc8aad-9d0a-455b-af25-054f98846406"
+			"bdc98180-3efb-4f04-96a9-ad8e9fe1de86" "ce2fdd8a-ae0c-4016-b6bd-1e26fc31cda7"
+			"dc842774-d2a8-4139-930c-25bf5d1a5a51" "e8de2899-f5cb-4895-819d-c57ef43e2f47"
+			"f053dbdd-9a53-4296-89c3-6435a14c8db6" "fbd2e3d6-8916-4299-8f5f-5e1a5a70bfe4"
 		)
 	)
 	(embedded_fonts no)
