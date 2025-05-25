@@ -901,7 +901,7 @@
       },
       {
         "netclass": "0.3mm",
-        "pattern": "+5V"
+        "pattern": "*+5V*"
       },
       {
         "netclass": "0.5mm",
@@ -913,7 +913,7 @@
       },
       {
         "netclass": "95R USB",
-        "pattern": "*USB*"
+        "pattern": "*USB_D*"
       },
       {
         "netclass": "120R CAN",
@@ -922,6 +922,10 @@
       {
         "netclass": "120R CAN",
         "pattern": "*CAN_L*"
+      },
+      {
+        "netclass": "90R USB",
+        "pattern": "*USB_90_D*"
       }
     ]
   },
