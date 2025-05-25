@@ -57,7 +57,7 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.1 0)
+		(at -4.7 4.2 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f2975c96-188d-40d7-8e40-636c96eb8553")
