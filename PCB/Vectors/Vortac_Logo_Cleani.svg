@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Vortac_Logo_Cleani.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="340.73708"
+     inkscape:cy="472.25894"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true" />
+  <defs
+     id="defs2">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path826" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path829" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path831" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path833" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+    <marker
+       id="DistanceX-8"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path899" />
+    </marker>
+    <pattern
+       id="Hatch-6"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path902" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path904" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path906" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-7" />
+    <symbol
+       id="*PAPER_SPACE-0" />
+    <marker
+       id="DistanceX-7"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path23682" />
+    </marker>
+    <pattern
+       id="Hatch-0"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path23685" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path23687" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path23689" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-6" />
+    <symbol
+       id="*PAPER_SPACE-7" />
+    <marker
+       id="DistanceX-75"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path25679" />
+    </marker>
+    <pattern
+       id="Hatch-60"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path25682" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path25684" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path25686" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-4" />
+    <symbol
+       id="*PAPER_SPACE-02" />
+    <marker
+       id="DistanceX-4"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path28148" />
+    </marker>
+    <pattern
+       id="Hatch-8"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path28151" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path28153" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path28155" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-8" />
+    <symbol
+       id="*PAPER_SPACE-3" />
+    <marker
+       id="DistanceX-5"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path29741" />
+    </marker>
+    <pattern
+       id="Hatch-04"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path29744" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path29746" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path29748" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-1" />
+    <symbol
+       id="*PAPER_SPACE-6" />
+    <marker
+       id="DistanceX-9"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path32911" />
+    </marker>
+    <pattern
+       id="Hatch-1"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path32914" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path32916" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path32918" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-45" />
+    <symbol
+       id="*PAPER_SPACE-00" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       inkscape:label="0"
+       id="g864"
+       transform="matrix(0.26458333,0,0,0.26458333,-271.55737,-436.23167)"
+       style="display:none" />
+    <path
+       id="path23696"
+       style="display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       d="m 306.4707,431.75195 c -0.83488,5e-5 -1.51167,0.67684 -1.51172,1.51172 v 5.70313 c 0.0188,4.77249 -2.77072,9.10978 -7.12109,11.07226 l -12.69922,5.73047 c -0.0676,0.0305 -0.11117,0.0977 -0.11133,0.17188 v 15.87304 c 5e-5,0.83488 0.67684,1.51167 1.51172,1.51172 h 157.78321 c 1.50251,-8.7e-4 2.08391,-1.95538 0.82617,-2.77734 l -59.03125,-38.55078 c -0.24567,-0.16047 -0.53273,-0.24598 -0.82617,-0.2461 z m 72.95703,10.43946 c 1.02681,0 2.00879,0.10467 2.94727,0.31445 v 1.19141 0.002 c -1.05993,-0.26499 -2.03078,-0.39844 -2.91406,-0.39844 -0.4306,0 -0.80677,0.0245 -1.12696,0.0742 -0.32018,0.0497 -0.62962,0.13637 -0.92773,0.25781 -0.64037,0.27603 -0.95898,0.81706 -0.95898,1.62305 v 5.03516 c 0,1.23658 1.02646,1.85351 3.08007,1.85351 0.88328,0 1.85414,-0.1315 2.91407,-0.39648 v 1.22461 c -0.93848,0.20978 -1.9427,0.31445 -3.01368,0.31445 -3.01418,0 -4.52148,-0.97086 -4.52148,-2.91406 v -5.10157 c 0,-2.05362 1.5073,-3.08007 4.52148,-3.08007 z m -42.18164,0.0176 c 3.03627,0 4.55469,1.01993 4.55469,3.0625 v 5.10157 c 0,1.03784 -0.42065,1.78364 -1.25976,2.23633 -0.83912,0.45268 -1.93689,0.67968 -3.29493,0.67968 -3.00314,0 -4.50586,-0.97281 -4.50586,-2.91601 v -5.08399 c 0,-2.05362 1.50272,-3.08008 4.50586,-3.08008 z m -23.85156,0.16407 h 5.01563 c 0.19787,0 0.35938,0.1615 0.35937,0.35937 v 8.29102 l 2.86524,4.96484 v 0.002 l 7.18164,4.14454 c 0.17136,0.0989 0.2298,0.31886 0.13086,0.49023 l -2.50782,4.34375 c -0.0989,0.17137 -0.31691,0.22979 -0.48828,0.13086 l -7.18164,-4.14649 h -5.73242 l -7.18164,4.14649 c -0.17137,0.0989 -0.38935,0.0405 -0.48828,-0.13086 l -2.50781,-4.34375 c -0.099,-0.17137 -0.0405,-0.39129 0.13085,-0.49023 l 7.17969,-4.14454 v -0.002 l 2.86719,-4.96484 v -8.29102 c -10e-6,-0.19787 0.15955,-0.35937 0.35742,-0.35937 z m 7.70313,0 h 1.67382 l 3.44336,9.22656 h 0.15039 l 3.44336,-9.22656 h 1.58985 l -4.27149,10.75 h -1.85547 z m 23.18554,0 h 3.77735 c 0.94952,0 1.69107,0.0579 2.22656,0.17383 0.53549,0.11592 0.92736,0.32298 1.17578,0.62109 0.24842,0.29812 0.37305,0.73447 0.37305,1.30859 v 1.85547 c 0,0.64037 -0.26267,1.13463 -0.78711,1.48242 -0.52445,0.34779 -1.18815,0.52149 -1.99414,0.52149 l 3.44336,4.78515 h -1.97071 l -3.08007,-4.58593 h -1.55665 v 4.58593 h -1.60742 z m 9.47461,0 h 8.89258 V 443.5 h -3.62695 v 9.62305 h -1.62305 V 443.5 h -3.64258 z m 13.8125,0 h 1.85352 l 4.17383,10.75 h -1.67188 l -1.22656,-3.26367 h -4.60352 l -1.20898,3.26367 h -1.58984 z m -30.30859,0.8789 c -0.96057,0 -1.69753,0.14916 -2.21094,0.44727 -0.5134,0.2981 -0.76953,0.81036 -0.76953,1.53906 v 5.11914 c 0,1.23659 0.99963,1.85352 2.99805,1.85352 1.97633,0 2.96289,-0.61693 2.96289,-1.85352 v -5.11914 c 0,-1.32491 -0.9931,-1.98633 -2.98047,-1.98633 z m 8.6289,0.18164 v 4.04102 h 2.10352 c 0.79495,0 1.3651,-0.0958 1.71289,-0.28906 0.34779,-0.19322 0.52344,-0.54485 0.52344,-1.05274 v -1.49023 c 0,-0.80599 -0.69673,-1.20899 -2.08789,-1.20899 z m 22.44141,0.46487 -1.82226,4.85156 h 3.79296 l -1.82226,-4.85156 z m -53.84765,8.73047 -1.93946,3.35937 h 1.34375 l 1.9375,-3.35937 z m 2.68554,0 -3.87695,6.71875 h 1.3418 l 3.8789,-6.71875 z m 34.2832,2.27343 c 0.47063,0 0.91948,0.0484 1.34961,0.14454 v 0.54687 c -0.4858,-0.12144 -0.9311,-0.18359 -1.33593,-0.18359 -0.19736,0 -0.36888,0.0124 -0.51563,0.0351 -0.14675,0.0228 -0.28915,0.0615 -0.42578,0.11719 -0.2935,0.12652 -0.43945,0.37474 -0.43945,0.74414 v 2.30859 c 0,0.56677 0.47087,0.84961 1.41211,0.84961 0.40483,0 0.85013,-0.0602 1.33593,-0.18164 v 0.56055 c -0.43013,0.0962 -0.88999,0.14453 -1.38086,0.14453 -1.38149,0 -2.07226,-0.4453 -2.07226,-1.33594 v -2.33789 c 0,-0.94124 0.69077,-1.41211 2.07226,-1.41211 z m 20.28126,0.006 c 0.62749,0 1.19513,0.0421 1.70117,0.12305 v 0.56836 c -0.1923,-0.0455 -0.46746,-0.087 -0.82422,-0.125 -0.35676,-0.0379 -0.64373,-0.0566 -0.86133,-0.0566 -1.03739,0 -1.55664,0.29935 -1.55664,0.89648 v 2.32227 c 0,0.16193 0.0498,0.30434 0.14844,0.42578 0.0987,0.12146 0.23419,0.20997 0.40625,0.26562 0.16193,0.0607 0.32439,0.10223 0.48633,0.125 0.16193,0.0228 0.3425,0.0332 0.54492,0.0332 0.33905,0 0.70134,-0.0456 1.08593,-0.13672 v -1.72266 h -1.15429 v -0.51562 h 1.83789 v 2.64844 c -0.65786,0.15181 -1.26287,0.22851 -1.81445,0.22851 -0.23278,0 -0.4395,-0.011 -0.61915,-0.0312 -0.17964,-0.0202 -0.36709,-0.0576 -0.56445,-0.11328 -0.22266,-0.0607 -0.41068,-0.1388 -0.5625,-0.23242 -0.15181,-0.0936 -0.27494,-0.22088 -0.37109,-0.38281 -0.10121,-0.17206 -0.15235,-0.36363 -0.15235,-0.57618 v -2.33203 c 0,-0.28337 0.074,-0.52609 0.22071,-0.72851 0.14675,-0.20243 0.34934,-0.34837 0.60742,-0.43946 0.24796,-0.086 0.48379,-0.14759 0.70898,-0.18554 0.22519,-0.038 0.46928,-0.0586 0.73243,-0.0586 z m -34.5293,0.002 c 1.39162,0 2.08789,0.46811 2.08789,1.40429 v 2.33789 c 0,0.47568 -0.19353,0.81791 -0.57813,1.02539 -0.38459,0.20747 -0.88733,0.31055 -1.50976,0.31055 -1.37644,0 -2.06446,-0.4453 -2.06446,-1.33594 v -2.33007 c 0,-0.94124 0.68802,-1.41211 2.06446,-1.41211 z m 5.1543,0 c 1.39162,0 2.08593,0.46811 2.08593,1.40429 v 2.33789 c 0,0.47568 -0.19158,0.81791 -0.57617,1.02539 -0.38459,0.20747 -0.88733,0.31055 -1.50976,0.31055 -1.37644,0 -2.06446,-0.4453 -2.06446,-1.33594 v -2.33007 c 0,-0.94124 0.68802,-1.41211 2.06446,-1.41211 z m -11.97852,0.0762 h 4.07617 v 0.51562 h -1.66211 v 4.41016 h -0.74414 v -4.41016 h -1.66992 z m 15.20312,0 h 0.73633 v 4.41015 h 2.42188 v 0.51563 h -3.15821 z m 8.22852,0 h 0.73633 v 2.125 h 2.61914 v -2.125 h 0.73633 v 4.92578 h -0.73633 v -2.28516 h -2.61914 v 2.28516 h -0.73633 z m 6.80273,0 h 0.84961 l 1.91211,4.92578 h -0.76562 l -0.5625,-1.49609 h -2.10938 l -0.55468,1.49609 h -0.72852 z m 3.51368,0 h 0.88867 l 2.67969,4.06836 v -4.06836 h 0.64453 v 4.92578 h -0.88868 l -2.67968,-4.13672 v 4.13672 h -0.64453 z m 10.54297,0 h 3.31054 v 0.51562 h -2.57422 v 1.60938 h 2.32227 v 0.51562 h -2.32227 v 1.76953 h 2.64844 v 0.51563 h -3.38476 z m 4.40234,0 h 1.73047 c 0.4352,0 0.77605,0.025 1.02148,0.0781 0.24543,0.0531 0.42521,0.14852 0.53906,0.28516 0.11386,0.13663 0.16993,0.33647 0.16993,0.59961 h 0.002 v 0.85156 h -0.002 c 0,0.29351 -0.11901,0.52028 -0.35938,0.67969 -0.24037,0.1594 -0.54465,0.23828 -0.91406,0.23828 l 1.57812,2.19336 h -0.90429 l -1.41016,-2.10156 h -0.71484 v 2.10156 h -0.73633 z m -41.86133,0.40234 c -0.44026,0 -0.77836,0.0684 -1.01367,0.20508 -0.23531,0.13663 -0.35352,0.37108 -0.35352,0.70508 v 2.3457 c 0,0.56677 0.45906,0.84961 1.375,0.84961 0.90582,0 1.35742,-0.28284 1.35742,-0.84961 v -2.3457 c 0,-0.60726 -0.45435,-0.91016 -1.36523,-0.91016 z m 5.1543,0 c -0.44026,0 -0.77836,0.0684 -1.01367,0.20508 C 341.11821,455.73038 341,455.96483 341,456.29883 v 2.3457 c 0,0.56677 0.45711,0.84961 1.37305,0.84961 0.90582,0 1.35937,-0.28284 1.35937,-0.84961 v -2.3457 c 0,-0.60726 -0.45435,-0.91016 -1.36523,-0.91016 z m 38.47656,0.082 v 0.002 h -1.0332 v 1.85156 h 0.96484 c 0.36435,0 0.62575,-0.0443 0.78516,-0.13281 0.1594,-0.0886 0.23828,-0.24965 0.23828,-0.48243 h 0.002 v -0.68359 h -0.002 c 0,-0.36941 -0.31747,-0.55469 -0.95508,-0.55469 z m -19.88086,0.21289 -0.83398,2.22461 h 1.73828 l -0.83594,-2.22461 z m -43.04492,0.30469 -1.93945,3.35938 h 1.34375 l 1.93945,-3.35938 z"
+       transform="scale(0.26458333)"
+       sodipodi:nodetypes="cccccccccccccscccsscsssccssssssssssssssscccccscccccsccccccsccccccccccssssssccccccccccccccccccccccccccssssssssccsssssccccccccccccccccsccsscsssccssssssccssssscssccccccsscscssscssssssssssssssssssscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsssccccsccccccccssssssssccsssssccccccssccccsccccccccccc" />
+    <g
+       inkscape:label="0"
+       id="g33273"
+       transform="matrix(0.03135136,0,0,0.03135136,83.629244,85.051585)" />
+  </g>
+</svg>
