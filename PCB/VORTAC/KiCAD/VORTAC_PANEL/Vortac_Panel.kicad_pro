@@ -933,7 +933,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "production/Vortac_Panel_export.step",
+      "step": "production/Vortac_Panel_TestPanel.stl",
       "svg": "",
       "vrml": ""
     },
