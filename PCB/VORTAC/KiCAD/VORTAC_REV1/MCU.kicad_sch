@@ -9867,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22R 1%"
+		(property "Value" "0.68R 1%"
 			(at 167.64 95.25 90)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C346768"
+		(property "LCSC" "C912570"
 			(at 170.18 97.79 90)
 			(effects
 				(font
@@ -10039,7 +10039,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22R 1%"
+		(property "Value" "0.68R 1%"
 			(at 198.12 95.25 90)
 			(effects
 				(font
@@ -10074,7 +10074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C346768"
+		(property "LCSC" "C912570"
 			(at 200.66 97.79 90)
 			(effects
 				(font

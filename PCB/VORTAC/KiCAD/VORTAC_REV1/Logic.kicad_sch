@@ -7808,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Value" "EE-SX3350"
+		(property "Value" "EE-SX4350"
 			(at 72.39 52.07 0)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7470740"
+		(property "LCSC" "C17524058"
 			(at 52.07 57.15 0)
 			(effects
 				(font
