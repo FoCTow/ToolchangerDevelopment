@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -494,7 +494,7 @@
         "microvia_drill": 0.1,
         "name": "0.25mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -508,7 +508,7 @@
         "microvia_drill": 0.1,
         "name": "0.3mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -524,7 +524,7 @@
         "microvia_drill": 0.1,
         "name": "0.5mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
@@ -539,7 +539,7 @@
         "microvia_drill": 0.1,
         "name": "120R CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.6,
@@ -555,12 +555,26 @@
         "microvia_drill": 0.1,
         "name": "2.0mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.13,
+        "diff_pair_gap": 0.13,
+        "diff_pair_width": 0.35,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.101,
@@ -570,7 +584,7 @@
         "microvia_drill": 0.1,
         "name": "95R USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -989,7 +1003,7 @@
       },
       {
         "netclass": "0.3mm",
-        "pattern": "+5V"
+        "pattern": "*+5V*"
       },
       {
         "netclass": "0.5mm",
@@ -1001,7 +1015,7 @@
       },
       {
         "netclass": "95R USB",
-        "pattern": "*USB*"
+        "pattern": "*USB_D*"
       },
       {
         "netclass": "120R CAN",
@@ -1010,6 +1024,10 @@
       {
         "netclass": "120R CAN",
         "pattern": "*CAN_L*"
+      },
+      {
+        "netclass": "90R USB",
+        "pattern": "*USB_90_D*"
       }
     ]
   },

@@ -1272,9 +1272,21 @@
 		)
 		(uuid 5e649359-dd73-44ba-91ea-5d8c4c0c6707)
 	)
-	(text "Tool Connection"
+	(rectangle
+		(start 19.685 69.85)
+		(end 101.6 127)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid afd0cc01-5496-4155-a9a6-feb221e6655c)
+	)
+	(text "Grabber Connection"
 		(exclude_from_sim no)
-		(at 26.924 24.384 0)
+		(at 27.178 24.892 0)
 		(effects
 			(font
 				(size 1.8034 1.8034)
@@ -1282,6 +1294,17 @@
 			(justify left top)
 		)
 		(uuid "0027efd6-176e-44f4-ab88-2f093aea2d94")
+	)
+	(text "Tool Wire Harness\n"
+		(exclude_from_sim no)
+		(at 27.178 76.454 0)
+		(effects
+			(font
+				(size 1.8034 1.8034)
+			)
+			(justify left top)
+		)
+		(uuid "4960e803-6b88-429a-817e-1d3c03f77adc")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -1293,6 +1316,46 @@
 			(justify left top)
 		)
 		(uuid "fe662006-c291-4aa5-9612-2cc875506dd8")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0874e85f-7a0c-47cd-abf3-2e3726e59b58")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1473fbee-069f-458a-b197-bbda4cd750d3")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 62.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cfb567-c211-4211-9de0-ab09c3144949")
+	)
+	(wire
+		(pts
+			(xy 55.88 111.76) (xy 62.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eccde40-9c0c-4716-a8b0-4689996ca145")
 	)
 	(wire
 		(pts
@@ -1313,6 +1376,16 @@
 			(type default)
 		)
 		(uuid "52bc8b19-e72b-4350-9e9b-71e3a93f8ad5")
+	)
+	(wire
+		(pts
+			(xy 55.88 90.17) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e594f00-426b-46f9-9f8e-aa98895562bc")
 	)
 	(wire
 		(pts
@@ -1346,6 +1419,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 109.22) (xy 62.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f9703f-5f5e-4172-adab-bd37614a4e4c")
+	)
+	(wire
+		(pts
 			(xy 58.42 48.26) (xy 64.77 48.26)
 		)
 		(stroke
@@ -1373,6 +1456,16 @@
 			(type default)
 		)
 		(uuid "d2e182de-1867-42a5-8abf-c6fa52e1c648")
+	)
+	(wire
+		(pts
+			(xy 55.88 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3d307a-8623-4739-98e5-06cc0ee5a310")
 	)
 	(wire
 		(pts
@@ -1428,6 +1521,72 @@
 			)
 		)
 	)
+	(global_label "USB_90_D+"
+		(shape input)
+		(at 55.88 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5565d33b-35ac-41c9-90ff-f9882abc2cda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.8882 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 55.88 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a9327c7-e02d-4a94-a761-551f0b917cf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9076 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TOOL_ID"
+		(shape input)
+		(at 55.88 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77a983ca-c20f-4624-8175-5adbdcbd1eef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3957 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_L"
 		(shape input)
 		(at 58.42 50.8 180)
@@ -1452,7 +1611,7 @@
 	)
 	(global_label "TOOL_ID"
 		(shape input)
-		(at 58.42 45.72 180)
+		(at 58.42 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1462,7 +1621,51 @@
 		)
 		(uuid "a28ce31f-349a-4749-9503-0816295fc142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.9357 45.72 0)
+			(at 47.9357 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_90_D-"
+		(shape input)
+		(at 55.88 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c62a6f66-5e08-49e1-8a14-4af7fcbf0fd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.8882 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 55.88 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc9b7627-3875-4be3-b1b5-f7b84cbbe75c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,8 +1698,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 55.88 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03126ea4-8802-4d93-9cf9-fb8792e6b96e")
+		(property "Reference" "#PWR06"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 52.07 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de9f1859-07ac-4b82-ade9-f027b1ab624d")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 71.12 80.01 0)
+		(at 67.31 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1504,7 +1774,7 @@
 		(dnp no)
 		(uuid "175c51b9-fd60-4144-95ad-a31d6deb74d9")
 		(property "Reference" "J2"
-			(at 70.104 88.9 0)
+			(at 66.294 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1783,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 65.786 86.106 0)
+			(at 61.976 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1792,7 @@
 			)
 		)
 		(property "Footprint" "Vortac:Toolplate_Solderpoint_01x02_Power"
-			(at 71.12 80.01 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 80.01 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1810,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 80.01 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1967,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 71.12 106.68 0)
+		(at 67.31 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1705,7 +1975,7 @@
 		(dnp no)
 		(uuid "5b367e79-88bf-4981-9d0c-f86331fa91f7")
 		(property "Reference" "J3"
-			(at 69.85 117.856 0)
+			(at 66.04 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1984,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 65.024 115.062 0)
+			(at 61.214 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1993,7 @@
 			)
 		)
 		(property "Footprint" "Vortac:Toolplate_Solderpoint_01x05_Data"
-			(at 71.12 118.618 0)
+			(at 67.31 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +2002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 106.68 0)
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +2011,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 106.68 0)
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +2119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 40.64 270)
+		(at 58.42 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1858,7 +2128,7 @@
 		(fields_autoplaced yes)
 		(uuid "82333034-6c0a-4839-ba37-109cf9f4d455")
 		(property "Reference" "#PWR01"
-			(at 52.07 40.64 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +2137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 40.6399 90)
+			(at 54.61 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +2146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 40.64 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +2155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 40.64 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +2164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 40.64 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2402,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 58.42 43.18 90)
+		(at 58.42 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2141,7 +2411,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9cba011-c68c-4034-a13b-32985ccd573b")
 		(property "Reference" "#PWR02"
-			(at 62.23 43.18 0)
+			(at 62.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2420,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 54.61 43.1799 90)
+			(at 54.61 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 43.18 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 43.18 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 58.42 43.18 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,6 +2536,73 @@
 			(project ""
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3057d9e-9239-43a9-a641-424980a8f020")
+		(property "Reference" "#PWR05"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a352abe3-1069-48c3-82e2-167a9f6c7990")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
