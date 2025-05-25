@@ -1125,7 +1125,7 @@
           "group_by": false,
           "label": "notes",
           "name": "notes",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

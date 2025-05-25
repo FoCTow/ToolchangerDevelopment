@@ -663,6 +663,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SD24_SOD323"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD24_SOD323"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "24V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD24_SOD323_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SD24_SOD323_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -760,257 +922,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Power_Protection:SP0502BAHT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.715 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SP0502BAHT"
-				(at 5.715 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.715 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb esd protection suppression transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SP0502BAHT_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SP0502BAHT_0_1"
-				(rectangle
-					(start -4.445 2.54)
-					(end 4.445 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP0502BAHT_1_1"
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1273,6 +1184,30 @@
 		(uuid 5e649359-dd73-44ba-91ea-5d8c4c0c6707)
 	)
 	(rectangle
+		(start 106.045 100.965)
+		(end 193.04 127)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60352a5c-3da3-4698-850d-97883b1ca91b)
+	)
+	(rectangle
+		(start 106.045 69.85)
+		(end 193.04 95.885)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 669ac543-7baa-48a8-8eaa-6fd278616766)
+	)
+	(rectangle
 		(start 19.685 69.85)
 		(end 101.6 127)
 		(stroke
@@ -1305,6 +1240,28 @@
 			(justify left top)
 		)
 		(uuid "4960e803-6b88-429a-817e-1d3c03f77adc")
+	)
+	(text "ESD TVS Diodes CAN\n"
+		(exclude_from_sim no)
+		(at 113.284 75.438 0)
+		(effects
+			(font
+				(size 1.8034 1.8034)
+			)
+			(justify left top)
+		)
+		(uuid "7be99a3f-923e-44ed-b7ec-9ee1c7b15b6b")
+	)
+	(text "ESD TVS Diodes USB"
+		(exclude_from_sim no)
+		(at 113.538 105.664 0)
+		(effects
+			(font
+				(size 1.8034 1.8034)
+			)
+			(justify left top)
+		)
+		(uuid "f6f2b3f5-2498-49cf-ac5f-234673855b41")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -1349,6 +1306,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 88.9) (xy 181.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ce5457-11d5-425f-8c4e-bfea309e6e4a")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d49c3ae-393a-42d8-b073-17de46d00d2c")
+	)
+	(wire
+		(pts
 			(xy 55.88 111.76) (xy 62.23 111.76)
 		)
 		(stroke
@@ -1369,6 +1346,36 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a51845b-8f42-439a-b8b5-1b8ca7321cf8")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 134.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd354ad-e4c2-4be9-aae4-4c32944e7b60")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd3ce76-11f1-4655-b001-600a4f70569a")
+	)
+	(wire
+		(pts
 			(xy 58.42 40.64) (xy 64.77 40.64)
 		)
 		(stroke
@@ -1376,6 +1383,16 @@
 			(type default)
 		)
 		(uuid "52bc8b19-e72b-4350-9e9b-71e3a93f8ad5")
+	)
+	(wire
+		(pts
+			(xy 170.18 118.11) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1b124c-6e5b-4f20-a220-3905f97d756d")
 	)
 	(wire
 		(pts
@@ -1419,6 +1436,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 88.9) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a50db6-ad44-4213-8f21-e053d897a868")
+	)
+	(wire
+		(pts
 			(xy 55.88 109.22) (xy 62.23 109.22)
 		)
 		(stroke
@@ -1446,6 +1473,26 @@
 			(type default)
 		)
 		(uuid "bb1f7cb4-40f0-4f5b-963a-c4fb06c0b9a6")
+	)
+	(wire
+		(pts
+			(xy 125.73 144.78) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea40120-1b21-4f8e-971b-a86bc88f1848")
+	)
+	(wire
+		(pts
+			(xy 137.16 144.78) (xy 133.35 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b2e8cc-85c9-41f1-a469-e76f8cd1287e")
 	)
 	(wire
 		(pts
@@ -1477,6 +1524,38 @@
 		)
 		(uuid "fd07a114-aabc-458b-99fa-b39d75c83a44")
 	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 177.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaa1c68-fa4a-453b-9cd2-7102bc4267ce")
+	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 123.19 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0177790b-0a57-4a23-8ffb-46ca56d78a57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2176 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_90_D+"
 		(shape input)
 		(at 58.42 35.56 180)
@@ -1490,6 +1569,28 @@
 		(uuid "0261cf9d-6bc5-44f1-8d70-4058aac06047")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.4282 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_90_D+"
+		(shape input)
+		(at 123.19 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16e103f8-514a-4cc4-9288-31e513d49b33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.1982 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1624,7 @@
 	)
 	(global_label "USB_90_D+"
 		(shape input)
-		(at 55.88 101.6 180)
+		(at 55.88 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1533,7 +1634,29 @@
 		)
 		(uuid "5565d33b-35ac-41c9-90ff-f9882abc2cda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8882 101.6 0)
+			(at 41.8882 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 166.37 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55eff8b1-481d-4514-868a-14b75aeccea4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1690,7 @@
 	)
 	(global_label "TOOL_ID"
 		(shape input)
-		(at 55.88 106.68 180)
+		(at 55.88 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1577,7 +1700,29 @@
 		)
 		(uuid "77a983ca-c20f-4624-8175-5adbdcbd1eef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3957 106.68 0)
+			(at 45.3957 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_90_D-"
+		(shape input)
+		(at 166.37 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d8bc91d-5aad-4dfe-8f5b-66d733e65725")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.3782 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1778,7 @@
 	)
 	(global_label "USB_90_D-"
 		(shape input)
-		(at 55.88 104.14 180)
+		(at 55.88 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1643,7 +1788,7 @@
 		)
 		(uuid "c62a6f66-5e08-49e1-8a14-4af7fcbf0fd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.8882 104.14 0)
+			(at 41.8882 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,6 +1979,226 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f57ce7b-57f1-4805-86a9-3779b82f3a75")
+		(property "Reference" "#PWR09"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea173310-44e0-48ce-abf0-e9e9b4eb6862")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269ae41c-6720-4bd9-8c7e-2161b2f8b23d")
+		(property "Reference" "#PWR010"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "153f4026-2526-4b0a-ba21-6c718d138a08")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD24_SOD323")
+		(at 129.54 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d12a8cd-f152-458b-b899-d47079849c85")
+		(property "Reference" "D9"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTVS26VS1UR,115-ES"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41409305"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4401e9-da52-4b1d-afd9-99ce030da0c1")
+		)
+		(pin "2"
+			(uuid "2b811f5e-b4f9-4ad7-ba9d-2938771d92ce")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 125.73 41.91 0)
 		(unit 1)
@@ -1901,6 +2266,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SD24_SOD323")
+		(at 173.99 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "349038ec-7e27-41a8-a09b-87ff73b933c0")
+		(property "Reference" "D4"
+			(at 173.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD05"
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C502527"
+			(at 173.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e912d0-e6f4-45b1-9498-8563c6ed5603")
+		)
+		(pin "2"
+			(uuid "c0e5fa08-030b-49a0-b6ae-d60f0fff8a46")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 48.26 0)
 		(unit 1)
@@ -1960,6 +2402,159 @@
 			(project ""
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470201ad-c51c-4c64-aba0-8c89ce4828c1")
+		(property "Reference" "#PWR08"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "098edae0-68d3-4cfb-84a0-130559569164")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD24_SOD323")
+		(at 130.81 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a70b00-d60d-447d-9985-8b2dd1269749")
+		(property "Reference" "D1"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDD32C24L01"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19188728"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" "alternative C5449083"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "976e237f-b7b8-4f64-a224-0b245da58299")
+		)
+		(pin "2"
+			(uuid "fcd7f3f9-8be6-4130-b745-b658efd68f04")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2044,80 +2639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:SP0502BAHT")
-		(at 162.56 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b877db-04c3-44dd-81f0-9b27e5b42602")
-		(property "Reference" "D2"
-			(at 168.91 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SP0502BAHT"
-			(at 168.91 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 168.275 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-			(at 165.735 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7105dd16-6961-48ba-be33-4dbfb83a6df5")
-		)
-		(pin "3"
-			(uuid "0c11e2e8-616c-467a-84f5-f2b1fb48a36e")
-		)
-		(pin "2"
-			(uuid "63a9422b-8908-46a6-ba91-e89b02cec397")
-		)
-		(instances
-			(project "VORTAC_TOOLPLATE_REV1"
-				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 45.72 270)
 		(unit 1)
@@ -2179,6 +2700,140 @@
 			(project ""
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c66cd0-d8f2-49dc-b78a-0e7a451f8cb8")
+		(property "Reference" "#PWR012"
+			(at 143.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc8de108-f762-421a-93bc-67df2ac3184c")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 121.92 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "914db44c-e5e3-4ac6-b4a0-3ef51a9a7b25")
+		(property "Reference" "#PWR011"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 118.11 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "159054e4-48c6-4b5c-a817-c2019e7f32ac")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2468,80 +3123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:SP0502BAHT")
-		(at 137.16 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d049cdcf-735b-4b00-bf79-064eb846c3d6")
-		(property "Reference" "D1"
-			(at 143.51 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SP0502BAHT"
-			(at 143.51 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 142.875 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-			(at 140.335 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package"
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22889ca2-dc41-417b-af35-8c9906348d28")
-		)
-		(pin "3"
-			(uuid "8b149c4e-76e0-49c4-a3b5-2394746c8941")
-		)
-		(pin "2"
-			(uuid "4bb6c5df-9f14-49c9-935d-1e881409985e")
-		)
-		(instances
-			(project ""
-				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 87.63 270)
 		(unit 1)
@@ -2603,6 +3184,236 @@
 			(project "VORTAC_TOOLPLATE_REV1"
 				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD24_SOD323")
+		(at 173.99 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96993c6-3644-4c62-b501-24159e9a2fb7")
+		(property "Reference" "D2"
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDD32C24L01"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19188728"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" "alternative C5449083"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70b84b22-ea84-4864-97ff-73ec1f0374e4")
+		)
+		(pin "2"
+			(uuid "948dae9a-9e4f-496d-9787-b79ff9c6fc4e")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD24_SOD323")
+		(at 130.81 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3699070-0e15-40cd-aebc-bde4c40d5b4b")
+		(property "Reference" "D3"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD05"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C502527"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0fd9aa-1ebb-4fab-80e6-993a6191b022")
+		)
+		(pin "2"
+			(uuid "46590de0-d279-49c6-9871-4e8eb77271a2")
+		)
+		(instances
+			(project ""
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea5d1c88-ea06-4db1-8bff-216916659211")
+		(property "Reference" "#PWR07"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63bf19f-1939-481e-b462-f14592a3c167")
+		)
+		(instances
+			(project "VORTAC_TOOLPLATE_REV1"
+				(path "/b23b3086-82ed-4285-9d49-d03b4e41a1a0"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
